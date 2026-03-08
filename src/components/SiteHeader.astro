@@ -1,0 +1,28 @@
+---
+import { site } from '../data/site';
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="/" aria-label={`${site.name} home`}>
+      <span class="brand__mark">UHL</span>
+      <span>
+        <span class="brand__kicker">Editorial garden lab</span>
+        <span class="brand__name">{site.name}</span>
+        <span class="brand__tagline">{site.tagline}</span>
+      </span>
+    </a>
+
+    <nav aria-label="Primary" class="site-nav">
+      {
+        site.navigation.map((item) => (
+          <a href={item.href} aria-current={currentPath === item.href ? 'page' : undefined}>
+            {item.label}
+          </a>
+        ))
+      }
+    </nav>
+  </div>
+</header>

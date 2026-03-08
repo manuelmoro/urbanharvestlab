@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /__astro_dev_toolbar__/
+Disallow: /__vite_ping
+
+Sitemap: https://urbanharvestlab.com/sitemap.xml

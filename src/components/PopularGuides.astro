@@ -1,0 +1,29 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+import PostCard from './PostCard.astro';
+
+interface Props {
+  posts: CollectionEntry<'blog'>[];
+}
+
+const { posts } = Astro.props;
+---
+
+{
+  posts.length > 0 ? (
+    <section class="popular-guides">
+      <div class="section-heading section-heading--split">
+        <div>
+          <span class="eyebrow">Popular guides</span>
+          <h2>Foundational reads with the widest editorial value.</h2>
+        </div>
+        <p>These guides work as cornerstone content, broad internal-link targets, and reliable entry points for new readers.</p>
+      </div>
+
+      <div class="card-grid card-grid--three card-grid--feature">
+        {posts.map((post) => <PostCard post={post} />)}
+      </div>
+    </section>
+  ) : null
+}

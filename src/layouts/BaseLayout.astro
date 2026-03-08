@@ -1,0 +1,89 @@
+---
+import SiteFooter from '../components/SiteFooter.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import { site } from '../data/site';
+import { getAbsoluteAssetUrl, getAbsoluteUrl, withTrailingSlash } from '../utils/seo';
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  imageAlt?: string;
+  canonicalPath?: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  ogImage?: string;
+  ogImageAlt?: string;
+  noIndex?: boolean;
+  type?: 'website' | 'article';
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+}
+
+const {
+  title,
+  description = site.description,
+  image,
+  imageAlt,
+  canonicalPath = Astro.url.pathname,
+  ogTitle,
+  ogDescription,
+  ogImage,
+  ogImageAlt,
+  noIndex = false,
+  type = 'website',
+  jsonLd,
+} = Astro.props;
+
+const pageTitle = title ? `${title} | ${site.name}` : `${site.name} | ${site.tagline}`;
+const siteBase = Astro.site ?? site.url;
+const resolvedDescription = description ?? site.description;
+const canonical = getAbsoluteUrl(withTrailingSlash(canonicalPath), siteBase);
+const resolvedOgTitle = ogTitle ?? pageTitle;
+const resolvedOgDescription = ogDescription ?? resolvedDescription;
+const socialImage = getAbsoluteAssetUrl(ogImage ?? image ?? '/og-default.svg', siteBase);
+const socialImageAlt = ogImageAlt ?? imageAlt ?? `${site.name} social preview`;
+const jsonLdEntries = Array.isArray(jsonLd) ? jsonLd : jsonLd ? [jsonLd] : [];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={resolvedDescription} />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="theme-color" content="#f5f1e8" />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta property="og:site_name" content={site.name} />
+    <meta property="og:title" content={resolvedOgTitle} />
+    <meta property="og:description" content={resolvedOgDescription} />
+    <meta property="og:type" content={type} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={socialImage} />
+    <meta property="og:image:alt" content={socialImageAlt} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={resolvedOgTitle} />
+    <meta name="twitter:description" content={resolvedOgDescription} />
+    <meta name="twitter:image" content={socialImage} />
+    <meta name="twitter:image:alt" content={socialImageAlt} />
+    {noIndex ? <meta name="robots" content="noindex, nofollow" /> : null}
+    <slot name="head" />
+    {jsonLdEntries.map((entry) => <script is:inline type="application/ld+json" set:html={JSON.stringify(entry)} />)}
+  </head>
+
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+    <div class="page-bg" aria-hidden="true"></div>
+    <SiteHeader />
+    <main id="content">
+      <slot />
+    </main>
+    <SiteFooter />
+  </body>
+</html>
+
+<style is:global>
+  @import '../styles/global.css';
+</style>

@@ -1,0 +1,137 @@
+---
+import { getCollection, render } from 'astro:content';
+
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import GuideSection from '../components/GuideSection.astro';
+import PostCard from '../components/PostCard.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { categoryMap } from '../data/categories';
+import { site } from '../data/site';
+import { buildGuideSections, getPopularPosts, getPostsByCategory, getPostsBySlugs, getPublishedPosts } from '../utils/content';
+import { getCategoryArchivePath } from '../utils/seo';
+
+export async function getStaticPaths() {
+  const hubs = await getCollection('hubs');
+
+  return hubs.map((hub) => ({
+    params: { slug: hub.slug },
+    props: { hub },
+  }));
+}
+
+const { hub } = Astro.props;
+const { Content } = await render(hub);
+const allPosts = getPublishedPosts(await getCollection('blog'));
+const category = categoryMap.get(hub.data.category);
+// Hubs are content-driven so editorial teams can expand topic architecture without changing route code.
+const guideSections = buildGuideSections(hub.data.guideSections, allPosts);
+const featuredPosts = getPostsBySlugs(allPosts, hub.data.featuredSlugs);
+const archivePosts = getPostsByCategory(allPosts, hub.data.category);
+const fallbackPopular = getPopularPosts(archivePosts).slice(0, 3);
+const heroPosts = featuredPosts.length > 0 ? featuredPosts : fallbackPopular;
+const breadcrumbItems = [
+  { label: 'Home', href: '/' },
+  { label: hub.data.title },
+];
+const hubJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: hub.data.title,
+  description: hub.data.description,
+  url: new URL(`/${hub.slug}/`, Astro.site ?? site.url).toString(),
+  about: category?.title ?? hub.data.title,
+};
+---
+
+<BaseLayout
+  title={hub.data.title}
+  description={hub.data.description}
+  image={hub.data.image}
+  imageAlt={hub.data.imageAlt}
+  canonicalPath={`/${hub.slug}/`}
+  jsonLd={hubJsonLd}
+>
+  <section class="page-section page-section--narrow">
+    <div class="container">
+      <div class="page-hero">
+        <div class="page-hero__panel">
+          <Breadcrumbs items={breadcrumbItems} />
+          <span class="eyebrow">{hub.data.introLabel}</span>
+          <h1>{hub.data.title}</h1>
+          <p>{hub.data.description}</p>
+
+          <div class="hub-meta">
+            <span>{archivePosts.length} published guides</span>
+            <span>Primary SEO entry point for {category?.shortTitle ?? hub.data.title}</span>
+          </div>
+
+          <div class="button-row">
+            <a class="button button--primary" href={`/category/${hub.data.category}/`}>Browse archive</a>
+            <a class="button button--secondary" href="/blog/">View all articles</a>
+          </div>
+        </div>
+      </div>
+
+      {
+        heroPosts.length > 0 ? (
+          <div class="card-grid card-grid--three card-grid--feature">
+            {heroPosts.map((post) => <PostCard post={post} />)}
+          </div>
+        ) : null
+      }
+    </div>
+  </section>
+
+  <section class="page-section">
+    <div class="container topic-hub">
+      <article class="post-prose">
+        <Content />
+      </article>
+
+      <aside class="topic-hub__aside">
+        <div class="card aside-card">
+          <p class="eyebrow">How to use this hub</p>
+          <h2>Move from overview to the next useful guide</h2>
+          <p>{hub.data.overview}</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="page-section">
+    <div class="container">
+      <div class="section-heading">
+        <span class="eyebrow">Guide pathways</span>
+        <h2>Explore the topic by stage and intent</h2>
+        <p>These grouped sections keep the hub useful for beginners, active growers, and readers solving a specific problem.</p>
+      </div>
+
+      <div class="stack">
+        {guideSections.map((section) => <GuideSection title={section.title} description={section.description} posts={section.posts} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section">
+    <div class="container">
+      <div class="section-heading section-heading--split">
+        <div>
+          <span class="eyebrow">{archivePosts.length} {archivePosts.length === 1 ? 'article' : 'articles'}</span>
+          <h2>All {category?.shortTitle?.toLowerCase() ?? hub.data.title.toLowerCase()} guides</h2>
+        </div>
+        <p>
+          This hub keeps the full category inventory crawlable in one place, with the archive route available for a
+          cleaner list view.
+        </p>
+      </div>
+
+      <div class="card-grid">
+        {archivePosts.map((post) => <PostCard post={post} compact />)}
+      </div>
+
+      <div class="button-row">
+        <a class="button button--secondary" href={getCategoryArchivePath(hub.data.category)}>Open archive page</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

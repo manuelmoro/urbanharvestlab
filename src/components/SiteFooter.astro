@@ -1,0 +1,69 @@
+---
+import { categories } from '../data/categories';
+import { site } from '../data/site';
+---
+
+<footer class="site-footer">
+  <div class="container site-footer__panel">
+    <div class="site-footer__intro">
+      <span class="eyebrow">Urban Harvest Lab</span>
+      <h2>Calm, practical growing guidance for balconies, patios, and indoor shelves.</h2>
+      <p>{site.description}</p>
+
+      <div class="site-footer__actions">
+        <a class="button button--primary" href="/blog/">Browse guides</a>
+        <a class="button button--secondary" href="/about/">About the publication</a>
+      </div>
+
+      <p class="site-footer__small">
+        Contact: <a href={`mailto:${site.email}`}>{site.email}</a>
+      </p>
+    </div>
+
+    <div class="site-footer__grid">
+      <div>
+        <h3>Explore</h3>
+        <ul class="footer-list">
+          {
+            site.navigation.map((item) => (
+              <li>
+                <a href={item.href}>{item.label}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+
+      <div>
+        <h3>Categories</h3>
+        <ul class="footer-list footer-list--categories">
+          {
+            categories.map((category) => (
+              <li>
+                <a href={`/${category.slug}/`}>{category.shortTitle}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+
+      <div>
+        <h3>Legal</h3>
+        <ul class="footer-list">
+          {
+            site.legalNavigation.map((item) => (
+              <li>
+                <a href={item.href}>{item.label}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container site-footer__bottom">
+    <p>&copy; {new Date().getUTCFullYear()} {site.name}. All rights reserved.</p>
+    <p>Built for long-form editorial publishing and durable search visibility.</p>
+  </div>
+</footer>

@@ -1,0 +1,44 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+import { categoryMap } from '../data/categories';
+import { formatDate } from '../utils/format';
+
+interface Props {
+  post: CollectionEntry<'blog'>;
+  compact?: boolean;
+}
+
+const { post, compact = false } = Astro.props;
+const category = categoryMap.get(post.data.category);
+const excerpt = post.data.excerpt ?? post.data.description;
+---
+
+<article class:list={['card', 'post-card', compact && 'post-card--compact']}>
+  {
+    post.data.image ? (
+      <a class="post-card__media" href={`/blog/${post.slug}/`}>
+        <img src={post.data.image} alt={post.data.imageAlt ?? ''} loading="lazy" decoding="async" />
+      </a>
+    ) : null
+  }
+
+  <div class="post-card__body">
+    <div class="post-card__meta">
+      <span class="pill" style={`--pill-accent: ${category?.accent ?? '#6f8763'};`}>
+        {category?.shortTitle ?? 'Guide'}
+      </span>
+      <span class="post-card__date">{formatDate(post.data.publishDate)}</span>
+    </div>
+
+    <h3>
+      <a href={`/blog/${post.slug}/`}>{post.data.title}</a>
+    </h3>
+    <p>{excerpt}</p>
+
+    <div class="post-card__footer">
+      <span class="post-card__author">{post.data.author}</span>
+      <a class="post-card__cta" href={`/blog/${post.slug}/`}>Read guide</a>
+    </div>
+  </div>
+</article>

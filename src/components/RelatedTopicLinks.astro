@@ -1,0 +1,31 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  title?: string;
+  description?: string;
+  posts: CollectionEntry<'blog'>[];
+}
+
+const {
+  title = "If this topic is relevant to you, also read:",
+  description = 'Use these related guides to move into setup decisions, troubleshooting, or the next logical beginner step.',
+  posts,
+} = Astro.props;
+---
+
+{
+  posts.length > 0 ? (
+    <section class="context-links">
+      <div class="section-heading section-heading--compact">
+        <span class="eyebrow">Internal links</span>
+        <h2>{title}</h2>
+        <p>{description}</p>
+      </div>
+
+      <ul class="context-links__list">
+        {posts.map((post) => <li><a href={`/blog/${post.slug}/`}>{post.data.title}</a></li>)}
+      </ul>
+    </section>
+  ) : null
+}

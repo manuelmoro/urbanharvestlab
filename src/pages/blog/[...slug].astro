@@ -1,0 +1,37 @@
+---
+import { getCollection, render } from 'astro:content';
+
+import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
+import { getPostsBySlugs, getRelatedPosts } from '../../utils/content';
+import { assertArticleHeadingStructure } from '../../utils/headings';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content, headings } = await render(post);
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+assertArticleHeadingStructure(headings, post.slug);
+
+const relatedPosts = getRelatedPosts(post, allPosts, 3);
+// Contextual links stay explicit in frontmatter so editors can shape internal-link intent per article.
+const beginnerPathPosts = getPostsBySlugs(allPosts, post.data.beginnerPathSlugs);
+const explicitTopicLinksPosts = getPostsBySlugs(allPosts, post.data.topicLinkSlugs);
+const topicLinksPosts = explicitTopicLinksPosts.length > 0 ? explicitTopicLinksPosts : getRelatedPosts(post, allPosts, 5);
+const relatedArticlePosts = explicitTopicLinksPosts.length > 0 ? relatedPosts : [];
+---
+
+<BlogPostLayout
+  post={post}
+  Content={Content}
+  headings={headings}
+  relatedPosts={relatedArticlePosts}
+  beginnerPathPosts={beginnerPathPosts}
+  topicLinksPosts={topicLinksPosts}
+/>

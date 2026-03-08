@@ -1,0 +1,26 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  title?: string;
+  posts: CollectionEntry<'blog'>[];
+}
+
+const { title = 'Start here if you are new to this topic', posts } = Astro.props;
+---
+
+{
+  posts.length > 0 ? (
+    <aside class="beginner-path">
+      <div class="beginner-path__intro">
+        <span class="eyebrow">Beginner path</span>
+        <h2>{title}</h2>
+        <p>Use this short sequence to build context before you go deeper into products, optimization, or troubleshooting.</p>
+      </div>
+
+      <ol class="beginner-path__list">
+        {posts.map((post) => <li><a href={`/blog/${post.slug}/`}>{post.data.title}</a></li>)}
+      </ol>
+    </aside>
+  ) : null
+}

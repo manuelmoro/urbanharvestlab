@@ -1,0 +1,45 @@
+---
+interface Props {
+  diagnosis?: {
+    symptoms: string[];
+    possibleCauses: string[];
+    quickFixes: string[];
+  };
+}
+
+const { diagnosis } = Astro.props;
+---
+
+{
+  diagnosis ? (
+    <section class="troubleshooting-pattern">
+      <div class="section-heading section-heading--compact">
+        <span class="eyebrow">Diagnosis framework</span>
+        <h2>Troubleshoot the system before you change the inputs.</h2>
+      </div>
+
+      <div class="troubleshooting-pattern__grid">
+        <article class="card">
+          <h3>Symptoms</h3>
+          <ul class="key-takeaways">
+            {diagnosis.symptoms.map((item) => <li>{item}</li>)}
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Possible causes</h3>
+          <ul class="key-takeaways">
+            {diagnosis.possibleCauses.map((item) => <li>{item}</li>)}
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Quick fixes</h3>
+          <ul class="key-takeaways">
+            {diagnosis.quickFixes.map((item) => <li>{item}</li>)}
+          </ul>
+        </article>
+      </div>
+    </section>
+  ) : null
+}

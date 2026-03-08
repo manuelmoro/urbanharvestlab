@@ -1,0 +1,250 @@
+---
+import { getCollection } from 'astro:content';
+
+import CategoryCard from '../components/CategoryCard.astro';
+import NewsletterBlock from '../components/NewsletterBlock.astro';
+import PopularGuides from '../components/PopularGuides.astro';
+import PostCard from '../components/PostCard.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { categories } from '../data/categories';
+import { site } from '../data/site';
+import { getPopularPosts, getPostsByCategory, getPublishedPosts } from '../utils/content';
+import { getCategoryArchivePath, getCategoryPath, getPostPath } from '../utils/seo';
+
+const allPosts = getPublishedPosts(await getCollection('blog'));
+const popularPosts = getPopularPosts(allPosts).slice(0, 4);
+const latestPosts = allPosts.slice(0, 4);
+const beginnerPosts = allPosts.filter((post) => post.data.tags.includes('beginner')).slice(0, 3);
+const librarySections = categories
+  .map((category) => ({
+    category,
+    posts: getPostsByCategory(allPosts, category.slug),
+  }))
+  .filter((section) => section.posts.length > 0);
+const categoryCounts = new Map(categories.map((category) => [category.slug, 0]));
+
+for (const post of allPosts) {
+  categoryCounts.set(post.data.category, (categoryCounts.get(post.data.category) ?? 0) + 1);
+}
+
+const homeJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: site.name,
+  url: site.url,
+  description: site.description,
+};
+---
+
+<BaseLayout
+  title="Science-Based Guides for Urban Gardening, Hydroponics, and Small-Space Growing"
+  description="Urban Harvest Lab publishes premium editorial guides on urban gardening, hydroponics, grow lights, containers, soil, and plant troubleshooting."
+  canonicalPath="/"
+  jsonLd={homeJsonLd}
+>
+  <section class="page-section page-section--hero">
+    <div class="container hero hero--home">
+      <div class="hero__panel">
+        <span class="eyebrow">Science-based editorial guidance for modern growers</span>
+        <h1>Science-based guides for productive small-space growing.</h1>
+        <p>
+          Urban Harvest Lab publishes calm, practical guidance for herbs, vegetables, hydroponics, grow lights, and
+          container growing systems that fit real balconies, patios, kitchens, and shelves.
+        </p>
+
+        <div class="button-row">
+          <a class="button button--primary" href="/blog/">Explore guides</a>
+          <a class="button button--secondary" href="#start-here">Start here</a>
+        </div>
+
+        <div class="hero__proof">
+          <div class="hero__proof-item">
+            <strong>Practical testing</strong>
+            <span>Advice framed around what changes plant performance in constrained spaces.</span>
+          </div>
+          <div class="hero__proof-item">
+            <strong>Clear recommendations</strong>
+            <span>High-signal guidance on product fit, not listicle filler or gear clutter.</span>
+          </div>
+          <div class="hero__proof-item">
+            <strong>Beginner-safe structure</strong>
+            <span>Each topic starts with first principles before moving into tools and comparisons.</span>
+          </div>
+        </div>
+      </div>
+
+      <aside class="hero__aside" aria-label="Editorial focus">
+        <div class="hero__aside-card">
+          <span class="eyebrow">Editorial focus</span>
+          <h2>Built like a publication, not a gadget catalog.</h2>
+          <p>
+            The site is organized around how people actually solve small-space growing problems: setup, light,
+            containers, feeding, and diagnosis.
+          </p>
+        </div>
+
+        <div class="hero__topic-grid">
+          {
+            categories.map((category) => (
+                <a
+                  class="hero__topic"
+                  href={getCategoryPath(category.slug)}
+                  style={`--category-accent: ${category.accent};`}
+                >
+                <span>{category.shortTitle}</span>
+                <small>
+                  {(categoryCounts.get(category.slug) ?? 0)}{' '}
+                  {(categoryCounts.get(category.slug) ?? 0) === 1 ? 'guide' : 'guides'}
+                </small>
+              </a>
+            ))
+          }
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="page-section">
+    <div class="container category-showcase">
+      <div class="category-showcase__intro">
+        <div class="section-heading">
+          <span class="eyebrow">Main categories</span>
+          <h2>Browse the editorial library by topic, not by noise.</h2>
+          <p>
+            Each category is structured as a long-term publishing hub with descriptive intros, related guides, and
+            clean paths for future SEO growth.
+          </p>
+        </div>
+
+        <div class="button-row">
+          <a class="button button--secondary" href="/categories/">View all categories</a>
+        </div>
+      </div>
+
+      <div class="category-grid category-grid--home">
+        {categories.map((category) => <CategoryCard category={category} count={categoryCounts.get(category.slug) ?? 0} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section" id="start-here">
+    <div class="container split-panel split-panel--start">
+      <div>
+        <div class="section-heading">
+          <span class="eyebrow">Start here</span>
+          <h2>A calm path for new growers.</h2>
+          <p>Begin with space, light, container size, and crop choice before spending on extra gear.</p>
+        </div>
+
+        <div class="card-grid">
+          {beginnerPosts.map((post) => <PostCard post={post} compact />)}
+        </div>
+      </div>
+
+      <aside class="card start-card">
+        <span class="eyebrow">First principles</span>
+        <h3>Build a growing system you can maintain through ordinary weeks.</h3>
+        <p>
+          Good beginner advice reduces complexity before it adds options. The most reliable early wins come from honest
+          light assessment, root space, and consistent watering.
+        </p>
+
+        <ul class="key-takeaways">
+          <li>Match crops to your real light conditions, not your ideal plan.</li>
+          <li>Prioritize root volume and drainage before chasing fertilizers.</li>
+          <li>Keep watering routines boring and consistent.</li>
+          <li>Use simple systems you can maintain through busy weeks.</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section class="page-section">
+    <div class="container">
+      <PopularGuides posts={popularPosts} />
+    </div>
+  </section>
+
+  <section class="page-section">
+    <div class="container">
+      <div class="section-heading section-heading--split">
+        <div>
+          <span class="eyebrow">Latest articles</span>
+          <h2>Recent additions to the knowledge base.</h2>
+        </div>
+        <p>Fresh guides, diagnostics, and practical setup pieces added to the publishing workflow.</p>
+      </div>
+
+      <div class="card-grid">
+        {latestPosts.map((post) => <PostCard post={post} compact />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section">
+    <div class="container">
+      <div class="section-heading section-heading--split">
+        <div>
+          <span class="eyebrow">Knowledge base map</span>
+          <h2>Every published guide stays in the crawl path.</h2>
+        </div>
+        <p>
+          The homepage links into every topic hub and every current article so new content is not dependent on only one
+          archive or one related-post block to be discovered.
+        </p>
+      </div>
+
+      <div class="info-grid">
+        {
+          librarySections.map(({ category, posts }) => (
+            <section class="card">
+              <span class="eyebrow">{category.shortTitle}</span>
+              <h3>
+                <a href={getCategoryPath(category.slug)}>{category.title}</a>
+              </h3>
+              <ul class="context-links__list">
+                {posts.map((post) => <li><a href={getPostPath(post)}>{post.data.title}</a></li>)}
+              </ul>
+              <p>
+                <a href={getCategoryArchivePath(category.slug)}>View full archive</a>
+              </p>
+            </section>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section">
+    <div class="container">
+      <div class="home-trust">
+        <div class="home-trust__lead">
+          <span class="eyebrow">Why readers trust the site</span>
+          <h2>Practical, clear, and useful in real spaces.</h2>
+          <p>
+            Urban Harvest Lab is designed to feel like a durable editorial business: measured claims, readable
+            structure, and recommendations that respect constrained space, time, and budget.
+          </p>
+        </div>
+
+        <div class="trust-grid">
+        {
+          site.trustPoints.map((item, index) => (
+            <article class="card trust-card">
+              <span class="trust-card__index">0{index + 1}</span>
+              <h3>{item.title}</h3>
+              <p>{item.description}</p>
+            </article>
+          ))
+        }
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section">
+    <div class="container">
+      <NewsletterBlock />
+    </div>
+  </section>
+</BaseLayout>

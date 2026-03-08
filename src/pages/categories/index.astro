@@ -1,0 +1,38 @@
+---
+import { getCollection } from 'astro:content';
+
+import CategoryCard from '../../components/CategoryCard.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { categories } from '../../data/categories';
+import { getPublishedPosts } from '../../utils/content';
+
+const allPosts = getPublishedPosts(await getCollection('blog'));
+const categoryCounts = new Map(categories.map((category) => [category.slug, 0]));
+
+for (const post of allPosts) {
+  categoryCounts.set(post.data.category, (categoryCounts.get(post.data.category) ?? 0) + 1);
+}
+---
+
+<BaseLayout
+  title="Categories"
+  description="Browse the main content categories at Urban Harvest Lab, from urban gardening and hydroponics to soil, containers, and plant troubleshooting."
+  canonicalPath="/categories/"
+>
+  <section class="page-section">
+    <div class="container page-hero">
+      <div class="page-hero__panel">
+        <span class="eyebrow">Categories</span>
+        <h1>Topic hubs designed for clean exploration.</h1>
+        <p>
+          Each category page includes a descriptive intro, structured article listings, and a clear route for adding
+          future content without redesigning the site.
+        </p>
+      </div>
+    </div>
+
+    <div class="container category-grid">
+      {categories.map((category) => <CategoryCard category={category} count={categoryCounts.get(category.slug) ?? 0} />)}
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,26 @@
+---
+interface Props {
+  author: {
+    name: string;
+    role: string;
+    bio: string;
+  };
+}
+
+const { author } = Astro.props;
+const initials = author.name
+  .split(' ')
+  .map((part) => part[0])
+  .join('')
+  .slice(0, 3);
+---
+
+<section class="author-box">
+  <div class="author-box__avatar" aria-hidden="true">{initials}</div>
+  <div>
+    <p class="eyebrow">Written by</p>
+    <h2>{author.name}</h2>
+    <p class="author-box__role">{author.role}</p>
+    <p>{author.bio}</p>
+  </div>
+</section>

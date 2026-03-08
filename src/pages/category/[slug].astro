@@ -1,0 +1,114 @@
+---
+import { getCollection } from 'astro:content';
+
+import GuideSection from '../../components/GuideSection.astro';
+import PostCard from '../../components/PostCard.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { categories } from '../../data/categories';
+import { site } from '../../data/site';
+import { buildGuideSections, getPostsByCategory, getPublishedPosts } from '../../utils/content';
+
+export async function getStaticPaths() {
+  return categories.map((category) => ({
+    params: { slug: category.slug },
+    props: { category },
+  }));
+}
+
+const { category } = Astro.props;
+const allPosts = getPublishedPosts(await getCollection('blog'));
+const allHubs = await getCollection('hubs');
+const hub = allHubs.find((entry) => entry.data.category === category.slug);
+const posts = getPostsByCategory(allPosts, category.slug);
+const featuredPosts = posts.filter((post) => post.data.featured).slice(0, 2);
+// Reuse hub groupings on archive pages without duplicating the full long-form hub copy.
+const guideSections = hub ? buildGuideSections(hub.data.guideSections, allPosts) : [];
+const categoryJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: category.title,
+  description: category.description,
+  url: new URL(`/category/${category.slug}/`, Astro.site ?? site.url).toString(),
+};
+---
+
+<BaseLayout
+  title={category.title}
+  description={category.description}
+  canonicalPath={`/category/${category.slug}/`}
+  jsonLd={categoryJsonLd}
+>
+  <section class="page-section">
+    <div class="container page-hero">
+      <div class="page-hero__panel">
+        <span class="eyebrow">Category</span>
+        <h1>{category.title}</h1>
+        <p>{category.intro}</p>
+      </div>
+    </div>
+
+    {
+      hub ? (
+        <div class="container">
+          <div class="category-hub-preview">
+            <div class="card">
+              <span class="eyebrow">Primary topic hub</span>
+              <h2>{hub.data.title}</h2>
+              <p>{hub.data.overview}</p>
+              <div class="button-row">
+                <a class="button button--primary" href={`/${hub.slug}/`}>Open topic hub</a>
+                <a class="button button--secondary" href="#category-guides">Browse archive</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      ) : null
+    }
+
+    {
+      featuredPosts.length > 0 ? (
+        <div class="container">
+          <div class="section-heading section-heading--compact">
+            <span class="eyebrow">Featured in this category</span>
+            <h2>Start with the strongest entry points.</h2>
+          </div>
+
+          <div class="card-grid">
+            {featuredPosts.map((post) => <PostCard post={post} />)}
+          </div>
+        </div>
+      ) : null
+    }
+
+    {
+      guideSections.length > 0 ? (
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Topic pathways</span>
+            <h2>Structured routes from the primary hub</h2>
+            <p>These grouped sections mirror the main topic hub so archive pages still support topic discovery and internal linking.</p>
+          </div>
+
+          <div class="stack">
+            {guideSections.map((section) => <GuideSection title={section.title} description={section.description} posts={section.posts} />)}
+          </div>
+        </div>
+      ) : null
+    }
+  </section>
+
+  <section class="page-section" id="category-guides">
+    <div class="container">
+      <div class="section-heading">
+        <span class="eyebrow">{posts.length} {posts.length === 1 ? 'article' : 'articles'}</span>
+        <h2>All {category.shortTitle.toLowerCase()} guides</h2>
+        <p>
+          Browse the current library in {category.title}. Additional articles can be added to the content collection
+          without changing the page structure.
+        </p>
+      </div>
+
+      {posts.length > 0 ? <div class="card-grid">{posts.map((post) => <PostCard post={post} />)}</div> : <div class="card"><p>No articles have been published in this category yet.</p></div>}
+    </div>
+  </section>
+</BaseLayout>

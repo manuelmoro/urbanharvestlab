@@ -1,0 +1,89 @@
+{
+  "$ref": "#/definitions/hubs",
+  "definitions": {
+    "hubs": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string",
+          "minLength": 50,
+          "maxLength": 180
+        },
+        "overview": {
+          "type": "string",
+          "minLength": 100
+        },
+        "category": {
+          "type": "string",
+          "enum": [
+            "urban-gardening",
+            "hydroponics",
+            "grow-lights",
+            "containers-planters",
+            "soil-fertilizers",
+            "plant-problems"
+          ]
+        },
+        "image": {
+          "type": "string"
+        },
+        "imageAlt": {
+          "type": "string"
+        },
+        "introLabel": {
+          "type": "string",
+          "default": "Topic hub"
+        },
+        "guideSections": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "slugs": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              }
+            },
+            "required": [
+              "title",
+              "description"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        },
+        "featuredSlugs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "description",
+        "overview",
+        "category",
+        "guideSections"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

@@ -1,0 +1,30 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+import PostCard from './PostCard.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  posts: CollectionEntry<'blog'>[];
+  compact?: boolean;
+}
+
+const { title, description, posts, compact = true } = Astro.props;
+---
+
+{
+  posts.length > 0 ? (
+    <section class="guide-section">
+      <div class="section-heading section-heading--compact">
+        <span class="eyebrow">Topic pathway</span>
+        <h2>{title}</h2>
+        <p>{description}</p>
+      </div>
+
+      <div class="card-grid">
+        {posts.map((post) => <PostCard post={post} compact={compact} />)}
+      </div>
+    </section>
+  ) : null
+}
