@@ -2,11 +2,11 @@
 import { getCollection, render } from 'astro:content';
 
 import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
-import { getPostsBySlugs, getRelatedPosts } from '../../utils/content';
+import { getPostsBySlugs, getPublishedPosts, getRelatedPosts } from '../../utils/content';
 import { assertArticleHeadingStructure } from '../../utils/headings';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  const posts = getPublishedPosts(await getCollection('blog'));
 
   return posts.map((post) => ({
     params: { slug: post.slug },
@@ -16,7 +16,7 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content, headings } = await render(post);
-const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const allPosts = getPublishedPosts(await getCollection('blog'));
 assertArticleHeadingStructure(headings, post.slug);
 
 const relatedPosts = getRelatedPosts(post, allPosts, 3);

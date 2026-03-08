@@ -68,7 +68,7 @@ const jsonLdEntries = Array.isArray(jsonLd) ? jsonLd : jsonLd ? [jsonLd] : [];
     <meta name="twitter:description" content={resolvedOgDescription} />
     <meta name="twitter:image" content={socialImage} />
     <meta name="twitter:image:alt" content={socialImageAlt} />
-    {noIndex ? <meta name="robots" content="noindex, nofollow" /> : null}
+    {noIndex ? <meta name="robots" content="noindex, follow" /> : null}
     <slot name="head" />
     {jsonLdEntries.map((entry) => <script is:inline type="application/ld+json" set:html={JSON.stringify(entry)} />)}
   </head>

@@ -10,7 +10,11 @@ export function sortPostsByDate(posts: BlogPost[]) {
 }
 
 export function getPublishedPosts(posts: BlogPost[]) {
-  return sortPostsByDate(posts.filter((post) => !post.data.draft));
+  const now = Date.now();
+
+  return sortPostsByDate(
+    posts.filter((post) => !post.data.draft && post.data.publishDate.getTime() <= now),
+  );
 }
 
 export function getFeaturedPosts(posts: BlogPost[]) {

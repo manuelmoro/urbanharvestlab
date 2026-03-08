@@ -7,6 +7,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { categories } from '../../data/categories';
 import { site } from '../../data/site';
 import { buildGuideSections, getPostsByCategory, getPublishedPosts } from '../../utils/content';
+import { getCategoryPath } from '../../utils/seo';
 
 export async function getStaticPaths() {
   return categories.map((category) => ({
@@ -21,6 +22,7 @@ const allHubs = await getCollection('hubs');
 const hub = allHubs.find((entry) => entry.data.category === category.slug);
 const posts = getPostsByCategory(allPosts, category.slug);
 const featuredPosts = posts.filter((post) => post.data.featured).slice(0, 2);
+const canonicalCategoryPath = getCategoryPath(category.slug);
 // Reuse hub groupings on archive pages without duplicating the full long-form hub copy.
 const guideSections = hub ? buildGuideSections(hub.data.guideSections, allPosts) : [];
 const categoryJsonLd = {
@@ -28,14 +30,15 @@ const categoryJsonLd = {
   '@type': 'CollectionPage',
   name: category.title,
   description: category.description,
-  url: new URL(`/category/${category.slug}/`, Astro.site ?? site.url).toString(),
+  url: new URL(canonicalCategoryPath, Astro.site ?? site.url).toString(),
 };
 ---
 
 <BaseLayout
   title={category.title}
   description={category.description}
-  canonicalPath={`/category/${category.slug}/`}
+  canonicalPath={canonicalCategoryPath}
+  noIndex
   jsonLd={categoryJsonLd}
 >
   <section class="page-section">
