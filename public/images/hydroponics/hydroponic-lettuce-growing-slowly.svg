@@ -1,0 +1,24 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F4EEE5"/>
+  <rect x="60" y="60" width="1480" height="780" rx="42" fill="#F5FBFA"/>
+  <rect x="150" y="250" width="900" height="360" rx="32" fill="#E2F0EE" stroke="#5F857E" stroke-width="8"/>
+  <rect x="1085" y="250" width="355" height="360" rx="32" fill="#F8FCFB" stroke="#B6D2CD" stroke-width="6"/>
+  <rect x="250" y="430" width="700" height="90" rx="24" fill="#B7DAD4"/>
+  <circle cx="360" cy="430" r="56" fill="#A2C977"/>
+  <circle cx="520" cy="430" r="42" fill="#A2C977"/>
+  <circle cx="680" cy="430" r="34" fill="#A2C977"/>
+  <circle cx="840" cy="430" r="26" fill="#A2C977"/>
+  <path d="M360 506V560" stroke="#5F857E" stroke-width="12" stroke-linecap="round"/>
+  <path d="M520 488V552" stroke="#5F857E" stroke-width="12" stroke-linecap="round"/>
+  <path d="M680 476V544" stroke="#5F857E" stroke-width="12" stroke-linecap="round"/>
+  <path d="M840 468V538" stroke="#5F857E" stroke-width="12" stroke-linecap="round"/>
+  <text x="1135" y="340" fill="#2B3B32" font-family="Arial, sans-serif" font-size="30" font-weight="700">Check first</text>
+  <text x="1135" y="410" fill="#2C4A47" font-family="Arial, sans-serif" font-size="28">Light coverage</text>
+  <text x="1135" y="460" fill="#2C4A47" font-family="Arial, sans-serif" font-size="28">Spacing</text>
+  <text x="1135" y="510" fill="#2C4A47" font-family="Arial, sans-serif" font-size="28">Root zone</text>
+  <path d="M1030 330H1080" stroke="#5F857E" stroke-width="12" stroke-linecap="round"/>
+  <path d="M1030 430H1080" stroke="#5F857E" stroke-width="12" stroke-linecap="round"/>
+  <path d="M1030 530H1080" stroke="#5F857E" stroke-width="12" stroke-linecap="round"/>
+  <text x="150" y="150" fill="#2B3B32" font-family="Arial, sans-serif" font-size="56" font-weight="700">Hydroponic lettuce growing slowly?</text>
+  <text x="150" y="740" fill="#5E6E54" font-family="Arial, sans-serif" font-size="34">Slow lettuce is usually a bottleneck in light, spacing, or root-zone stability.</text>
+</svg>

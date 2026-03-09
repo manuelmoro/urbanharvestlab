@@ -4,7 +4,7 @@ description: "A science-based hydroponics hub for herbs and leafy greens, coveri
 overview: "Hydroponics rewards consistency more than complexity. This hub organizes beginner system choices, nutrient management, troubleshooting, and advanced indoor-growing decisions around stable, repeatable small-space setups."
 category: hydroponics
 image: /images/hydroponics.svg
-imageAlt: Abstract editorial illustration for hydroponics hub content
+imageAlt: Abstract illustration for the hydroponics hub
 introLabel: Topic hub
 featuredSlugs:
   - hydroponics/countertop-hydroponic-herbs-beginner

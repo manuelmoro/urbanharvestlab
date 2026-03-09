@@ -2,6 +2,9 @@
 import { site } from '../data/site';
 
 const currentPath = Astro.url.pathname;
+const primaryNavigation = site.navigation.filter((item) => item.mobilePriority !== 'secondary');
+const secondaryNavigation = site.navigation.filter((item) => item.mobilePriority === 'secondary');
+const hasSecondaryCurrent = secondaryNavigation.some((item) => currentPath === item.href);
 ---
 
 <header class="site-header">
@@ -16,13 +19,43 @@ const currentPath = Astro.url.pathname;
     </a>
 
     <nav aria-label="Primary" class="site-nav">
-      {
-        site.navigation.map((item) => (
-          <a href={item.href} aria-current={currentPath === item.href ? 'page' : undefined}>
-            {item.label}
-          </a>
-        ))
-      }
+      <div class="site-nav__links site-nav__links--primary">
+        {
+          primaryNavigation.map((item) => (
+            <a href={item.href} aria-current={currentPath === item.href ? 'page' : undefined}>
+              {item.label}
+            </a>
+          ))
+        }
+      </div>
+
+      <div class="site-nav__links site-nav__links--secondary">
+        {
+          secondaryNavigation.map((item) => (
+            <a href={item.href} aria-current={currentPath === item.href ? 'page' : undefined}>
+              {item.label}
+            </a>
+          ))
+        }
+      </div>
+
+      <details class="site-nav__more" data-current={hasSecondaryCurrent ? 'true' : undefined}>
+        <summary aria-label="Open more pages">
+          <span></span>
+          <span></span>
+          <span></span>
+        </summary>
+
+        <div class="site-nav__dropdown">
+          {
+            secondaryNavigation.map((item) => (
+              <a href={item.href} aria-current={currentPath === item.href ? 'page' : undefined}>
+                {item.label}
+              </a>
+            ))
+          }
+        </div>
+      </details>
     </nav>
   </div>
 </header>

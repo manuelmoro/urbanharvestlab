@@ -215,4 +215,4 @@ Use these next if you are building the rest of the herb-light system:
 - [How to Set Up a Small-Space Herb Garden That Actually Works](/blog/urban-gardening/small-space-herb-garden-setup/)
 - [Best Herbs for Small Spaces: What Grows Well in Apartments, Balconies, and Windowsills](/blog/urban-gardening/best-herbs-small-spaces/)
 - [How Many Hours Should Grow Lights Run for Herbs?](/blog/grow-lights/how-many-hours-grow-lights-herbs/)
-- [Can Herbs Grow Indoors Without Direct Sunlight? What to Expect in Real Homes](/blog/grow-lights/can-herbs-grow-indoors-without-direct-sunlight/)
+- [Best Grow Lights for Herbs: What Actually Matters Before You Buy](/blog/grow-lights/best-grow-lights-for-herbs/)

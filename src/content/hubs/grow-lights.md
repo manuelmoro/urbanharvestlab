@@ -1,10 +1,10 @@
 ---
 title: Grow Lights
-description: "An editorial grow lights hub covering photoperiod, fixture choice, coverage, distance, and troubleshooting for indoor herbs and seedlings."
+description: "A practical grow lights hub covering photoperiod, fixture choice, coverage, distance, and troubleshooting for indoor herbs and seedlings."
 overview: "Grow lights are often overcomplicated. This hub focuses on the decisions that matter for indoor herbs, seedlings, and compact crop systems: runtime, distance, fixture shape, and signs of plant stress."
 category: grow-lights
 image: /images/grow-lights.svg
-imageAlt: Abstract editorial illustration for grow lights hub content
+imageAlt: Abstract illustration for the grow lights hub
 introLabel: Topic hub
 featuredSlugs:
   - grow-lights/how-many-hours-grow-lights-herbs

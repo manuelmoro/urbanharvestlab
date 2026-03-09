@@ -8,8 +8,8 @@ tags:
   - balcony
   - vegetables
   - small-space
-image: /images/urban-gardening.svg
-imageAlt: Abstract editorial illustration for balcony vegetable growing
+image: /images/urban-gardening/best-vegetables-small-balconies.svg
+imageAlt: Balcony vegetable layout showing compact crops, vertical support, and root-depth priorities
 publishDate: 2026-01-28
 draft: false
 affiliate: false

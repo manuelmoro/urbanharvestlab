@@ -8,8 +8,8 @@ tags:
   - hydroponics
   - herbs
   - indoor-growing
-image: /images/hydroponics.svg
-imageAlt: Abstract editorial illustration for hydroponics content
+image: /images/hydroponics/countertop-hydroponic-herbs-beginner.svg
+imageAlt: Countertop hydroponic herb system with light, reservoir, and pod spacing
 publishDate: 2026-02-18
 draft: false
 affiliate: false

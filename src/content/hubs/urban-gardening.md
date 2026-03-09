@@ -4,7 +4,7 @@ description: "A practical topic hub for urban gardening, from balconies and pati
 overview: "Urban gardening is not one technique. It is a set of design decisions around light, root volume, watering, and crop choice inside constrained spaces. This hub organizes the topic into beginner guidance, setup decisions, troubleshooting, and more advanced optimization."
 category: urban-gardening
 image: /images/urban-gardening.svg
-imageAlt: Abstract editorial illustration for urban gardening hub content
+imageAlt: Abstract illustration for the urban gardening hub
 introLabel: Topic hub
 featuredSlugs:
   - urban-gardening/balcony-herb-garden-beginners
@@ -62,4 +62,4 @@ Everything else is secondary until those are right. Fertilizer matters, but not 
 
 This hub is organized so readers can move from broad decisions into focused problem solving. If you are starting from zero, begin with beginner guides and setup guides. If you already have containers running, use the troubleshooting section. If your outdoor space shifts indoors seasonally, the advanced section helps bridge container gardening and light-supported growing.
 
-The goal is topic authority through clarity, not volume. Each linked guide should connect to the next useful question instead of functioning as an isolated article.
+The idea is to help you move from the first question to the next useful one without making you dig through disconnected articles.

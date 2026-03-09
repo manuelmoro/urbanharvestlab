@@ -4,10 +4,15 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "clean:astro-cache": "node scripts/clear-astro-cache.mjs",
+    "predev": "npm run clean:astro-cache",
     "dev": "astro dev",
+    "prestart": "npm run clean:astro-cache",
     "start": "astro dev",
+    "prebuild": "npm run clean:astro-cache",
     "build": "astro build",
     "preview": "astro preview",
+    "precheck": "npm run clean:astro-cache",
     "check": "astro check"
   },
   "dependencies": {

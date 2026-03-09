@@ -4,7 +4,7 @@ description: "A practical hub for potting mix, container feeding, structure, and
 overview: "Soil and fertilizer questions are usually really structure and management questions. This hub organizes container media, feeding, and troubleshooting guidance around how roots, air, moisture, and nutrients behave in compact systems."
 category: soil-fertilizers
 image: /images/soil-fertilizers.svg
-imageAlt: Abstract editorial illustration for soil and fertilizers hub content
+imageAlt: Abstract illustration for the soil and fertilizers hub
 introLabel: Topic hub
 featuredSlugs:
   - soil-fertilizers/potting-mix-vs-raised-bed-soil-containers

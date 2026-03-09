@@ -63,7 +63,7 @@ A balcony usually gives you more room and often more direct sun, which helps bas
 
 ## Herbs That Actually Grow Well in Small Spaces
 
-The best small-space herbs combine useful harvests with manageable size and a degree of tolerance for ordinary beginner mistakes. If you want a deeper crop-by-crop breakdown later, the placeholder guide on [best herbs for small spaces](/blog/urban-gardening/best-herbs-small-spaces/) is the next logical read.
+The best small-space herbs combine useful harvests with manageable size and a degree of tolerance for ordinary beginner mistakes. If you want a deeper crop-by-crop breakdown, [Best Herbs for Small Spaces: What Grows Well in Apartments, Balconies, and Windowsills](/blog/urban-gardening/best-herbs-small-spaces/) is the next logical read.
 
 Parsley, chives, thyme, oregano, mint, and basil are usually reliable starters. These herbs stay useful in containers, recover well from harvesting, and do not require large raised beds to produce good yields.
 
@@ -91,7 +91,7 @@ Material matters too:
 - Terracotta breathes and can help prevent soggy roots, but it dries faster and needs closer watering attention.
 - Metal containers are usually poor choices unless they are lined or heavily shaded, because roots can overheat.
 
-Drainage holes are not optional. If a container cannot release excess water, you are trying to manage root oxygen with luck instead of design. A detailed placeholder guide on [best containers for herbs](/blog/containers-planters/best-containers-herbs/) can handle the finer decisions later, but for a first setup, drainage and adequate volume matter far more than aesthetics.
+Drainage holes are not optional. If a container cannot release excess water, you are trying to manage root oxygen with luck instead of design. For a deeper breakdown of size, material, and drainage tradeoffs, read [Best Containers for Herbs: Pot Size, Drainage, and Material Guide](/blog/containers-planters/best-containers-herbs/), but for a first setup, drainage and adequate volume matter far more than aesthetics.
 
 ### One herb per pot is often the most stable choice
 
@@ -117,7 +117,7 @@ Watering is where beginners usually swing between two extremes: watering too oft
 
 A better method is to check the root zone directly. Press a finger into the potting mix about an inch down, or use the weight of the pot as a cue once you get familiar with it. If the mix below the surface still feels cool and damp, wait. If it feels dry and the pot feels noticeably lighter, water thoroughly until a little water runs out of the bottom.
 
-Different herbs dry at different rates. Basil and parsley often want more even moisture than thyme or oregano, which is another reason mixed planters become tricky for beginners. A more detailed care routine can later be layered in through the placeholder page on [potted herb care](/blog/urban-gardening/potted-herb-care/).
+Different herbs dry at different rates. Basil and parsley often want more even moisture than thyme or oregano, which is another reason mixed planters become tricky for beginners. For a fuller maintenance routine, continue with [Potted Herb Care: Watering, Feeding, and Pruning Without Guesswork](/blog/urban-gardening/potted-herb-care/).
 
 ### Build a repeatable moisture-check routine
 
@@ -134,7 +134,7 @@ Reliable herb care is built on repeatable observation, not on complicated rules.
 
 Light controls how compact, flavorful, and productive most herbs become. Without enough light, basil stretches, growth slows, and harvest quality drops.
 
-Most culinary herbs perform best with several hours of strong direct light or with good-quality supplemental lighting. In real homes, the exact number matters less than honest observation. If a plant is becoming leggy, pale, or slow despite reasonable watering, the location may simply not be bright enough. The future placeholder guide on [how much light herbs need](/blog/grow-lights/how-much-light-herbs-need/) can go deeper into the thresholds.
+Most culinary herbs perform best with several hours of strong direct light or with good-quality supplemental lighting. In real homes, the exact number matters less than honest observation. If a plant is becoming leggy, pale, or slow despite reasonable watering, the location may simply not be bright enough. For a deeper explanation of light thresholds and home setups, read [How Much Light Do Herbs Need? Realistic Sun and Grow Light Rules](/blog/grow-lights/how-much-light-herbs-need/).
 
 Basil, thyme, oregano, and rosemary usually want the strongest light. Parsley, chives, and mint can tolerate slightly less, though they still do better when the light is truly bright.
 

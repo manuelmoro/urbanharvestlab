@@ -5,17 +5,17 @@ import { site } from '../data/site';
 
 <BaseLayout
   title="Contact"
-  description="Contact Urban Harvest Lab for editorial questions, partnerships, corrections, and general enquiries."
+  description="Contact Urban Harvest Lab for questions, partnerships, corrections, and general enquiries."
   canonicalPath="/contact/"
 >
   <section class="page-section">
     <div class="container page-hero">
       <div class="page-hero__panel">
         <span class="eyebrow">Contact</span>
-        <h1>Editorial questions, corrections, and partnership enquiries.</h1>
+        <h1>Questions, corrections, and partnership enquiries.</h1>
         <p>
-          The site is built for publishing, not app-style interaction, so the clearest contact method is still email.
-          Use the details below for editorial feedback or business conversations.
+          Email is the best way to reach Urban Harvest Lab. Use the details below for feedback, corrections, or
+          business conversations.
         </p>
       </div>
     </div>
@@ -27,6 +27,11 @@ import { site } from '../data/site';
         <p>
           For general enquiries, feedback, and article corrections, email <a href={`mailto:${site.email}`}>{site.email}</a>.
         </p>
+        <div class="button-row" style="margin-top: 1rem;">
+          <a class="button button--primary" href={`mailto:${site.email}?subject=Urban%20Harvest%20Lab%20enquiry`}>
+            Write an email
+          </a>
+        </div>
       </article>
 
       <article class="card">
@@ -37,23 +42,6 @@ import { site } from '../data/site';
           details make corrections and responses much faster.
         </p>
       </article>
-    </div>
-
-    <div class="container" style="margin-top: 1rem;">
-      <div class="card">
-        <span class="eyebrow">Future form integration</span>
-        <h2>Contact form placeholder</h2>
-        <p>
-          This static form is included for layout readiness. Connect it to your preferred email or form backend when
-          you are ready to handle submissions directly.
-        </p>
-
-        <form class="contact-form" aria-label="Contact form placeholder">
-          <input type="text" placeholder="Name" disabled />
-          <input type="email" placeholder="Email" disabled />
-          <textarea placeholder="Message" disabled></textarea>
-        </form>
-      </div>
     </div>
   </section>
 </BaseLayout>

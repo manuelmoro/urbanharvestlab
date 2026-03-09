@@ -1,0 +1,25 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F4EEE5"/>
+  <rect x="70" y="70" width="1460" height="760" rx="40" fill="#FFF9F2"/>
+  <rect x="130" y="170" width="620" height="520" rx="32" fill="#EEF4EA" stroke="#9DB18F" stroke-width="8"/>
+  <rect x="850" y="170" width="620" height="520" rx="32" fill="#F3E4D7" stroke="#B68E6E" stroke-width="8"/>
+  <rect x="210" y="290" width="460" height="250" rx="28" fill="#D5E5C8"/>
+  <circle cx="270" cy="360" r="20" fill="#FFF9F2"/>
+  <circle cx="340" cy="410" r="16" fill="#FFF9F2"/>
+  <circle cx="430" cy="350" r="18" fill="#FFF9F2"/>
+  <circle cx="520" cy="430" r="14" fill="#FFF9F2"/>
+  <circle cx="610" cy="370" r="20" fill="#FFF9F2"/>
+  <rect x="930" y="290" width="460" height="250" rx="28" fill="#C49774"/>
+  <path d="M970 360C1040 330 1090 410 1170 380C1250 350 1290 430 1350 390" stroke="#815B42" stroke-width="18" stroke-linecap="round"/>
+  <path d="M980 450C1040 420 1100 500 1180 470C1260 440 1300 520 1360 490" stroke="#815B42" stroke-width="18" stroke-linecap="round"/>
+  <rect x="200" y="590" width="480" height="34" rx="17" fill="#6F8763"/>
+  <rect x="920" y="590" width="480" height="34" rx="17" fill="#8F644A"/>
+  <text x="130" y="130" fill="#2B3B32" font-family="Arial, sans-serif" font-size="56" font-weight="700">Potting mix vs. raised bed soil</text>
+  <text x="130" y="760" fill="#5E6E54" font-family="Arial, sans-serif" font-size="34">Containers need air space, drainage, and stable structure.</text>
+  <text x="220" y="250" fill="#2B3B32" font-family="Arial, sans-serif" font-size="42" font-weight="700">Potting mix</text>
+  <text x="220" y="670" fill="#3D5245" font-family="Arial, sans-serif" font-size="30">Airy texture</text>
+  <text x="220" y="710" fill="#3D5245" font-family="Arial, sans-serif" font-size="30">Fast drainage</text>
+  <text x="940" y="250" fill="#5B3F31" font-family="Arial, sans-serif" font-size="42" font-weight="700">Raised bed soil</text>
+  <text x="940" y="670" fill="#6B4A38" font-family="Arial, sans-serif" font-size="30">Dense in pots</text>
+  <text x="940" y="710" fill="#6B4A38" font-family="Arial, sans-serif" font-size="30">Compacts quickly</text>
+</svg>

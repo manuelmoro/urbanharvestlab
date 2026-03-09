@@ -2,22 +2,22 @@ export const site = {
   name: 'Urban Harvest Lab',
   domain: 'urbanharvestlab.com',
   url: 'https://urbanharvestlab.com',
-  email: 'hello@urbanharvestlab.com',
+  email: 'manuelmoro@gmail.com',
   description:
     'Science-based guides for urban gardening, hydroponics, grow lights, and small-space food growing.',
   tagline: 'Science-based guides for modern small-space growing.',
   author: {
-    name: 'Urban Harvest Lab Editorial',
-    role: 'Editorial and testing team',
+    name: 'Urban Harvest Lab team',
+    role: 'Writers and testers',
     bio:
-      'Urban Harvest Lab publishes practical, evidence-led growing guides for people working with balconies, kitchens, patios, shelves, and other compact spaces.',
+      'Urban Harvest Lab shares practical growing advice for people using balconies, kitchens, patios, shelves, and other compact spaces.',
   },
   navigation: [
-    { label: 'Home', href: '/' },
-    { label: 'Blog', href: '/blog/' },
-    { label: 'Categories', href: '/categories/' },
-    { label: 'About', href: '/about/' },
-    { label: 'Contact', href: '/contact/' },
+    { label: 'Home', href: '/', mobilePriority: 'primary' },
+    { label: 'Blog', href: '/blog/', mobilePriority: 'primary' },
+    { label: 'Categories', href: '/categories/', mobilePriority: 'primary' },
+    { label: 'About', href: '/about/', mobilePriority: 'secondary' },
+    { label: 'Contact', href: '/contact/', mobilePriority: 'secondary' },
   ],
   legalNavigation: [
     { label: 'Affiliate Disclosure', href: '/affiliate-disclosure/' },
@@ -26,15 +26,15 @@ export const site = {
   trustPoints: [
     {
       title: 'Practical testing',
-      description: 'Recommendations prioritize repeatable setups, not novelty products or theory-heavy advice.',
+      description: 'Recommendations stay focused on setups that are repeatable, useful, and realistic at home.',
     },
     {
       title: 'Clear recommendations',
-      description: 'Each guide explains what matters, what does not, and where tradeoffs actually show up.',
+      description: 'Each guide explains what matters, what is optional, and where the real tradeoffs are.',
     },
     {
       title: 'Beginner-friendly guidance',
-      description: 'Technical concepts are translated into simple decisions for real balconies and indoor spaces.',
+      description: 'Technical ideas are broken into simple decisions for balconies, windowsills, and indoor shelves.',
     },
   ],
 };

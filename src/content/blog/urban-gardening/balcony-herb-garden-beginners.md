@@ -8,8 +8,8 @@ tags:
   - balcony
   - herbs
   - containers
-image: /images/urban-gardening.svg
-imageAlt: Abstract editorial illustration for urban gardening content
+image: /images/herb-garden-setup/balcony-herb-container-layout.webp
+imageAlt: Clean balcony herb container layout showing sunny and sheltered positions
 publishDate: 2026-02-10
 updatedDate: 2026-02-14
 draft: false

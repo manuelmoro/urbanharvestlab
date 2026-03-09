@@ -8,8 +8,8 @@ tags:
   - nutrients
   - ec
   - ph
-image: /images/hydroponics.svg
-imageAlt: Abstract editorial illustration for hydroponic nutrient management
+image: /images/hydroponics/hydroponic-nutrients-ec-ph-basics.svg
+imageAlt: Hydroponic nutrient diagram showing EC, pH, dilution, and reservoir stability
 publishDate: 2026-03-01
 draft: false
 affiliate: false

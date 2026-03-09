@@ -223,5 +223,5 @@ Use these next if you are connecting containers to the rest of the herb-growing 
 - [How to Set Up a Small-Space Herb Garden That Actually Works](/blog/urban-gardening/small-space-herb-garden-setup/)
 - [Best Herbs for Small Spaces: What Grows Well in Apartments, Balconies, and Windowsills](/blog/urban-gardening/best-herbs-small-spaces/)
 - [How Much Light Do Herbs Need? Realistic Sun and Grow Light Rules](/blog/grow-lights/how-much-light-herbs-need/)
-- [Herb Pot Size Guide: Basil, Parsley, Mint, Thyme, and Chives](/blog/containers-planters/herb-pot-size-guide/)
-- [Potting Mix vs. Raised Bed Soil for Herb Containers](/blog/soil-fertilizers/potting-mix-vs-raised-bed-soil-herbs/)
+- [Container Depth for Tomatoes, Peppers, and Herbs: How Much Root Space Matters](/blog/containers-planters/container-depth-tomatoes-peppers-herbs/)
+- [Potting Mix vs. Raised Bed Soil for Containers: What Actually Belongs in Pots](/blog/soil-fertilizers/potting-mix-vs-raised-bed-soil-containers/)

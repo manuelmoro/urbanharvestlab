@@ -1,0 +1,28 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F4EEE5"/>
+  <rect x="60" y="60" width="1480" height="780" rx="42" fill="#F5FBFA"/>
+  <rect x="260" y="250" width="1080" height="380" rx="34" fill="#E2F0EE" stroke="#5F857E" stroke-width="8"/>
+  <rect x="430" y="230" width="740" height="44" rx="22" fill="#C7E0DB"/>
+  <path d="M500 274V370" stroke="#5F857E" stroke-width="14" stroke-linecap="round"/>
+  <path d="M1100 274V370" stroke="#5F857E" stroke-width="14" stroke-linecap="round"/>
+  <rect x="390" y="430" width="820" height="110" rx="26" fill="#A9D2CB"/>
+  <circle cx="560" cy="430" r="42" fill="#F8FCFB"/>
+  <circle cx="800" cy="430" r="42" fill="#F8FCFB"/>
+  <circle cx="1040" cy="430" r="42" fill="#F8FCFB"/>
+  <circle cx="560" cy="388" r="34" fill="#A2C977"/>
+  <circle cx="530" cy="408" r="24" fill="#A2C977"/>
+  <circle cx="590" cy="408" r="24" fill="#A2C977"/>
+  <circle cx="800" cy="388" r="34" fill="#A2C977"/>
+  <circle cx="770" cy="408" r="24" fill="#A2C977"/>
+  <circle cx="830" cy="408" r="24" fill="#A2C977"/>
+  <circle cx="1040" cy="388" r="34" fill="#A2C977"/>
+  <circle cx="1010" cy="408" r="24" fill="#A2C977"/>
+  <circle cx="1070" cy="408" r="24" fill="#A2C977"/>
+  <rect x="1240" y="350" width="64" height="190" rx="22" fill="#C7E0DB"/>
+  <path d="M1272 320V572" stroke="#5F857E" stroke-width="14" stroke-linecap="round"/>
+  <text x="150" y="150" fill="#2B3B32" font-family="Arial, sans-serif" font-size="56" font-weight="700">Countertop hydroponic herbs for beginners</text>
+  <text x="150" y="740" fill="#5E6E54" font-family="Arial, sans-serif" font-size="34">Small systems work best when light, pod spacing, and reservoir upkeep stay simple.</text>
+  <text x="460" y="590" fill="#2B3B32" font-family="Arial, sans-serif" font-size="30" font-weight="700">Light bar</text>
+  <text x="760" y="590" fill="#2B3B32" font-family="Arial, sans-serif" font-size="30" font-weight="700">Herb pods</text>
+  <text x="1180" y="590" fill="#2B3B32" font-family="Arial, sans-serif" font-size="30" font-weight="700">Reservoir</text>
+</svg>

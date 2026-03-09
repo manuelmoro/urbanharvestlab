@@ -7,8 +7,8 @@ tags:
   - grow-lights
   - seedlings
   - indoor-growing
-image: /images/grow-lights.svg
-imageAlt: Abstract editorial illustration for seedling lighting
+image: /images/how-much-light-herbs-need/grow-light-distance-and-coverage.webp
+imageAlt: Grow light distance chart showing canopy spacing and coverage for seedlings
 publishDate: 2026-01-16
 draft: false
 affiliate: false

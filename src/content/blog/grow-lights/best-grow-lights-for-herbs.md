@@ -8,8 +8,8 @@ tags:
   - herbs
   - indoor-growing
   - buying-guide
-image: /images/grow-lights.svg
-imageAlt: Abstract editorial illustration for grow light buying guides
+image: /images/grow-lights/best-grow-lights-for-herbs.svg
+imageAlt: Illustrated comparison of herb grow light types for shelves, counters, and small indoor setups
 publishDate: 2026-03-07
 draft: false
 affiliate: true

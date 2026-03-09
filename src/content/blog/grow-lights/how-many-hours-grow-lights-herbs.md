@@ -8,8 +8,8 @@ tags:
   - herbs
   - indoor-growing
   - affiliate
-image: /images/grow-lights.svg
-imageAlt: Abstract editorial illustration for indoor grow light content
+image: /images/how-much-light-herbs-need/herb-light-needs-overview.webp
+imageAlt: Lighting schedule overview for herbs under natural sun and indoor grow lights
 publishDate: 2026-02-22
 updatedDate: 2026-03-03
 draft: false

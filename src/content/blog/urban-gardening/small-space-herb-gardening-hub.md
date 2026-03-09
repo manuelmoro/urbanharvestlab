@@ -72,7 +72,7 @@ Use that guide when you need to answer questions like:
 
 Once that base system is clear, the rest of the cluster becomes easier to apply because you are not solving every variable at the same time.
 
-This is also the stage where many growers should deliberately stay small. Three to five herbs in sensible containers usually teach more than a crowded collection of ten varieties. The cluster assumes you are building from a durable beginner system, not from impulse buying and trying to rescue the result later.
+This is also the stage where many growers should deliberately stay small. Three to five herbs in sensible containers usually teach more than a crowded collection of ten varieties. The goal is to build a simple beginner setup, not to recover from a cart full of impulse buys.
 
 ## Choosing the Right Herbs for Small Spaces
 

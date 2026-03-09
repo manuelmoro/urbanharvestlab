@@ -11,18 +11,17 @@ const featuredPosts = getFeaturedPosts(allPosts).slice(0, 3);
 ---
 
 <BaseLayout
-  title="Editorial Blog"
+  title="Growing Guides"
   description="Browse Urban Harvest Lab articles on urban gardening, hydroponics, grow lights, soil, containers, and plant troubleshooting."
   canonicalPath="/blog/"
 >
   <section class="page-section">
     <div class="container page-hero">
       <div class="page-hero__panel">
-        <span class="eyebrow">Editorial blog</span>
-        <h1>Long-form growing guides with a clear point of view.</h1>
+        <span class="eyebrow">Browse the guides</span>
+        <h1>Find the guide that matches the problem in front of you.</h1>
         <p>
-          The blog is organized for depth, readability, and future expansion. Start with cornerstone guides or browse
-          by category depending on your current growing constraint.
+          Start with a broad setup guide or jump straight to the issue you are dealing with right now.
         </p>
       </div>
     </div>
@@ -30,7 +29,7 @@ const featuredPosts = getFeaturedPosts(allPosts).slice(0, 3);
     <div class="container">
       <div class="section-heading section-heading--compact">
         <span class="eyebrow">Featured reads</span>
-        <h2>Start with the pieces that define the site.</h2>
+        <h2>Good places to start.</h2>
       </div>
 
       <div class="card-grid card-grid--three">
@@ -43,9 +42,9 @@ const featuredPosts = getFeaturedPosts(allPosts).slice(0, 3);
     <div class="container">
       <div class="section-heading">
         <span class="eyebrow">All articles</span>
-        <h2>Current publishing library</h2>
+        <h2>All guides</h2>
         <p>
-          Browse every published article or jump into a category:
+          Browse every article or jump into a category:
           {
             categories.map((category, index) => (
               <>

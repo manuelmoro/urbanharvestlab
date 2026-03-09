@@ -208,5 +208,5 @@ Use these next if you are refining the rest of the herb system:
 - [How Much Light Do Herbs Need? Realistic Sun and Grow Light Rules](/blog/grow-lights/how-much-light-herbs-need/)
 - [Best Containers for Herbs: Pot Size, Drainage, and Material Guide](/blog/containers-planters/best-containers-herbs/)
 - [Best Herbs for Small Spaces: What Grows Well in Apartments, Balconies, and Windowsills](/blog/urban-gardening/best-herbs-small-spaces/)
-- [How Often Should You Water Potted Herbs?](/blog/urban-gardening/how-often-to-water-potted-herbs/)
-- [Do Potted Herbs Need Fertilizer? Liquid vs. Slow-Release Options Explained](/blog/soil-fertilizers/do-potted-herbs-need-fertilizer/)
+- [Common Problems With Potted Herbs: How to Diagnose Yellow Leaves, Wilting, and Weak Growth](/blog/plant-problems/common-potted-herb-problems/)
+- [Potting Mix vs. Raised Bed Soil for Containers: What Actually Belongs in Pots](/blog/soil-fertilizers/potting-mix-vs-raised-bed-soil-containers/)

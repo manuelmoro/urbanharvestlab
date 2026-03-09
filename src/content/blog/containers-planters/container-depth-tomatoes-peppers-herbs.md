@@ -8,8 +8,8 @@ tags:
   - tomatoes
   - peppers
   - herbs
-image: /images/containers-planters.svg
-imageAlt: Abstract editorial illustration for planters and containers
+image: /images/best-containers-herbs/herb-pot-size-comparison.webp
+imageAlt: Container size comparison showing how root volume differs between herb pots and larger edible crops
 publishDate: 2026-02-04
 draft: false
 affiliate: false

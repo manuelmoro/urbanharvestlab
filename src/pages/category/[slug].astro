@@ -4,6 +4,7 @@ import { getCollection } from 'astro:content';
 import GuideSection from '../../components/GuideSection.astro';
 import PostCard from '../../components/PostCard.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import '../../styles/content.css';
 import { categories } from '../../data/categories';
 import { site } from '../../data/site';
 import { buildGuideSections, getPostsByCategory, getPublishedPosts } from '../../utils/content';
@@ -89,7 +90,7 @@ const categoryJsonLd = {
           <div class="section-heading">
             <span class="eyebrow">Topic pathways</span>
             <h2>Structured routes from the primary hub</h2>
-            <p>These grouped sections mirror the main topic hub so archive pages still support topic discovery and internal linking.</p>
+            <p>Use these grouped sections to move from beginner questions into setup choices, troubleshooting, and deeper follow-up reads.</p>
           </div>
 
           <div class="stack">
@@ -106,8 +107,8 @@ const categoryJsonLd = {
         <span class="eyebrow">{posts.length} {posts.length === 1 ? 'article' : 'articles'}</span>
         <h2>All {category.shortTitle.toLowerCase()} guides</h2>
         <p>
-          Browse the current library in {category.title}. Additional articles can be added to the content collection
-          without changing the page structure.
+          Browse the full set of published guides in {category.title}, from practical starting points to narrower
+          problem-solving articles.
         </p>
       </div>
 

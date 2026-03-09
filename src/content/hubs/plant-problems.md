@@ -4,7 +4,7 @@ description: "A troubleshooting hub for plant problems in urban gardens, hydropo
 overview: "Plant problems are usually symptoms of a mismatch somewhere in the system. This hub organizes diagnosis-led guides around symptoms, likely causes, quick fixes, and deeper explanations that connect back to light, roots, and environment."
 category: plant-problems
 image: /images/plant-problems.svg
-imageAlt: Abstract editorial illustration for plant problem diagnosis hub content
+imageAlt: Abstract illustration for the plant problems hub
 introLabel: Topic hub
 featuredSlugs:
   - plant-problems/common-potted-herb-problems
@@ -51,10 +51,10 @@ That sounds simple, but it is the opposite of how many gardening tips are presen
 
 Urban gardening, hydroponics, and indoor growing look different, but many symptoms come from the same underlying causes: poor light, stressed roots, unstable moisture, overcrowding, or temperature issues. A basil plant in soil and a lettuce plant in hydroponics can both underperform for reasons that trace back to root-zone stability and light management.
 
-That is why this hub links troubleshooting content back to setup content. A diagnosis article should not stop at “what is happening.” It should point to the system choice that usually prevents the issue from recurring.
+That is why this hub links troubleshooting content back to setup content. A diagnosis article should do more than name the problem. It should help you spot the setup choice or habit that keeps causing it.
 
 ## What this hub helps with
 
 Use the beginner section to learn how to think diagnostically. Use the setup section if you want to prevent common failures through better media, lighting, or environmental fit. Use the troubleshooting section when a crop is already declining. Use the advanced section when you need to translate symptoms into fixture, nutrient, or container decisions.
 
-The goal is topic authority through pattern recognition: symptoms, causes, fixes, explanation, and the next useful guide.
+The point of this hub is to help you connect symptoms, likely causes, and the next fix worth trying.

@@ -4,7 +4,7 @@ description: "A topic hub for containers and planters, focused on root volume, d
 overview: "Container growing depends on physical structure more than most beginners expect. This hub organizes container guidance around root space, drainage, crop fit, and the decisions that make container gardens easier to maintain."
 category: containers-planters
 image: /images/containers-planters.svg
-imageAlt: Abstract editorial illustration for containers and planters hub content
+imageAlt: Abstract illustration for the containers and planters hub
 introLabel: Topic hub
 featuredSlugs:
   - containers-planters/container-depth-tomatoes-peppers-herbs

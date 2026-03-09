@@ -5,6 +5,7 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import GuideSection from '../components/GuideSection.astro';
 import PostCard from '../components/PostCard.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/content.css';
 import { categoryMap } from '../data/categories';
 import { site } from '../data/site';
 import { buildGuideSections, getPopularPosts, getPostsByCategory, getPostsBySlugs, getPublishedPosts } from '../utils/content';
@@ -62,7 +63,7 @@ const hubJsonLd = {
 
           <div class="hub-meta">
             <span>{archivePosts.length} published guides</span>
-            <span>Primary SEO entry point for {category?.shortTitle ?? hub.data.title}</span>
+            <span>Start here for the full {category?.shortTitle?.toLowerCase() ?? hub.data.title.toLowerCase()} reading path</span>
           </div>
 
           <div class="button-row">
@@ -120,8 +121,8 @@ const hubJsonLd = {
           <h2>All {category?.shortTitle?.toLowerCase() ?? hub.data.title.toLowerCase()} guides</h2>
         </div>
         <p>
-          This hub keeps the full category inventory crawlable in one place, with the archive route available for a
-          cleaner list view.
+          Browse the full category here, or switch to the archive page if you want a simpler list of every guide in
+          this topic.
         </p>
       </div>
 
