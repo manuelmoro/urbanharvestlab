@@ -136,7 +136,7 @@ It also helps separate true care problems from setup problems. If the plant is w
 
 Troubleshooting is part of the cluster too, but it should not be the first place beginners start. Yellow leaves, wilting, slow growth, and leggy stems usually make more sense after you understand setup, herb choice, light, containers, and care. Otherwise every symptom feels random.
 
-Later troubleshooting guides in this cluster will help diagnose issues like weak growth indoors, herbs wilting in wet soil, and yellowing basil. The purpose of this hub is to make sure you reach those guides with the right context. In most cases, the root cause lives upstream in light, drainage, pot size, or watering behavior.
+Start broad with [Common Problems With Potted Herbs: How to Diagnose Yellow Leaves, Wilting, and Weak Growth](/blog/plant-problems/common-potted-herb-problems/). That guide helps you work backward through the usual system failures instead of guessing from the symptom alone. If the decline is specifically about basil yellowing indoors, the narrower follow-up is [Why Are Basil Leaves Turning Yellow Indoors?](/blog/plant-problems/why-basil-leaves-yellow-indoors/). In most cases, the root cause still lives upstream in light, drainage, pot size, or watering behavior.
 
 That is the bigger principle behind the cluster. Symptoms matter, but systems matter more. If you understand the setup pathway first, troubleshooting becomes a process of elimination instead of a series of random fixes. That usually leads to better outcomes and far less frustration.
 

@@ -7,11 +7,13 @@ image: /images/plant-problems.svg
 imageAlt: Abstract editorial illustration for plant problem diagnosis hub content
 introLabel: Topic hub
 featuredSlugs:
+  - plant-problems/common-potted-herb-problems
   - plant-problems/why-basil-leaves-yellow-indoors
 guideSections:
   - title: Beginner guides
     description: Start with diagnosis-led guides that explain how to read plant symptoms without jumping to conclusions.
     slugs:
+      - plant-problems/common-potted-herb-problems
       - plant-problems/why-basil-leaves-yellow-indoors
       - grow-lights/grow-light-distance-seedlings
   - title: Setup guides
@@ -22,6 +24,7 @@ guideSections:
   - title: Troubleshooting
     description: Use these when growth has already slowed, yellowed, or stretched and you need an orderly diagnosis path.
     slugs:
+      - plant-problems/common-potted-herb-problems
       - hydroponics/hydroponic-lettuce-growing-slowly
       - plant-problems/why-basil-leaves-yellow-indoors
   - title: Advanced topics

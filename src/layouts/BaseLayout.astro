@@ -40,7 +40,7 @@ const resolvedDescription = description ?? site.description;
 const canonical = getAbsoluteUrl(withTrailingSlash(canonicalPath), siteBase);
 const resolvedOgTitle = ogTitle ?? pageTitle;
 const resolvedOgDescription = ogDescription ?? resolvedDescription;
-const socialImage = getAbsoluteAssetUrl(ogImage ?? image ?? '/og-default.svg', siteBase);
+const socialImage = getAbsoluteAssetUrl(ogImage ?? image ?? '/og-default.png', siteBase);
 const socialImageAlt = ogImageAlt ?? imageAlt ?? `${site.name} social preview`;
 const jsonLdEntries = Array.isArray(jsonLd) ? jsonLd : jsonLd ? [jsonLd] : [];
 ---

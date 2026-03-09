@@ -23,6 +23,7 @@ guideSections:
   - title: Troubleshooting
     description: Use these guides when balcony herbs or compact crops start drifting off course.
     slugs:
+      - plant-problems/common-potted-herb-problems
       - plant-problems/why-basil-leaves-yellow-indoors
       - grow-lights/how-many-hours-grow-lights-herbs
   - title: Advanced topics

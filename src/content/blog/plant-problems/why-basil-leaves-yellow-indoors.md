@@ -23,6 +23,7 @@ keyTakeaways:
 topicLinksTitle: If you're troubleshooting indoor herbs, also read
 topicLinksDescription: These related guides cover the setup issues that most often sit behind yellow basil, weak herb growth, and inconsistent indoor performance.
 topicLinkSlugs:
+  - plant-problems/common-potted-herb-problems
   - grow-lights/how-many-hours-grow-lights-herbs
   - grow-lights/grow-light-distance-seedlings
   - hydroponics/hydroponic-nutrients-ec-ph-basics
@@ -34,6 +35,7 @@ faq:
   - question: Does low light cause yellow basil?
     answer: It can. Basil needs strong light to stay compact and richly green, especially indoors.
 relatedSlugs:
+  - plant-problems/common-potted-herb-problems
   - grow-lights/how-many-hours-grow-lights-herbs
   - hydroponics/hydroponic-nutrients-ec-ph-basics
 diagnosis:
@@ -51,7 +53,7 @@ diagnosis:
     - Stabilize temperature and watering for several days before changing anything else.
 ---
 
-Yellow basil leaves indoors are usually a signal, not a diagnosis. Basil responds quickly when the system drifts out of balance, so the most useful approach is to check the biggest drivers first.
+Yellow basil leaves indoors are usually a signal, not a diagnosis. Basil responds quickly when the system drifts out of balance, so the most useful approach is to check the biggest drivers first. If you want the broader troubleshooting framework for yellowing, wilting, and weak growth across potted herbs, start with [Common Problems With Potted Herbs: How to Diagnose Yellow Leaves, Wilting, and Weak Growth](/blog/plant-problems/common-potted-herb-problems/).
 
 ## Step one: check the light honestly
 
