@@ -8,8 +8,8 @@ tags:
   - troubleshooting
   - container-gardening
   - indoor-growing
-image: /images/plant-problems.svg
-imageAlt: Abstract editorial illustration for plant problem diagnosis
+image: /images/plant-problems/common-potted-herb-problems.webp
+imageAlt: Clean UI illustration showing yellow leaves, wilting, and weak growth in potted herbs
 publishDate: 2026-03-09
 draft: false
 affiliate: false
