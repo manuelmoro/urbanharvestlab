@@ -1,0 +1,26 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F4EEE5"/>
+  <rect x="60" y="60" width="1480" height="780" rx="42" fill="#FFF9F2"/>
+  <rect x="140" y="210" width="580" height="480" rx="32" fill="#F3E4D7" stroke="#B99272" stroke-width="8"/>
+  <rect x="880" y="210" width="580" height="480" rx="32" fill="#E4EFD7" stroke="#9DB18F" stroke-width="8"/>
+  <rect x="240" y="280" width="150" height="150" rx="24" fill="#D4C7B8"/>
+  <rect x="470" y="330" width="150" height="150" rx="24" fill="#D4C7B8"/>
+  <rect x="300" y="510" width="150" height="150" rx="24" fill="#D4C7B8"/>
+  <path d="M920 540H1400" stroke="#A88F71" stroke-width="16" stroke-linecap="round"/>
+  <path d="M1040 540V604" stroke="#A88F71" stroke-width="16" stroke-linecap="round"/>
+  <path d="M1280 540V604" stroke="#A88F71" stroke-width="16" stroke-linecap="round"/>
+  <path d="M982 456C982 410 1014 384 1058 384C1102 384 1134 410 1134 456V504H982V456Z" fill="#B47B4F"/>
+  <path d="M1186 456C1186 410 1218 384 1262 384C1306 384 1338 410 1338 456V504H1186V456Z" fill="#AA7B51"/>
+  <circle cx="1022" cy="362" r="28" fill="#8FB764"/>
+  <circle cx="1058" cy="336" r="34" fill="#A8C56D"/>
+  <circle cx="1094" cy="362" r="28" fill="#8FB764"/>
+  <circle cx="1226" cy="362" r="28" fill="#8FB764"/>
+  <circle cx="1262" cy="336" r="34" fill="#A8C56D"/>
+  <circle cx="1298" cy="362" r="28" fill="#8FB764"/>
+  <text x="140" y="146" fill="#2B3B32" font-family="Arial, sans-serif" font-size="56" font-weight="700">Apartment herb footprint</text>
+  <text x="140" y="748" fill="#5A6B52" font-family="Arial, sans-serif" font-size="34">A single dedicated station is easier to read than herbs scattered around the home.</text>
+  <text x="188" y="632" fill="#6A4B39" font-family="Arial, sans-serif" font-size="34" font-weight="700">Scattered pots</text>
+  <text x="188" y="670" fill="#6A4B39" font-family="Arial, sans-serif" font-size="28">Different rooms, different light, harder routine</text>
+  <text x="930" y="632" fill="#355045" font-family="Arial, sans-serif" font-size="34" font-weight="700">One compact station</text>
+  <text x="930" y="670" fill="#355045" font-family="Arial, sans-serif" font-size="28">Shared light, simpler checks, easier cleanup</text>
+</svg>

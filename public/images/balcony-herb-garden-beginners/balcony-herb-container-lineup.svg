@@ -1,0 +1,41 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F4EEE5"/>
+  <rect x="70" y="70" width="1460" height="760" rx="40" fill="#FFF9F2"/>
+  <rect x="140" y="210" width="1320" height="460" rx="34" fill="#F7F1E8" stroke="#C9AE8E" stroke-width="8"/>
+  <path d="M170 628H1430" stroke="#A88F71" stroke-width="16" stroke-linecap="round"/>
+  <path d="M240 628V680" stroke="#A88F71" stroke-width="16" stroke-linecap="round"/>
+  <path d="M520 628V680" stroke="#A88F71" stroke-width="16" stroke-linecap="round"/>
+  <path d="M800 628V680" stroke="#A88F71" stroke-width="16" stroke-linecap="round"/>
+  <path d="M1080 628V680" stroke="#A88F71" stroke-width="16" stroke-linecap="round"/>
+  <path d="M1360 628V680" stroke="#A88F71" stroke-width="16" stroke-linecap="round"/>
+  <path d="M210 540C210 476 252 438 318 438C384 438 426 476 426 540V592H210V540Z" fill="#B47B4F"/>
+  <path d="M470 520C470 462 510 426 570 426C630 426 670 462 670 520V592H470V520Z" fill="#B88153"/>
+  <path d="M730 492C730 438 770 404 830 404C890 404 930 438 930 492V592H730V492Z" fill="#AA7B51"/>
+  <path d="M1000 514C1000 458 1040 424 1100 424C1160 424 1200 458 1200 514V592H1000V514Z" fill="#B47B4F"/>
+  <path d="M1260 500C1260 446 1300 412 1360 412C1420 412 1460 446 1460 500V592H1260V500Z" fill="#A26D45"/>
+  <circle cx="286" cy="400" r="30" fill="#8FB764"/>
+  <circle cx="320" cy="378" r="34" fill="#A8C56D"/>
+  <circle cx="354" cy="400" r="30" fill="#8FB764"/>
+  <circle cx="542" cy="388" r="30" fill="#8FB764"/>
+  <circle cx="570" cy="362" r="34" fill="#A8C56D"/>
+  <circle cx="598" cy="388" r="30" fill="#8FB764"/>
+  <circle cx="790" cy="366" r="28" fill="#7D9B55"/>
+  <circle cx="826" cy="338" r="34" fill="#93B468"/>
+  <circle cx="862" cy="366" r="28" fill="#7D9B55"/>
+  <circle cx="1064" cy="382" r="30" fill="#8FB764"/>
+  <circle cx="1100" cy="356" r="36" fill="#A8C56D"/>
+  <circle cx="1136" cy="382" r="30" fill="#8FB764"/>
+  <circle cx="1326" cy="370" r="30" fill="#8FB764"/>
+  <circle cx="1360" cy="344" r="36" fill="#A8C56D"/>
+  <circle cx="1394" cy="370" r="30" fill="#8FB764"/>
+  <text x="140" y="146" fill="#2B3B32" font-family="Arial, sans-serif" font-size="56" font-weight="700">Beginner balcony container lineup</text>
+  <text x="140" y="748" fill="#5A6B52" font-family="Arial, sans-serif" font-size="34">Use a few medium containers with clear roles instead of many tiny pots.</text>
+  <text x="240" y="650" fill="#5B3F31" font-family="Arial, sans-serif" font-size="28" font-weight="700">Mint solo pot</text>
+  <text x="478" y="650" fill="#5B3F31" font-family="Arial, sans-serif" font-size="28" font-weight="700">Parsley</text>
+  <text x="760" y="650" fill="#5B3F31" font-family="Arial, sans-serif" font-size="28" font-weight="700">Basil</text>
+  <text x="1012" y="650" fill="#5B3F31" font-family="Arial, sans-serif" font-size="28" font-weight="700">Chives</text>
+  <text x="1280" y="650" fill="#5B3F31" font-family="Arial, sans-serif" font-size="28" font-weight="700">Thyme or oregano</text>
+  <text x="196" y="286" fill="#6D5A46" font-family="Arial, sans-serif" font-size="30">Separate the fastest spreader.</text>
+  <text x="490" y="286" fill="#6D5A46" font-family="Arial, sans-serif" font-size="30">Keep leafy herbs accessible.</text>
+  <text x="762" y="286" fill="#6D5A46" font-family="Arial, sans-serif" font-size="30">Reserve the strongest light for basil.</text>
+</svg>

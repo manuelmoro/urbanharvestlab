@@ -132,6 +132,28 @@ This is the care layer that keeps the whole cluster practical. If the setup guid
 
 It also helps separate true care problems from setup problems. If the plant is weak because the light is poor or the pot stays wet too long, more fertilizer will not solve the issue. Good care begins with observation. The care guide gives you a repeatable rhythm that works with the rest of the cluster instead of fighting against it.
 
+## Setup Paths for Real Homes
+
+Once the cornerstone guides are clear, the next useful step is usually choosing the setup path that matches your actual home.
+
+### Balcony herb setups
+
+If you have outdoor space, [Balcony Herb Garden for Beginners: A Simple Container Setup That Actually Works](/blog/urban-gardening/balcony-herb-garden-beginners/) translates the cluster into one practical balcony plan. It shows how to divide a balcony into hotter and softer zones, how to keep the first crop list small, and how to choose containers that do not become a watering headache in warm weather.
+
+This is the best follow-up when the main variables are sun exposure, wind, reflected heat, and how quickly outdoor containers dry.
+
+### Apartment herb setups without outdoor space
+
+If the whole herb system has to live indoors, [Indoor Herb Garden Setup for Apartments Without Outdoor Space](/blog/urban-gardening/indoor-herb-garden-apartment-setup/) is the cleaner next step. It narrows the problem down to one bright herb station, a manageable number of pots, and a routine that works inside a normal apartment instead of on an idealized sunny patio.
+
+That makes it especially useful for readers deciding whether the home already has enough light or needs a small grow-light assist.
+
+### Low-light expectations indoors
+
+Not every apartment gets direct sun, and that is where expectations matter. [Can Herbs Grow Indoors Without Direct Sunlight? What to Expect in Real Homes](/blog/grow-lights/can-herbs-grow-indoors-without-direct-sunlight/) explains what usually stays worthwhile in bright but not sunny homes, what signals show the light is below target, and when supplemental lighting becomes the cleaner fix.
+
+Use that guide when the question is no longer "How do herbs need light in theory?" and instead "What can I realistically expect in this specific home?"
+
 ## Common Problems
 
 Troubleshooting is part of the cluster too, but it should not be the first place beginners start. Yellow leaves, wilting, slow growth, and leggy stems usually make more sense after you understand setup, herb choice, light, containers, and care. Otherwise every symptom feels random.

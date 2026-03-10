@@ -1,0 +1,26 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F4EEE5"/>
+  <rect x="60" y="60" width="1480" height="780" rx="42" fill="#FFF9F2"/>
+  <rect x="150" y="250" width="360" height="360" rx="30" fill="#E4EFD7" stroke="#9DB18F" stroke-width="8"/>
+  <rect x="620" y="250" width="360" height="360" rx="30" fill="#F3E4D7" stroke="#BC9879" stroke-width="8"/>
+  <rect x="1090" y="250" width="360" height="360" rx="30" fill="#E8F0E3" stroke="#9DB18F" stroke-width="8"/>
+  <circle cx="330" cy="360" r="74" fill="#F0C97A"/>
+  <path d="M330 308V360H384" stroke="#2B3B32" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M780 470C780 422 812 394 860 394C908 394 940 422 940 470V516H780V470Z" fill="#B47B4F"/>
+  <circle cx="832" cy="370" r="28" fill="#8FB764"/>
+  <circle cx="862" cy="344" r="34" fill="#A8C56D"/>
+  <circle cx="892" cy="370" r="28" fill="#8FB764"/>
+  <path d="M1180 360H1360" stroke="#8EA7C7" stroke-width="18" stroke-linecap="round"/>
+  <path d="M1290 310L1360 360L1290 410" stroke="#8EA7C7" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="150" y="150" fill="#2B3B32" font-family="Arial, sans-serif" font-size="56" font-weight="700">Balcony herb routine</text>
+  <text x="150" y="748" fill="#5A6B52" font-family="Arial, sans-serif" font-size="34">A balcony setup stays calmer when the routine is short, visible, and repeatable.</text>
+  <text x="214" y="560" fill="#355045" font-family="Arial, sans-serif" font-size="34" font-weight="700">Check moisture</text>
+  <text x="190" y="604" fill="#355045" font-family="Arial, sans-serif" font-size="28">Look at the root zone, not</text>
+  <text x="208" y="640" fill="#355045" font-family="Arial, sans-serif" font-size="28">just the dry surface.</text>
+  <text x="684" y="560" fill="#6A4B39" font-family="Arial, sans-serif" font-size="34" font-weight="700">Harvest lightly</text>
+  <text x="664" y="604" fill="#6A4B39" font-family="Arial, sans-serif" font-size="28">Small, regular cuts keep</text>
+  <text x="676" y="640" fill="#6A4B39" font-family="Arial, sans-serif" font-size="28">plants branching well.</text>
+  <text x="1142" y="560" fill="#355045" font-family="Arial, sans-serif" font-size="34" font-weight="700">Reset the layout</text>
+  <text x="1140" y="604" fill="#355045" font-family="Arial, sans-serif" font-size="28">Rotate or shift pots when</text>
+  <text x="1150" y="640" fill="#355045" font-family="Arial, sans-serif" font-size="28">one zone runs hotter.</text>
+</svg>

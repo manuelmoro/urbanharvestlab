@@ -1,0 +1,27 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F4EEE5"/>
+  <rect x="60" y="60" width="1480" height="780" rx="42" fill="#FFF9F2"/>
+  <rect x="160" y="180" width="1280" height="520" rx="34" fill="#EEF4EA" stroke="#9DB18F" stroke-width="8"/>
+  <rect x="220" y="240" width="420" height="360" rx="28" fill="#F7F1E8" stroke="#C5AC8A" stroke-width="8"/>
+  <rect x="760" y="240" width="560" height="360" rx="28" fill="#F7F1E8" stroke="#C5AC8A" stroke-width="8"/>
+  <rect x="280" y="300" width="300" height="230" rx="24" fill="#D8ECFF" stroke="#90B2D4" stroke-width="8"/>
+  <path d="M430 300V530" stroke="#90B2D4" stroke-width="10"/>
+  <path d="M280 418H580" stroke="#90B2D4" stroke-width="10"/>
+  <rect x="830" y="432" width="190" height="116" rx="18" fill="#D4C7B8"/>
+  <rect x="1046" y="286" width="190" height="262" rx="18" fill="#D4C7B8"/>
+  <rect x="1056" y="212" width="170" height="48" rx="16" fill="#F0D977"/>
+  <path d="M1120 260V286" stroke="#D6B951" stroke-width="12" stroke-linecap="round"/>
+  <path d="M1144 260V286" stroke="#D6B951" stroke-width="12" stroke-linecap="round"/>
+  <path d="M1168 260V286" stroke="#D6B951" stroke-width="12" stroke-linecap="round"/>
+  <path d="M1192 260V286" stroke="#D6B951" stroke-width="12" stroke-linecap="round"/>
+  <path d="M904 436C904 396 930 372 970 372C1010 372 1036 396 1036 436V462H904V436Z" fill="#B47B4F"/>
+  <circle cx="944" cy="350" r="26" fill="#8FB764"/>
+  <circle cx="970" cy="326" r="32" fill="#A8C56D"/>
+  <circle cx="996" cy="350" r="26" fill="#8FB764"/>
+  <text x="160" y="138" fill="#2B3B32" font-family="Arial, sans-serif" font-size="56" font-weight="700">Apartment herb light zones</text>
+  <text x="160" y="748" fill="#5A6B52" font-family="Arial, sans-serif" font-size="34">Use the strongest practical light source, then keep the whole herb station inside that footprint.</text>
+  <text x="256" y="632" fill="#5B3F31" font-family="Arial, sans-serif" font-size="34" font-weight="700">Strongest natural light</text>
+  <text x="256" y="670" fill="#5B3F31" font-family="Arial, sans-serif" font-size="28">Best for the main herb station</text>
+  <text x="820" y="632" fill="#5B3F31" font-family="Arial, sans-serif" font-size="34" font-weight="700">Counter and shelf options</text>
+  <text x="820" y="670" fill="#5B3F31" font-family="Arial, sans-serif" font-size="28">Only work well when they stay near the window or add a light</text>
+</svg>

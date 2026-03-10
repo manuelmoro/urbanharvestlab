@@ -1,0 +1,32 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F4EEE5"/>
+  <rect x="60" y="60" width="1480" height="780" rx="42" fill="#FFF9F2"/>
+  <rect x="150" y="230" width="360" height="420" rx="30" fill="#F8DFC5" stroke="#CF9A6B" stroke-width="8"/>
+  <rect x="620" y="230" width="360" height="420" rx="30" fill="#E4EFD7" stroke="#9DB18F" stroke-width="8"/>
+  <rect x="1090" y="230" width="360" height="420" rx="30" fill="#E3E5E8" stroke="#9AA1A8" stroke-width="8"/>
+  <circle cx="330" cy="328" r="56" fill="#F7C56C"/>
+  <rect x="700" y="300" width="200" height="170" rx="22" fill="#D8ECFF" stroke="#90B2D4" stroke-width="8"/>
+  <path d="M800 300V470" stroke="#90B2D4" stroke-width="10"/>
+  <path d="M700 385H900" stroke="#90B2D4" stroke-width="10"/>
+  <rect x="1188" y="320" width="160" height="180" rx="24" fill="#C9CDD2"/>
+  <path d="M272 548C272 500 302 474 348 474C394 474 424 500 424 548V592H272V548Z" fill="#B47B4F"/>
+  <path d="M742 548C742 506 770 482 812 482C854 482 882 506 882 548V592H742V548Z" fill="#B47B4F"/>
+  <path d="M1212 548C1212 516 1238 496 1276 496C1314 496 1340 516 1340 548V592H1212V548Z" fill="#A26D45"/>
+  <circle cx="312" cy="448" r="28" fill="#8FB764"/>
+  <circle cx="348" cy="422" r="34" fill="#A8C56D"/>
+  <circle cx="384" cy="448" r="28" fill="#8FB764"/>
+  <circle cx="778" cy="456" r="26" fill="#8FB764"/>
+  <circle cx="812" cy="432" r="30" fill="#A8C56D"/>
+  <circle cx="846" cy="456" r="26" fill="#8FB764"/>
+  <circle cx="1248" cy="470" r="22" fill="#95A27C"/>
+  <circle cx="1276" cy="448" r="26" fill="#AEB98B"/>
+  <circle cx="1304" cy="470" r="22" fill="#95A27C"/>
+  <text x="150" y="146" fill="#2B3B32" font-family="Arial, sans-serif" font-size="56" font-weight="700">Direct sun vs. bright room</text>
+  <text x="150" y="748" fill="#5A6B52" font-family="Arial, sans-serif" font-size="34">Without direct sun, results depend on how close the herbs stay to the real light source.</text>
+  <text x="218" y="626" fill="#6A4B39" font-family="Arial, sans-serif" font-size="34" font-weight="700">Direct sun</text>
+  <text x="218" y="664" fill="#6A4B39" font-family="Arial, sans-serif" font-size="28">Widest herb list</text>
+  <text x="668" y="626" fill="#355045" font-family="Arial, sans-serif" font-size="34" font-weight="700">Bright window</text>
+  <text x="668" y="664" fill="#355045" font-family="Arial, sans-serif" font-size="28">Some herbs stay worthwhile</text>
+  <text x="1138" y="626" fill="#4C5560" font-family="Arial, sans-serif" font-size="34" font-weight="700">Bright room</text>
+  <text x="1138" y="664" fill="#4C5560" font-family="Arial, sans-serif" font-size="28">Expect weaker results</text>
+</svg>

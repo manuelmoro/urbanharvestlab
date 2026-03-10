@@ -1,0 +1,22 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F4EEE5"/>
+  <rect x="60" y="60" width="1480" height="780" rx="42" fill="#FFF9F2"/>
+  <rect x="180" y="210" width="1240" height="500" rx="34" fill="#EEF4EA" stroke="#9DB18F" stroke-width="8"/>
+  <rect x="240" y="300" width="300" height="260" rx="26" fill="#F7F1E8" stroke="#C9AE8E" stroke-width="8"/>
+  <rect x="650" y="300" width="300" height="260" rx="26" fill="#F7F1E8" stroke="#C9AE8E" stroke-width="8"/>
+  <rect x="1060" y="300" width="300" height="260" rx="26" fill="#F7F1E8" stroke="#C9AE8E" stroke-width="8"/>
+  <rect x="306" y="394" width="170" height="90" rx="18" fill="#D4C7B8"/>
+  <path d="M726 420H874" stroke="#8EA7C7" stroke-width="16" stroke-linecap="round"/>
+  <path d="M816 372L874 420L816 468" stroke="#8EA7C7" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1210" cy="420" r="52" fill="#F0C97A"/>
+  <circle cx="1192" cy="402" r="12" fill="#2B3B32"/>
+  <path d="M1178 442C1192 454 1210 460 1236 446" stroke="#2B3B32" stroke-width="12" stroke-linecap="round"/>
+  <text x="180" y="146" fill="#2B3B32" font-family="Arial, sans-serif" font-size="56" font-weight="700">Indoor herb station checklist</text>
+  <text x="180" y="748" fill="#5A6B52" font-family="Arial, sans-serif" font-size="34">Drainage, spacing, and quick observation habits matter as much as the herb list.</text>
+  <text x="280" y="614" fill="#6A4B39" font-family="Arial, sans-serif" font-size="34" font-weight="700">Tray and drainage</text>
+  <text x="280" y="652" fill="#6A4B39" font-family="Arial, sans-serif" font-size="28">Catch runoff without leaving roots waterlogged</text>
+  <text x="692" y="614" fill="#6A4B39" font-family="Arial, sans-serif" font-size="34" font-weight="700">Rotation and spacing</text>
+  <text x="692" y="652" fill="#6A4B39" font-family="Arial, sans-serif" font-size="28">Keep leaves in the light and avoid crowding</text>
+  <text x="1090" y="614" fill="#6A4B39" font-family="Arial, sans-serif" font-size="34" font-weight="700">Daily visibility</text>
+  <text x="1090" y="652" fill="#6A4B39" font-family="Arial, sans-serif" font-size="28">Place herbs where you naturally notice them</text>
+</svg>

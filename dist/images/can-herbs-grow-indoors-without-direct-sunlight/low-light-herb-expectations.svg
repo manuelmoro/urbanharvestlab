@@ -1,0 +1,22 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F4EEE5"/>
+  <rect x="60" y="60" width="1480" height="780" rx="42" fill="#FFF9F2"/>
+  <rect x="160" y="230" width="1280" height="450" rx="34" fill="#F7F1E8" stroke="#C9AE8E" stroke-width="8"/>
+  <rect x="230" y="320" width="300" height="250" rx="26" fill="#E4EFD7" stroke="#9DB18F" stroke-width="8"/>
+  <rect x="650" y="320" width="300" height="250" rx="26" fill="#EEF4EA" stroke="#9DB18F" stroke-width="8"/>
+  <rect x="1070" y="320" width="300" height="250" rx="26" fill="#F3E4D7" stroke="#BC9879" stroke-width="8"/>
+  <rect x="270" y="474" width="220" height="34" rx="17" fill="#8FB764"/>
+  <rect x="690" y="474" width="180" height="34" rx="17" fill="#9BBE72"/>
+  <rect x="1110" y="474" width="110" height="34" rx="17" fill="#C6B38C"/>
+  <text x="160" y="146" fill="#2B3B32" font-family="Arial, sans-serif" font-size="56" font-weight="700">Indoor herb expectations in lower light</text>
+  <text x="160" y="748" fill="#5A6B52" font-family="Arial, sans-serif" font-size="34">Forgiving herbs stay useful longer, but all herbs become less productive as light falls away.</text>
+  <text x="276" y="392" fill="#355045" font-family="Arial, sans-serif" font-size="34" font-weight="700">Bright window</text>
+  <text x="276" y="432" fill="#355045" font-family="Arial, sans-serif" font-size="28">Parsley, chives, mint</text>
+  <text x="278" y="544" fill="#355045" font-family="Arial, sans-serif" font-size="26">Often worth the space</text>
+  <text x="688" y="392" fill="#355045" font-family="Arial, sans-serif" font-size="34" font-weight="700">Bright room</text>
+  <text x="688" y="432" fill="#355045" font-family="Arial, sans-serif" font-size="28">Parsley or mint at best</text>
+  <text x="688" y="544" fill="#355045" font-family="Arial, sans-serif" font-size="26">Slower, looser growth</text>
+  <text x="1112" y="392" fill="#6A4B39" font-family="Arial, sans-serif" font-size="34" font-weight="700">Dim room</text>
+  <text x="1112" y="432" fill="#6A4B39" font-family="Arial, sans-serif" font-size="28">Low yield and weak regrowth</text>
+  <text x="1110" y="544" fill="#6A4B39" font-family="Arial, sans-serif" font-size="26">Usually needs added light</text>
+</svg>

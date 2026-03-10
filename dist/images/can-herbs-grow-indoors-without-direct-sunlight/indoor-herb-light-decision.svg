@@ -1,0 +1,24 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F4EEE5"/>
+  <rect x="60" y="60" width="1480" height="780" rx="42" fill="#FFF9F2"/>
+  <rect x="600" y="170" width="400" height="150" rx="28" fill="#E4EFD7" stroke="#9DB18F" stroke-width="8"/>
+  <rect x="130" y="470" width="360" height="220" rx="28" fill="#E8F0E3" stroke="#9DB18F" stroke-width="8"/>
+  <rect x="620" y="470" width="360" height="220" rx="28" fill="#F3E4D7" stroke="#BC9879" stroke-width="8"/>
+  <rect x="1110" y="470" width="360" height="220" rx="28" fill="#F8DFC5" stroke="#CF9A6B" stroke-width="8"/>
+  <path d="M800 320V402" stroke="#8EA7C7" stroke-width="16" stroke-linecap="round"/>
+  <path d="M800 402L310 470" stroke="#8EA7C7" stroke-width="14" stroke-linecap="round"/>
+  <path d="M800 402L800 470" stroke="#8EA7C7" stroke-width="14" stroke-linecap="round"/>
+  <path d="M800 402L1290 470" stroke="#8EA7C7" stroke-width="14" stroke-linecap="round"/>
+  <text x="600" y="230" fill="#355045" font-family="Arial, sans-serif" font-size="34" font-weight="700">Indoor herbs are underperforming</text>
+  <text x="642" y="270" fill="#355045" font-family="Arial, sans-serif" font-size="28">Choose the smallest fix that matches the light.</text>
+  <text x="190" y="554" fill="#355045" font-family="Arial, sans-serif" font-size="34" font-weight="700">Keep the setup</text>
+  <text x="174" y="594" fill="#355045" font-family="Arial, sans-serif" font-size="28">Use parsley, chives, and mint</text>
+  <text x="188" y="632" fill="#355045" font-family="Arial, sans-serif" font-size="28">if the window is still bright.</text>
+  <text x="682" y="554" fill="#6A4B39" font-family="Arial, sans-serif" font-size="34" font-weight="700">Move the station</text>
+  <text x="666" y="594" fill="#6A4B39" font-family="Arial, sans-serif" font-size="28">Put herbs in the strongest</text>
+  <text x="696" y="632" fill="#6A4B39" font-family="Arial, sans-serif" font-size="28">usable part of the window.</text>
+  <text x="1174" y="554" fill="#6A4B39" font-family="Arial, sans-serif" font-size="34" font-weight="700">Add a grow light</text>
+  <text x="1152" y="594" fill="#6A4B39" font-family="Arial, sans-serif" font-size="28">Best when basil or steady</text>
+  <text x="1170" y="632" fill="#6A4B39" font-family="Arial, sans-serif" font-size="28">regrowth still falls short.</text>
+  <text x="120" y="770" fill="#5A6B52" font-family="Arial, sans-serif" font-size="34">The goal is not heroic troubleshooting. It is matching the crop and setup to the real light.</text>
+</svg>

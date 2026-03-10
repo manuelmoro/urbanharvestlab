@@ -2,51 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://urbanharvestlab.com/</loc>
-    <lastmod>2026-03-09T20:24:30.227Z</lastmod>
+    <lastmod>2026-03-10T07:43:24.949Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/blog/</loc>
-    <lastmod>2026-03-09T20:24:30.227Z</lastmod>
+    <lastmod>2026-03-10T07:43:24.949Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/urban-gardening/</loc>
-    <lastmod>2026-03-09T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-10T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/hydroponics/</loc>
-    <lastmod>2026-03-09T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-10T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/grow-lights/</loc>
-    <lastmod>2026-03-09T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-10T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/containers-planters/</loc>
-    <lastmod>2026-03-09T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-10T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/soil-fertilizers/</loc>
-    <lastmod>2026-03-09T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-10T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/plant-problems/</loc>
-    <lastmod>2026-03-09T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-10T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://urbanharvestlab.com/blog/grow-lights/can-herbs-grow-indoors-without-direct-sunlight/</loc>
+    <lastmod>2026-03-10T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://urbanharvestlab.com/blog/urban-gardening/balcony-herb-garden-beginners/</loc>
+    <lastmod>2026-03-10T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://urbanharvestlab.com/blog/urban-gardening/indoor-herb-garden-apartment-setup/</loc>
+    <lastmod>2026-03-10T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/blog/plant-problems/common-potted-herb-problems/</loc>
@@ -133,12 +151,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://urbanharvestlab.com/blog/urban-gardening/balcony-herb-garden-beginners/</loc>
-    <lastmod>2026-02-14T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://urbanharvestlab.com/blog/containers-planters/container-depth-tomatoes-peppers-herbs/</loc>
     <lastmod>2026-02-04T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -158,25 +170,25 @@
   </url>
   <url>
     <loc>https://urbanharvestlab.com/about/</loc>
-    <lastmod>2026-03-09T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-10T00:00:00.000Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/contact/</loc>
-    <lastmod>2026-03-09T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-10T00:00:00.000Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/affiliate-disclosure/</loc>
-    <lastmod>2026-03-09T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-10T00:00:00.000Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/privacy-policy/</loc>
-    <lastmod>2026-03-09T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-10T00:00:00.000Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>

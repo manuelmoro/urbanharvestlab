@@ -1,0 +1,39 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F4EEE5"/>
+  <rect x="60" y="60" width="1480" height="780" rx="42" fill="#FFF9F2"/>
+  <rect x="140" y="180" width="1320" height="520" rx="34" fill="#EEF4EA" stroke="#97AE8C" stroke-width="8"/>
+  <rect x="220" y="250" width="340" height="320" rx="28" fill="#F8DFC5" stroke="#CF9A6B" stroke-width="8"/>
+  <rect x="630" y="250" width="340" height="320" rx="28" fill="#E4EFD7" stroke="#9DB18F" stroke-width="8"/>
+  <rect x="1040" y="250" width="340" height="320" rx="28" fill="#E8F0E3" stroke="#9DB18F" stroke-width="8"/>
+  <path d="M140 700H1460" stroke="#7C9070" stroke-width="18" stroke-linecap="round"/>
+  <path d="M260 702V764" stroke="#7C9070" stroke-width="18" stroke-linecap="round"/>
+  <path d="M800 702V764" stroke="#7C9070" stroke-width="18" stroke-linecap="round"/>
+  <path d="M1340 702V764" stroke="#7C9070" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="330" cy="340" r="54" fill="#F7C56C"/>
+  <path d="M330 228V176" stroke="#F7C56C" stroke-width="16" stroke-linecap="round"/>
+  <path d="M406 340H458" stroke="#F7C56C" stroke-width="16" stroke-linecap="round"/>
+  <path d="M252 340H200" stroke="#F7C56C" stroke-width="16" stroke-linecap="round"/>
+  <path d="M386 284L424 246" stroke="#F7C56C" stroke-width="16" stroke-linecap="round"/>
+  <path d="M274 396L236 434" stroke="#F7C56C" stroke-width="16" stroke-linecap="round"/>
+  <path d="M1180 210C1220 190 1260 206 1300 186" stroke="#8EA7C7" stroke-width="14" stroke-linecap="round"/>
+  <path d="M1170 252C1210 232 1250 248 1290 228" stroke="#8EA7C7" stroke-width="14" stroke-linecap="round"/>
+  <path d="M330 520C330 470 360 442 408 442C456 442 486 470 486 520V548H330V520Z" fill="#B47B4F"/>
+  <path d="M735 500C735 454 765 428 808 428C851 428 881 454 881 500V548H735V500Z" fill="#A47C54"/>
+  <path d="M1145 500C1145 454 1175 428 1218 428C1261 428 1291 454 1291 500V548H1145V500Z" fill="#A47C54"/>
+  <circle cx="392" cy="414" r="34" fill="#8FB764"/>
+  <circle cx="430" cy="394" r="36" fill="#A8C56D"/>
+  <circle cx="772" cy="396" r="32" fill="#8FB764"/>
+  <circle cx="808" cy="376" r="36" fill="#A8C56D"/>
+  <circle cx="844" cy="396" r="32" fill="#8FB764"/>
+  <circle cx="1182" cy="394" r="30" fill="#8FB764"/>
+  <circle cx="1218" cy="372" r="34" fill="#A8C56D"/>
+  <circle cx="1254" cy="394" r="30" fill="#8FB764"/>
+  <text x="140" y="134" fill="#2B3B32" font-family="Arial, sans-serif" font-size="56" font-weight="700">Balcony herb garden zones</text>
+  <text x="140" y="776" fill="#5A6B52" font-family="Arial, sans-serif" font-size="34">Group herbs by heat, shelter, and watering speed before you add more pots.</text>
+  <text x="244" y="622" fill="#6C4A35" font-family="Arial, sans-serif" font-size="34" font-weight="700">Hot edge</text>
+  <text x="244" y="664" fill="#6C4A35" font-family="Arial, sans-serif" font-size="28">Thyme, oregano, rosemary</text>
+  <text x="648" y="622" fill="#355045" font-family="Arial, sans-serif" font-size="34" font-weight="700">Bright middle</text>
+  <text x="648" y="664" fill="#355045" font-family="Arial, sans-serif" font-size="28">Basil, parsley, chives</text>
+  <text x="1062" y="622" fill="#355045" font-family="Arial, sans-serif" font-size="34" font-weight="700">Sheltered backup</text>
+  <text x="1062" y="664" fill="#355045" font-family="Arial, sans-serif" font-size="28">Mint and recovery space</text>
+</svg>

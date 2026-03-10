@@ -7,12 +7,14 @@ image: /images/grow-lights.svg
 imageAlt: Abstract illustration for the grow lights hub
 introLabel: Topic hub
 featuredSlugs:
+  - grow-lights/can-herbs-grow-indoors-without-direct-sunlight
   - grow-lights/how-many-hours-grow-lights-herbs
   - grow-lights/best-grow-lights-for-herbs
 guideSections:
   - title: Beginner guides
-    description: Start with runtime, distance, and the basic relationship between fixture strength and crop response.
+    description: Start with indoor light reality, runtime, and the relationship between fixture strength and crop response.
     slugs:
+      - grow-lights/can-herbs-grow-indoors-without-direct-sunlight
       - grow-lights/how-many-hours-grow-lights-herbs
       - grow-lights/grow-light-distance-seedlings
   - title: Setup guides
