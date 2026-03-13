@@ -9,6 +9,7 @@ introLabel: Topic hub
 featuredSlugs:
   - urban-gardening/balcony-herb-garden-beginners
   - urban-gardening/indoor-herb-garden-apartment-setup
+  - urban-gardening/windowsill-herb-garden-low-light
   - urban-gardening/best-vegetables-small-balconies
 guideSections:
   - title: Beginner guides
@@ -16,6 +17,7 @@ guideSections:
     slugs:
       - urban-gardening/balcony-herb-garden-beginners
       - urban-gardening/indoor-herb-garden-apartment-setup
+      - urban-gardening/windowsill-herb-garden-low-light
       - urban-gardening/best-vegetables-small-balconies
   - title: Setup guides
     description: These pieces help you choose containers, growing media, and crop mixes that are sustainable to maintain.

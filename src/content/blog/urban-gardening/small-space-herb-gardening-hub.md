@@ -150,7 +150,7 @@ That makes it especially useful for readers deciding whether the home already ha
 
 ### Low-light expectations indoors
 
-Not every apartment gets direct sun, and that is where expectations matter. [Can Herbs Grow Indoors Without Direct Sunlight? What to Expect in Real Homes](/blog/grow-lights/can-herbs-grow-indoors-without-direct-sunlight/) explains what usually stays worthwhile in bright but not sunny homes, what signals show the light is below target, and when supplemental lighting becomes the cleaner fix.
+Not every apartment gets direct sun, and that is where expectations matter. [Can Herbs Grow Indoors Without Direct Sunlight? What to Expect in Real Homes](/blog/grow-lights/can-herbs-grow-indoors-without-direct-sunlight/) explains what usually stays worthwhile in bright but not sunny homes, what signals show the light is below target, and when supplemental lighting becomes the cleaner fix. If the whole setup has to run on one weaker sill, [Windowsill Herb Garden Guide for Low-Light Homes](/blog/urban-gardening/windowsill-herb-garden-low-light/) translates that reality into a practical windowsill station instead of a vague low-light warning.
 
 Use that guide when the question is no longer "How do herbs need light in theory?" and instead "What can I realistically expect in this specific home?"
 

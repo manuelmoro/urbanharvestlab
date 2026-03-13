@@ -34,6 +34,7 @@ topicLinkSlugs:
   - urban-gardening/small-space-herb-gardening
   - grow-lights/how-much-light-herbs-need
   - urban-gardening/indoor-herb-garden-apartment-setup
+  - urban-gardening/windowsill-herb-garden-low-light
   - urban-gardening/best-herbs-small-spaces
 faq:
   - question: Which herbs handle no direct sun best?
@@ -59,6 +60,7 @@ relatedSlugs:
   - urban-gardening/small-space-herb-gardening
   - grow-lights/how-much-light-herbs-need
   - urban-gardening/indoor-herb-garden-apartment-setup
+  - urban-gardening/windowsill-herb-garden-low-light
   - urban-gardening/best-herbs-small-spaces
   - urban-gardening/potted-herb-care
 ---
@@ -101,7 +103,7 @@ The practical winners in no-direct-sun homes are usually parsley, chives, and mi
 
 This is why herb choice has to follow the window, not the other way around. If you need help choosing crops that fit the real site, use [Best Herbs for Small Spaces: What Grows Well in Apartments, Balconies, and Windowsills](/blog/urban-gardening/best-herbs-small-spaces/).
 
-It is also why a complete apartment plan matters. If the location is the real bottleneck, a dedicated setup like [Indoor Herb Garden Setup for Apartments Without Outdoor Space](/blog/urban-gardening/indoor-herb-garden-apartment-setup/) usually helps more than another vague care tip.
+It is also why a complete apartment plan matters. If the location is the real bottleneck, a dedicated setup like [Indoor Herb Garden Setup for Apartments Without Outdoor Space](/blog/urban-gardening/indoor-herb-garden-apartment-setup/) usually helps more than another vague care tip. If the whole project has to live on one weaker sill, [Windowsill Herb Garden Guide for Low-Light Homes](/blog/urban-gardening/windowsill-herb-garden-low-light/) is the cleaner follow-up because it turns the low-light constraint into a specific container and crop plan.
 
 ## What Results Should You Expect?
 
@@ -178,5 +180,6 @@ Use these next if you are deciding whether to adjust the setup or change the her
 - [Small-Space Herb Gardening: Start Here for Apartments, Balconies, and Indoor Setups](/blog/urban-gardening/small-space-herb-gardening/)
 - [How Much Light Do Herbs Need? Realistic Sun and Grow Light Rules](/blog/grow-lights/how-much-light-herbs-need/)
 - [Indoor Herb Garden Setup for Apartments Without Outdoor Space](/blog/urban-gardening/indoor-herb-garden-apartment-setup/)
+- [Windowsill Herb Garden Guide for Low-Light Homes](/blog/urban-gardening/windowsill-herb-garden-low-light/)
 - [Best Herbs for Small Spaces: What Grows Well in Apartments, Balconies, and Windowsills](/blog/urban-gardening/best-herbs-small-spaces/)
 - [Potted Herb Care: Watering, Feeding, and Pruning Without Guesswork](/blog/urban-gardening/potted-herb-care/)

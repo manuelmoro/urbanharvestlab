@@ -8,10 +8,10 @@ tags:
   - herbs
   - indoor-growing
   - affiliate
-image: /images/how-much-light-herbs-need/herb-light-needs-overview.webp
-imageAlt: Lighting schedule overview for herbs under natural sun and indoor grow lights
+image: /images/grow-lights/how-many-hours-grow-lights-herbs.webp
+imageAlt: UI illustration showing an LED grow light over herbs with a digital timer indicating a 14-hour schedule
 publishDate: 2026-02-22
-updatedDate: 2026-03-03
+updatedDate: 2026-03-11
 draft: false
 affiliate: true
 featured: true
@@ -22,13 +22,13 @@ keyTakeaways:
   - Fixture intensity and hanging distance matter as much as total runtime.
   - If herbs look bleached or stressed, reduce intensity or distance before extending runtime.
 topicLinksTitle: If you are planning indoor lighting for herbs, also read
-topicLinksDescription: These guides connect light duration to fixture choice, canopy distance, hydroponic setups, and typical indoor herb problems.
+topicLinksDescription: These guides connect light duration to indoor apartment setups, low-light expectations, fixture choice, and typical herb stress signals.
 topicLinkSlugs:
-  - grow-lights/grow-light-distance-seedlings
+  - urban-gardening/small-space-herb-gardening
+  - grow-lights/how-much-light-herbs-need
+  - urban-gardening/indoor-herb-garden-apartment-setup
+  - grow-lights/can-herbs-grow-indoors-without-direct-sunlight
   - grow-lights/best-grow-lights-for-herbs
-  - hydroponics/countertop-hydroponic-herbs-beginner
-  - hydroponics/hydroponic-nutrients-ec-ph-basics
-  - plant-problems/why-basil-leaves-yellow-indoors
 faq:
   - question: Is 24-hour light good for herbs?
     answer: No. Herbs generally benefit from a daily dark period, and constant light can increase stress without improving useful growth.
@@ -46,17 +46,26 @@ comparisonTable:
     - ["Low-output fixture", "14 to 16", "Longer runtime can help, but intensity may still be the limit"]
     - ["High-output fixture close to canopy", "10 to 12", "Watch for leaf curl, bleaching, or dryness"]
 relatedSlugs:
-  - grow-lights/grow-light-distance-seedlings
-  - hydroponics/countertop-hydroponic-herbs-beginner
+  - urban-gardening/small-space-herb-gardening
+  - grow-lights/how-much-light-herbs-need
+  - urban-gardening/indoor-herb-garden-apartment-setup
+  - grow-lights/can-herbs-grow-indoors-without-direct-sunlight
+  - grow-lights/best-grow-lights-for-herbs
 ---
 
-Indoor herbs need enough daily light to keep growth compact and flavorful, but that does not mean the fixture should run as long as possible. The useful question is how much light the plant is receiving over the whole day, given the strength of the fixture and how far it sits from the leaves.
+Indoor herbs need enough daily light to keep growth compact and flavorful, but that does not mean the fixture should run as long as possible. The useful question is how much light the plant is receiving over the whole day, given the strength of the fixture and how far it sits from the leaves. If you are still deciding whether your apartment herbs need artificial light at all, use this page together with [Can Herbs Grow Indoors Without Direct Sunlight? What to Expect in Real Homes](/blog/grow-lights/can-herbs-grow-indoors-without-direct-sunlight/) and [Indoor Herb Garden Setup for Apartments Without Outdoor Space](/blog/urban-gardening/indoor-herb-garden-apartment-setup/).
 
 ## A practical baseline for herbs
 
 For most indoor herb setups, 12 to 16 hours per day is a sensible working range. Basil, parsley, dill, cilantro, and chives usually do well in that window when the fixture is appropriately sized and positioned.
 
 Weak fixtures often push growers toward longer schedules. That can help a little, but only to a point. If the light is too dim, extra hours do not fully compensate.
+
+## Match the timer to the actual setup
+
+Grow-light runtime only makes sense in context. A compact apartment herb shelf, a weak windowsill that needs supplemental light, and a brighter indoor station all use the timer differently. That is why this article works best after [How Much Light Do Herbs Need? Realistic Sun and Grow Light Rules](/blog/grow-lights/how-much-light-herbs-need/) establishes the baseline and after [Small-Space Herb Gardening: Start Here for Apartments, Balconies, and Indoor Setups](/blog/urban-gardening/small-space-herb-gardening/) clarifies the broader workflow.
+
+If the home is bright but still below target, a fixed timer can stabilize the day. If the setup is already weak because the fixture is too far away or too small for the footprint, a longer schedule helps less than most beginners hope.
 
 ## Why runtime is only part of the answer
 
