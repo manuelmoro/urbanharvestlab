@@ -68,6 +68,15 @@ const jsonLdEntries = Array.isArray(jsonLd) ? jsonLd : jsonLd ? [jsonLd] : [];
     <meta name="twitter:description" content={resolvedOgDescription} />
     <meta name="twitter:image" content={socialImage} />
     <meta name="twitter:image:alt" content={socialImageAlt} />
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-1JRGZN9CQY"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-1JRGZN9CQY');
+    </script>
     {noIndex ? <meta name="robots" content="noindex, follow" /> : null}
     <slot name="head" />
     {jsonLdEntries.map((entry) => <script is:inline type="application/ld+json" set:html={JSON.stringify(entry)} />)}
