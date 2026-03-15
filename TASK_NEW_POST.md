@@ -3,6 +3,7 @@
 ## Candidate
 - Topic: Hydroponic lettuce nutrient targets for beginners
 - Language: EN and ES
+- Status: candidate only for backlog; not scheduled for publication today
 
 ## Primary Keyword
 - EN: `hydroponic lettuce EC chart`
@@ -10,17 +11,19 @@
 
 ## Secondary Keywords
 - EN: `ec for lettuce`
+- EN: `hydroponic lettuce ec range`
 - EN: `lettuce hydroponic ph range`
-- EN: `hydroponic lettuce nutrient strength`
-- EN: `hydroponic lettuce ec and ph`
-- EN: `lettuce seedlings ec hydroponics`
+- EN: `hydroponic lettuce nutrients`
+- EN: `lettuce reservoir ec`
 - ES: `ec para lechuga hidroponica`
+- ES: `rango ec lechuga hidroponica`
 - ES: `ph lechuga hidroponica`
 - ES: `nutrientes lechuga hidroponica`
+- ES: `tabla nutrientes lechuga hidroponica`
 
 ## Search Intent
 - Informational and problem-solving.
-- User wants a simple crop-specific reference table plus diagnosis guidance for slow or stressed lettuce.
+- User wants a crop-specific reference table plus diagnosis guidance for slow, pale, or stressed lettuce in small hydro systems.
 
 ## Recommended Structure
 ### H2
@@ -30,12 +33,14 @@
 - Signs your EC is too low or too high
 - How to adjust nutrients without overcorrecting
 - Common mistakes with lettuce reservoirs
+- When slow lettuce growth is not a nutrient problem
 - FAQ
 
 ### H3
 - Seedling stage target
 - Early vegetative target
 - Finishing stage target
+- Quick reference table by stage
 - When temperature changes the reading
 - When slow growth is not an EC problem
 - How this differs from herb-focused systems
@@ -50,6 +55,7 @@
 - Link to `/blog/hydroponics/countertop-hydroponic-herbs-beginner/` where system-size drift is discussed.
 - Link to `/hydroponics/` as the hub destination.
 - Add reciprocal internal links back from the two hydroponics troubleshooting posts once published.
+- Keep anchor text distinct from the general nutrients guide to reduce overlap.
 
 ## CTA / Monetization
 - CTA: continue into the hydroponics hub and related troubleshooting guides.
@@ -63,6 +69,7 @@
 - Make the title and description explicitly lettuce-specific.
 - Preserve a tight overlap boundary with the existing general nutrients article.
 - Prepare the brief for EN and ES even if execution ships in phases.
+- Keep examples aligned with small-system beginners because that is the existing hydroponics cluster angle.
 
 ## Publish Gate
 Status: candidate_only
