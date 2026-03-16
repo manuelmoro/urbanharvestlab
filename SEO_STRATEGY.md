@@ -27,9 +27,9 @@
 - Maintain clean canonical/indexation hygiene while expanding content surface area.
 
 ## Backlog Top 20
-1. Candidate new post: crop-specific `hydroponic lettuce EC / pH` guide. Evidence: query `ec for lettuce` in GSC; supporting page `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` has 23 impressions.
+1. Candidate new post: crop-specific `hydroponic lettuce EC / pH` guide. Evidence: query `ec for lettuce` in GSC; supporting page `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` has 30 impressions.
 2. Manual indexing acceleration for core URLs because indexed URLs estimate is `4` against a much larger published content inventory.
-3. Refresh title/meta for `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` if impressions continue but ranking stays outside page 2. Current evidence: 23 impressions, 4.35% CTR, average position 21.70.
+3. Refresh title/meta for `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` if impressions continue but ranking stays outside page 2. Current evidence: 30 impressions, 3.33% CTR, average position 21.87.
 4. Verify HTTP to HTTPS consolidation for homepage because GSC still shows `http://urbanharvestlab.com/` impressions.
 5. Keep backlog slots 6-20 empty until more quantitative evidence appears in GSC or GA4.
 
@@ -54,3 +54,13 @@
 
 #### Propuestas de cambio (pendientes)
 - If GA4 access is restored, reassess whether landing-page engagement supports reprioritizing any backlog items beyond indexation and the hydroponics cluster.
+
+### 2026-03-16
+- Fixed operational snapshot for this run: `Indexed URLs estimate = 4`, `Queries 28d = 2`, and `Impressions 28d = 44`, so the site remains in `bootstrap`.
+- GSC still shows a homepage-heavy footprint, but `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` remains the main non-homepage organic asset with 30 impressions, 3.33% CTR, and average position 21.87.
+- The only query-level content gap with direct evidence remains lettuce-specific nutrient guidance: `ec for lettuce` is still present, and the current inventory in `src/content` has no EN or ES page dedicated to hydroponic lettuce EC/pH targets.
+- GA4 is now available for property `528419708`; homepage traffic dominates (`/`: 14 sessions, 14 users, engagement rate 14.29%), while the strongest content-side engagement signal is `/blog/soil-fertilizers/best-potting-mix-potted-herbs` with 2 sessions, 307.47s average session duration, and 17 events despite no visible GSC demand yet.
+- Operational decision for today: `indexing_only`. Rationale: there are no critical blockers, but the indexed URL estimate remains far below the published inventory and the new post is still only a candidate brief.
+
+#### Propuestas de cambio (pendientes)
+- If the potting-mix guide keeps showing stronger GA4 engagement before GSC visibility appears, consider adding a future backlog item for snippet/interlink support to accelerate discovery without changing the current publish bias.
