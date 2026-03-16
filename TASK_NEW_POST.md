@@ -12,11 +12,14 @@
 ## Secondary Keywords
 - EN: `ec for lettuce`
 - EN: `hydroponic lettuce ec range`
+- EN: `hydroponic lettuce ph chart`
 - EN: `lettuce hydroponic ph range`
 - EN: `hydroponic lettuce nutrients`
 - EN: `lettuce reservoir ec`
+- EN: `hydroponic lettuce nutrient chart`
 - ES: `ec para lechuga hidroponica`
 - ES: `rango ec lechuga hidroponica`
+- ES: `tabla ph lechuga hidroponica`
 - ES: `ph lechuga hidroponica`
 - ES: `nutrientes lechuga hidroponica`
 - ES: `tabla nutrientes lechuga hidroponica`
@@ -48,6 +51,7 @@
 ## Differentiation Notes
 - Keep this post crop-specific and table-led to avoid cannibalizing the broader nutrients guide.
 - Reference the general guide for measurement basics; keep this page focused on lettuce ranges, stage changes, and troubleshooting.
+- There is no current EN or ES page in `src/content` covering lettuce-specific nutrient targets, so the gap is real at the inventory level.
 
 ## Interlinking Requirements
 - Link to `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` in the intro and adjustment section.
