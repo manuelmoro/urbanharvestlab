@@ -1,7 +1,7 @@
 # New Post Candidate
 
 ## Candidate
-- Topic: Hydroponic lettuce nutrient targets for beginners
+- Topic: No clear new-post priority today; keep the prior lettuce EC/pH angle on hold only as a record.
 - Language: EN and ES
 - Status: candidate only for backlog; not scheduled for publication today
 
@@ -16,17 +16,14 @@
 - EN: `lettuce hydroponic ph range`
 - EN: `hydroponic lettuce nutrients`
 - EN: `lettuce reservoir ec`
-- EN: `hydroponic lettuce nutrient chart`
 - ES: `ec para lechuga hidroponica`
 - ES: `rango ec lechuga hidroponica`
 - ES: `tabla ph lechuga hidroponica`
-- ES: `ph lechuga hidroponica`
 - ES: `nutrientes lechuga hidroponica`
-- ES: `tabla nutrientes lechuga hidroponica`
 
 ## Search Intent
 - Informational and problem-solving.
-- User wants a crop-specific reference table plus diagnosis guidance for slow, pale, or stressed lettuce in small hydro systems.
+- This intent is already served in EN by `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`, so there is no clear new-content priority today.
 
 ## Recommended Structure
 ### H2
@@ -36,47 +33,37 @@
 - Signs your EC is too low or too high
 - How to adjust nutrients without overcorrecting
 - Common mistakes with lettuce reservoirs
-- When slow lettuce growth is not a nutrient problem
 - FAQ
 
 ### H3
 - Seedling stage target
 - Early vegetative target
-- Finishing stage target
+- Mature-stage target
 - Quick reference table by stage
-- When temperature changes the reading
-- When slow growth is not an EC problem
-- How this differs from herb-focused systems
-
-## Differentiation Notes
-- Keep this post crop-specific and table-led to avoid cannibalizing the broader nutrients guide.
-- Reference the general guide for measurement basics; keep this page focused on lettuce ranges, stage changes, and troubleshooting.
-- There is no current EN or ES page in `src/content` covering lettuce-specific nutrient targets, so the gap is real at the inventory level.
+- Temperature-driven drift
+- When the bottleneck is not nutrients
 
 ## Interlinking Requirements
-- Link to `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` in the intro and adjustment section.
-- Link to `/blog/hydroponics/hydroponic-lettuce-growing-slowly/` in the troubleshooting section.
-- Link to `/blog/hydroponics/countertop-hydroponic-herbs-beginner/` where system-size drift is discussed.
-- Link to `/hydroponics/` as the hub destination.
-- Add reciprocal internal links back from the two hydroponics troubleshooting posts once published.
-- Keep anchor text distinct from the general nutrients guide to reduce overlap.
+- If this angle is ever reopened, it must link to `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/`, `/blog/hydroponics/hydroponic-lettuce-growing-slowly/`, and `/hydroponics/`.
+- Do not create a second EN URL targeting the same lettuce EC/pH intent.
+- ES planning can continue at brief level only until an explicit ES publishing workflow exists.
 
 ## CTA / Monetization
-- CTA: continue into the hydroponics hub and related troubleshooting guides.
-- Monetization: none currently evidenced; do not add commercial claims or product recommendations not already supported by site inventory.
+- CTA: route readers into the hydroponics hub and troubleshooting guides.
+- Monetization: none evidenced in GA4 or site inventory; do not invent products or affiliate angles.
 
 ## Quality Checklist
-- Include a clear EC and pH table with stage-based ranges.
-- State units and explain any conversion caveats if meter scales differ.
-- Keep diagnosis order practical: light, temperature, spacing, root zone, then nutrients.
-- Add a short FAQ that mirrors beginner phrasing from existing hydroponics content.
-- Make the title and description explicitly lettuce-specific.
-- Preserve a tight overlap boundary with the existing general nutrients article.
-- Prepare the brief for EN and ES even if execution ships in phases.
-- Keep examples aligned with small-system beginners because that is the existing hydroponics cluster angle.
+- Confirm there is a quantified search gap before reviving any new post brief.
+- Reject any angle that overlaps materially with `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`.
+- Keep EN and ES keyword mapping aligned if the site later opens an ES publishing workflow.
+- Require reciprocal interlink planning before moving any future candidate to ready state.
+- Keep the candidate blocked unless cannibalization risk is resolved.
+
+## Priority Note
+- No clear opportunity for a net-new post today. The prior lettuce EC/pH opportunity is no longer a valid publishing target because the matching EN page already exists in `src/content`, and current GSC/GA4 data does not support a different replacement brief yet.
 
 ## Publish Gate
 Status: candidate_only
 Publish readiness: no
-Publish blocked by: execution_backlog_pending,indexing_backlog_pending
-Cannibalization risk: low
+Publish blocked by: weak_gap_evidence,cannibalization_risk
+Cannibalization risk: high

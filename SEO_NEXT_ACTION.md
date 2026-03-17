@@ -1,6 +1,6 @@
 # SEO Next Action
 
-Date: 2026-03-16
+Date: 2026-03-17
 Recommendation: indexing_only
 Source: analytics
 Next job: run_urbanharvestlab_indexing_accelerator_pr.sh
@@ -17,19 +17,19 @@ Optimize bias: medium
 Publish bias: high
 Optimization debt: medium
 Publish readiness: no
-Publish blocked by: indexing_backlog_pending,execution_backlog_pending
-Optimization priority score: 78
-Publish priority score: 46
-Publish candidate available: yes
-Primary target URLs: /, /hydroponics/, /blog/hydroponics/hydroponic-nutrients-ec-ph-basics/, /blog/hydroponics/hydroponic-lettuce-growing-slowly/
+Publish blocked by: indexing_backlog_pending,weak_gap_evidence
+Optimization priority score: 76
+Publish priority score: 24
+Publish candidate available: no
+Primary target URLs: /, /hydroponics/, /blog/hydroponics/hydroponic-nutrients-ec-ph-basics/, /blog/hydroponics/hydroponic-lettuce-ec-ph-chart/
 CTR opportunity available: no
 CTR target URLs: none
-Notes: Indexing backlog remains the dominant constraint because the site has far more published URLs than the fixed indexed estimate of 4, while the hydroponic lettuce brief is still candidate-only and not ready to publish.
+Notes: The fixed indexed estimate of 4 remains the dominant constraint, and there is no net-new post candidate with clean evidence after the lettuce EC/pH page appeared in the inventory.
 
-<!-- AWFM:ctr-next:2026-03-16:start -->
+<!-- AWFM:ctr-next:2026-03-17:start -->
 CTR opportunity available: no
 CTR target URLs:
 - none
 Expected CTR action: title/meta refresh
 Operational next job after executor: run_urbanharvestlab_ctr_optimizer_pr.sh
-<!-- AWFM:ctr-next:2026-03-16:end -->
+<!-- AWFM:ctr-next:2026-03-17:end -->

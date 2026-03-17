@@ -64,3 +64,13 @@
 
 #### Propuestas de cambio (pendientes)
 - If the potting-mix guide keeps showing stronger GA4 engagement before GSC visibility appears, consider adding a future backlog item for snippet/interlink support to accelerate discovery without changing the current publish bias.
+
+### 2026-03-17
+- Fixed operational snapshot for this run must stay at `Indexed URLs estimate = 4`, `Queries 28d = 2`, and `Impressions 28d = 44`, so the site remains in `bootstrap`.
+- GSC still concentrates demand on the homepage and `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/`; the latter holds `30` impressions, `3.33%` CTR, and average position `21.87`, which keeps it on a low-volume snippet watchlist rather than in a rule-based quick-win bucket.
+- GA4 for property `528419708` is now even thinner than yesterday's snapshot: `/` leads with `21` sessions, `17` users, `7` engaged sessions, `33.33%` engagement rate, `94.76s` average session duration, and `108` events, while `/blog/grow-lights/best-grow-lights-for-herbs` shows only `1` session but `100%` engagement and `245.32s` average session duration.
+- The content inventory in `src/content` now includes `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`, so there is no longer a clean new-content gap around lettuce EC/pH targets today; there are still no ES content files in the repository.
+- Operational decision for today: `indexing_only`. Rationale: no critical blockers were detected, but indexed coverage remains materially below the published inventory and there is no quantitatively supported new post candidate ready for publication.
+
+#### Propuestas de cambio (pendientes)
+- Once the new lettuce EC/pH page has enough GSC data, decide whether backlog item 1 should be replaced with a different quantified gap instead of keeping a now-published angle in the candidate slot.
