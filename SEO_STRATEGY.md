@@ -74,3 +74,13 @@
 
 #### Propuestas de cambio (pendientes)
 - Once the new lettuce EC/pH page has enough GSC data, decide whether backlog item 1 should be replaced with a different quantified gap instead of keeping a now-published angle in the candidate slot.
+
+### 2026-03-18
+- Fixed operational snapshot for this run must stay at `Indexed URLs estimate = 4`, `Queries 28d = 2`, and `Impressions 28d = 44`, so the site remains in `bootstrap`.
+- GSC still concentrates visibility on the homepage and `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/`; the hydroponics basics page keeps `30` impressions, `3.33%` CTR, and average position `21.87`, which is still outside the rule-based important quick-win range.
+- GA4 for property `528419708` stays extremely thin: `/` leads with `25` sessions, `20` users, `8` engaged sessions, `32.00%` engagement rate, `80.54s` average session duration, and `125` events, while `/blog/grow-lights/best-grow-lights-for-herbs` has only `1` session but `100%` engagement and `245.32s` average session duration.
+- The content inventory in `src/content` remains EN-only and already contains the previously identified lettuce EC/pH angle, so there is still no replacement net-new post brief with clear quantitative support from GSC or GA4 for today.
+- Operational decision for today: `indexing_only`. Rationale: no critical blockers were detected, but indexed coverage remains materially below the published inventory and the strongest opportunity is to accelerate discovery of already published URLs instead of publishing a weak candidate.
+
+#### Propuestas de cambio (pendientes)
+- Once a different query gap reaches meaningful GSC volume, replace backlog item 1 with a new quantified candidate instead of carrying the legacy lettuce brief forward.
