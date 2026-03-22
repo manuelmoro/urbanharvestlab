@@ -54,3 +54,12 @@
 - Next: `run_urbanharvestlab_tech_seo_qa_pr.sh`
 <!-- AWFM:daily:2026-03-22:end -->
 
+<!-- AWFM:decision:2026-03-22:start -->
+## SEO decision 2026-03-22
+- Run: `20260322-182502`
+- Branch: `awfm/seo-decision-20260322-182502`
+- Decision file: `SEO_DECISION.md`
+- Decision: `technical_fix_only`
+- Next: priorizar `run_urbanharvestlab_tech_seo_qa_pr.sh` y saltar `run_urbanharvestlab_new_post_pr.sh`
+<!-- AWFM:decision:2026-03-22:end -->
+
