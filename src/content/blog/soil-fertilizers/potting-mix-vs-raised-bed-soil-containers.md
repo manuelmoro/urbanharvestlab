@@ -8,7 +8,7 @@ tags:
   - potting-mix
   - containers
   - beginner
-image: /images/soil-fertilizers/potting-mix-vs-raised-bed-soil-containers.svg
+image: /images/soil-fertilizers/potting-mix-vs-raised-bed.webp
 imageAlt: Diagram comparing airy potting mix with dense raised bed soil inside containers
 publishDate: 2026-02-26
 draft: false

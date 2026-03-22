@@ -8,7 +8,7 @@ tags:
   - troubleshooting
   - indoor-growing
   - yellow-leaves
-image: /images/plant-problems/common-potted-herb-problems.webp
+image: /images/plant-problems/why-basil-yellow-indoors.webp
 imageAlt: Diagnostic overview of common potted herb problems, including yellow basil leaves and weak indoor growth
 publishDate: 2026-03-05
 draft: false

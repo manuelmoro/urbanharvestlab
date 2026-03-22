@@ -8,7 +8,7 @@ tags:
   - balcony
   - vegetables
   - small-space
-image: /images/urban-gardening/best-vegetables-small-balconies.svg
+image: /images/urban-gardening/balcony-vegetables-small.webp
 imageAlt: Balcony vegetable layout showing compact crops, vertical support, and root-depth priorities
 publishDate: 2026-01-28
 draft: false

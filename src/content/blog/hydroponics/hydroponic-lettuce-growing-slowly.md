@@ -8,7 +8,7 @@ tags:
   - troubleshooting
   - lettuce
   - indoor-growing
-image: /images/hydroponics/hydroponic-lettuce-growing-slowly.svg
+image: /images/hydroponics/hydroponic-lettuce-stunted.webp
 imageAlt: Hydroponic lettuce troubleshooting diagram showing slow growth bottlenecks
 publishDate: 2026-03-06
 draft: false
