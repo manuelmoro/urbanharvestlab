@@ -1,11 +1,11 @@
 # SEO Quick Wins State
 
-Date: 2026-03-18
-Critical count: 0
-Important count: 0
+Date: 2026-03-22
+Critical count: 1
+Important count: 3
 Minor count: 3
-Blocking items: none
-Important items today: none
-Minor items today: verify HTTP to HTTPS consolidation for homepage impressions, keep `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` on title/meta refresh watchlist, strengthen discovery paths toward `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/` and `/blog/grow-lights/best-grow-lights-for-herbs/`
-Optimization debt: medium
-Publication impact: No critical blockers from quick wins today; publication is blocked by indexing backlog and weak net-new content evidence rather than technical severity.
+Blocking items: verify canonical/protocol consolidation because GSC still reports `http://urbanharvestlab.com/` impressions
+Important items today: refresh title/meta for `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`, refresh title/meta for `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/`, refresh title/meta for `/blog/urban-gardening/best-herbs-sunny-balcony/`
+Minor items today: strengthen interlink discovery toward `/blog/grow-lights/best-grow-lights-for-herbs/`, improve low-volume snippet targeting for `/blog/soil-fertilizers/potting-mix-vs-raised-bed-soil-containers/`, keep manual indexation follow-up queued for core hubs and hydroponics URLs
+Optimization debt: high
+Publication impact: Publication is blocked today because the run has one critical technical issue and the current new-post candidate still has weak evidence plus high cannibalization risk.
