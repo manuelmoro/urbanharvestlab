@@ -23,7 +23,7 @@
 
 ## Search Intent
 - Informational and beginner education.
-- Current evidence is weak for a net-new URL because GSC shows only `8` impressions for `hydroponic feeding basics`, and the site already has `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` serving the same core intent.
+- Current evidence is weak for a net-new URL because GSC shows only `14` impressions for `hydroponic feeding basics`, and the site already has `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` plus `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/` serving the same intent family.
 
 ## Recommended Structure
 ### H2
@@ -51,14 +51,15 @@
 - Monetization: none evidenced in current GA4 landing-page data for this angle; do not invent products or affiliate placements.
 
 ## Quality Checklist
-- Require a quantified GSC gap stronger than the current `8` impressions before moving beyond candidate state.
+- Require a quantified GSC gap stronger than the current `14` impressions before moving beyond candidate state.
 - Reject publication if the brief overlaps materially with `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/`.
+- Reject publication while the repository remains EN-only in `src/content`; ES can stay at planning level only.
 - Keep EN and ES keyword mapping aligned if the site later opens an ES publishing workflow.
 - Require reciprocal interlink planning before moving any future candidate to ready state.
 - Keep the candidate blocked until cannibalization risk is reduced.
 
 ## Priority Note
-- No clear opportunity for a net-new post today. This placeholder brief exists only because GSC shows a small query trace around hydroponic feeding basics, but the evidence is too weak and the overlap with the existing nutrient-basics page is too high to justify publication.
+- No clear opportunity for a net-new post today. This placeholder brief exists only because GSC shows a small query trace around hydroponic feeding basics, but the evidence is still too weak and the overlap with the existing hydroponics pages is too high to justify publication.
 
 ## Publish Gate
 Status: candidate_only

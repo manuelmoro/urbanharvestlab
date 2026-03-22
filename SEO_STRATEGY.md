@@ -27,11 +27,12 @@
 - Maintain clean canonical/indexation hygiene while expanding content surface area.
 
 ## Backlog Top 20
-1. Candidate new post: crop-specific `hydroponic lettuce EC / pH` guide. Evidence: query `ec for lettuce` in GSC; supporting page `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` has 30 impressions.
-2. Manual indexing acceleration for core URLs because indexed URLs estimate is `4` against a much larger published content inventory.
-3. Refresh title/meta for `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` if impressions continue but ranking stays outside page 2. Current evidence: 30 impressions, 3.33% CTR, average position 21.87.
-4. Verify HTTP to HTTPS consolidation for homepage because GSC still shows `http://urbanharvestlab.com/` impressions.
-5. Keep backlog slots 6-20 empty until more quantitative evidence appears in GSC or GA4.
+1. Refresh title/meta and tighten snippet targeting for `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`. Evidence: `577` impressions, `0.35%` CTR, average position `6.94`.
+2. Verify canonical and protocol consolidation for homepage because GSC still shows `http://urbanharvestlab.com/` with `9` impressions.
+3. Refresh title/meta for `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/`. Evidence: `62` impressions, `1.61%` CTR, average position `19.66`.
+4. Refresh title/meta for `/blog/urban-gardening/best-herbs-sunny-balcony/`. Evidence: `17` impressions, `0.00%` CTR, average position `7.35`.
+5. Manual indexing acceleration for core URLs because indexed URLs estimate is `7` against a much larger published content inventory.
+6. Keep backlog slots 6-20 empty until more quantitative evidence appears in GSC or GA4.
 
 ## Diario
 ### 2026-03-14
@@ -84,3 +85,14 @@
 
 #### Propuestas de cambio (pendientes)
 - Once a different query gap reaches meaningful GSC volume, replace backlog item 1 with a new quantified candidate instead of carrying the legacy lettuce brief forward.
+
+### 2026-03-22
+- Fixed operational snapshot for this run must stay at `Indexed URLs estimate = 7`, `Queries 28d = 36`, and `Impressions 28d = 689`, so the site remains in `bootstrap`.
+- GSC now has a clear organic leader in `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/` with `577` impressions, `0.35%` CTR, and average position `6.94`; `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` adds `62` impressions at average position `19.66`, and `/blog/urban-gardening/best-herbs-sunny-balcony/` reaches `17` impressions at average position `7.35`.
+- GSC still reports `http://urbanharvestlab.com/` with `9` impressions, which upgrades protocol consolidation from a watch item to a critical technical check because canonical behavior is not fully trustworthy.
+- GA4 for property `528419708` is still homepage-heavy: `/` leads with `34` sessions, `27` users, `9` engaged sessions, `26.47%` engagement rate, `62.52s` average session duration, and `159` events; content-side engagement is still thin, with `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart` at `3` sessions and `/blog/grow-lights/best-grow-lights-for-herbs` at `1` highly engaged session.
+- The content inventory now totals `31` blog posts plus `6` hubs in `src/content`, with no on-site EN/ES split in the tree; there is still no net-new post angle with clean quantitative support and low cannibalization risk for today.
+- Operational decision for today: `technical_fix_only`. Rationale: while the site should still favor surface-area growth in `bootstrap`, the protocol/canonical signal is a critical blocker and should be resolved before pushing publication decisions.
+
+#### Propuestas de cambio (pendientes)
+- If the hydroponic lettuce chart keeps ranking on page 1 after the protocol issue is cleared, consider promoting snippet-refresh and internal-link execution above manual indexing acceleration for the hydroponics cluster.
