@@ -76,20 +76,20 @@ Here is a breakdown of the best, most practical grow lights for herbs—categori
 
 For most apartment dwellers, the cleanest setup is to buy a powerful LED grow bulb and screw it into a standard desk lamp, architectural pendant, or clamp light. This gives you high-quality light without making your home look like a science experiment.
 
-### Top Pick: Sansi 15W or 24W LED Grow Light Bulb
-[**Check the Sansi 15W/24W Bulb on Amazon**](https://www.amazon.com/dp/B07BRKG7X1?tag=stableandtail-21)
+### Top Pick: SANSI 24W LED Grow Light Bulb
+[**Check the SANSI 24W Bulb on Amazon**](https://www.amazon.com/dp/B0CMXHPSSY?tag=stableandtail-21)
 
 Sansi makes some of the most reliable and clever LED bulbs on the market. They use a patented ceramic technology that dissipates heat incredibly well, meaning the bulb lasts longer and outputs brighter light without a noisy cooling fan.
 - **Why it works for herbs:** The 4000K daylight spectrum looks completely natural in a kitchen or living room while delivering exactly the wavelengths leafy herbs like basil, parsley, and mint crave. 
 - **How to use it:** Screw it into an adjustable architect lamp pointing directly at a cluster of 2 to 3 pots. Keep it 8 to 12 inches above the canopy.
-- **Wattage matters:** Start with the 15W version for a small setup. If you are growing heavy-sun herbs like rosemary in a dark corner, step up to the 24W version.
+- **Wattage matters:** The 24W version is a strong default when you want one bulb to cover a compact cluster of herbs from a standard lamp.
 
 ## 2. Best for Bookshelves and Cabinets: Linkable LED Strips
 
 If your plan is to convert a bookshelf into a thriving indoor garden, a single bulb will only illuminate the center ring. You need linear light. [Indoor Herb Garden Setup for Apartments Without Outdoor Space](/blog/urban-gardening/indoor-herb-garden-apartment-setup/) heavily advocates for strip lights when you have a dedicated shelf because they eliminate dark corners.
 
 ### Top Pick: Barrina T5 Full Spectrum Grow Light Strips
-[**Check Barrina T5 Strip Lights on Amazon**](https://www.amazon.com/dp/B082ZKJZP1?tag=stableandtail-21)
+[**Check Barrina T5 Strip Lights on Amazon**](https://www.amazon.com/dp/B0B155D4LX?tag=stableandtail-21)
 
 Barrina T5s are legendary in the houseplant and indoor herb community for a reason. They are shockingly thin, very bright, and wildly easy to chain together.
 - **Why it works for herbs:** They spread light evenly across a rectangular footprint. You can line up four pots of herbs on a shelf, put two Barrina strips above them, and every single leaf will receive adequate energy.
@@ -100,8 +100,8 @@ Barrina T5s are legendary in the houseplant and indoor herb community for a reas
 
 Sometimes you only have one pot of stretching mint on a desk, and you do not want to buy a lamp fixture or tape strips to your rental cabinets. In this case, a plug-and-play halo light is the easiest fix. 
 
-### Top Pick: Small LED Halo Grow Light with Auto Timer
-[**Check Halo Desk Grow Lights on Amazon**](https://www.amazon.com/dp/B09Z2TBDQ4?tag=stableandtail-21)
+### Top Pick: Aokrean Halo Grow Light with Auto Timer
+[**Check the Aokrean Halo Grow Light on Amazon**](https://www.amazon.com/dp/B0DT6TYV7V?tag=stableandtail-21)
 
 These are small rings or small square panels attached to an acrylic stake that you shove directly into the potting mix.
 - **Why it works for herbs:** It is entirely self-contained. Most come with a built-in timer (e.g., 8, 12, or 16 hours ON). You set it once and walk away.
