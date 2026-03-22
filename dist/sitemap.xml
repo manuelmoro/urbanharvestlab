@@ -2,117 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://urbanharvestlab.com/</loc>
-    <lastmod>2026-03-22T18:10:01.268Z</lastmod>
+    <lastmod>2026-03-14T10:04:30.042Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/blog/</loc>
-    <lastmod>2026-03-22T18:10:01.269Z</lastmod>
+    <lastmod>2026-03-14T10:04:30.042Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/urban-gardening/</loc>
-    <lastmod>2026-03-21T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-11T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/hydroponics/</loc>
-    <lastmod>2026-03-21T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-11T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/grow-lights/</loc>
-    <lastmod>2026-03-21T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-11T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/containers-planters/</loc>
-    <lastmod>2026-03-21T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-11T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/soil-fertilizers/</loc>
-    <lastmod>2026-03-21T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-11T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/plant-problems/</loc>
-    <lastmod>2026-03-21T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-11T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://urbanharvestlab.com/blog/hydroponics/root-rot-hydroponics-prevention/</loc>
-    <lastmod>2026-03-21T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://urbanharvestlab.com/blog/soil-fertilizers/do-potted-herbs-need-fertilizer/</loc>
-    <lastmod>2026-03-21T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://urbanharvestlab.com/blog/urban-gardening/pruning-basil-mint-parsley-chives/</loc>
-    <lastmod>2026-03-21T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://urbanharvestlab.com/blog/urban-gardening/how-often-to-water-potted-herbs/</loc>
-    <lastmod>2026-03-20T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://urbanharvestlab.com/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/</loc>
-    <lastmod>2026-03-16T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://urbanharvestlab.com/blog/urban-gardening/best-herbs-sunny-balcony/</loc>
-    <lastmod>2026-03-16T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://urbanharvestlab.com/blog/containers-planters/herb-pot-size-guide/</loc>
-    <lastmod>2026-03-15T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://urbanharvestlab.com/blog/soil-fertilizers/best-potting-mix-potted-herbs/</loc>
-    <lastmod>2026-03-15T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://urbanharvestlab.com/blog/soil-fertilizers/potting-mix-vs-raised-bed-soil-herbs/</loc>
-    <lastmod>2026-03-15T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://urbanharvestlab.com/blog/urban-gardening/best-herbs-low-light-kitchens-windowsills/</loc>
-    <lastmod>2026-03-15T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://urbanharvestlab.com/blog/grow-lights/best-grow-lights-for-herbs/</loc>
-    <lastmod>2026-03-14T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/blog/urban-gardening/windowsill-herb-garden-low-light/</loc>
@@ -181,6 +115,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://urbanharvestlab.com/blog/grow-lights/best-grow-lights-for-herbs/</loc>
+    <lastmod>2026-03-07T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://urbanharvestlab.com/blog/hydroponics/hydroponic-lettuce-growing-slowly/</loc>
     <lastmod>2026-03-06T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -236,25 +176,25 @@
   </url>
   <url>
     <loc>https://urbanharvestlab.com/about/</loc>
-    <lastmod>2026-03-21T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-11T00:00:00.000Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/contact/</loc>
-    <lastmod>2026-03-21T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-11T00:00:00.000Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/affiliate-disclosure/</loc>
-    <lastmod>2026-03-21T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-11T00:00:00.000Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/privacy-policy/</loc>
-    <lastmod>2026-03-21T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-11T00:00:00.000Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
