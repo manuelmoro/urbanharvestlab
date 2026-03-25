@@ -20,15 +20,15 @@ publishDate: 2026-03-25
 image: /images/hydroponics/when-change-hydroponic-nutrient-solution.webp
 imageAlt: Clean UI illustration demonstrating the difference between topping off a half-empty hydroponic reservoir and doing a complete dump and reset
 keyTakeaways:
-  - "Topping off" replaces the pure water that your plants drank and evaporated. It is a weekly maintenance task, not a long-term strategy.
-  - A "Full Reset" involves completely dumping the reservoir, scrubbing the plastic, and mixing a brand-new batch of perfectly balanced nutrients.
+  - '"Topping off" replaces the pure water that your plants drank and evaporated. It is a weekly maintenance task, not a long-term strategy.'
+  - 'A "Full Reset" involves completely dumping the reservoir, scrubbing the plastic, and mixing a brand-new batch of perfectly balanced nutrients.'
   - If you never do a full reset, trace minerals accumulate to toxic levels, locking out other nutrients and causing severe deficiencies in the plant.
   - Always do a full reset every 14 to 21 days for mature plants, or immediately if the water smells like sulfur or rotten eggs.
 beginnerPathTitle: Refine your hydroponic routine
 beginnerPathSlugs:
   - hydroponics/hydroponic-nutrients-ec-ph-basics
   - hydroponics/countertop-hydroponic-herbs-beginner
-topicLinksTitle: Diagnosing a sick hydroponic plant? 
+topicLinksTitle: "Diagnosing a sick hydroponic plant?"
 topicLinksDescription: A dirty reservoir is the root cause of almost every hydroponic failure. Read these guides to identify what a bad reservoir did to your plants.
 topicLinkSlugs:
   - hydroponics/root-rot-hydroponics-prevention

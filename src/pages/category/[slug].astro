@@ -1,14 +1,15 @@
 ---
 import { getCollection } from 'astro:content';
 
-import GuideSection from '../../components/GuideSection.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import PostCard from '../../components/PostCard.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import '../../styles/content.css';
 import { categories } from '../../data/categories';
 import { site } from '../../data/site';
-import { buildGuideSections, getPostsByCategory, getPublishedPosts } from '../../utils/content';
-import { getCategoryPath } from '../../utils/seo';
+import { getPostsByCategory, getPublishedPosts } from '../../utils/content';
+import { buildBreadcrumbJsonLd, buildCollectionPageJsonLd } from '../../utils/schema';
+import { categoriesIndexPath, getCategoryArchivePath, getHubPath } from '../../utils/seo';
 
 export async function getStaticPaths() {
   return categories.map((category) => ({
@@ -22,32 +23,41 @@ const allPosts = getPublishedPosts(await getCollection('blog'));
 const allHubs = await getCollection('hubs');
 const hub = allHubs.find((entry) => entry.data.category === category.slug);
 const posts = getPostsByCategory(allPosts, category.slug);
-const featuredPosts = posts.filter((post) => post.data.featured).slice(0, 2);
-const canonicalCategoryPath = getCategoryPath(category.slug);
-// Reuse hub groupings on archive pages without duplicating the full long-form hub copy.
-const guideSections = hub ? buildGuideSections(hub.data.guideSections, allPosts) : [];
-const categoryJsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'CollectionPage',
-  name: category.title,
-  description: category.description,
-  url: new URL(canonicalCategoryPath, Astro.site ?? site.url).toString(),
-};
+const siteBase = Astro.site ?? site.url;
+const archivePath = getCategoryArchivePath(category.slug);
+const hubPath = getHubPath(category.slug);
+const breadcrumbItems = [
+  { label: 'Home', href: '/' },
+  { label: 'Categories', href: categoriesIndexPath },
+  { label: category.title, href: hubPath },
+  { label: 'Article archive' },
+];
+const breadcrumbJsonLd = buildBreadcrumbJsonLd(breadcrumbItems, archivePath, siteBase);
+const categoryJsonLd = buildCollectionPageJsonLd(
+  `${category.title} Article Archive`,
+  `Plain list of every published ${category.shortTitle.toLowerCase()} guide on Urban Harvest Lab. Use the main topic hub for curated pathways and stronger entry points.`,
+  archivePath,
+  siteBase,
+);
 ---
 
 <BaseLayout
-  title={category.title}
-  description={category.description}
-  canonicalPath={canonicalCategoryPath}
+  title={`${category.title} Article Archive`}
+  description={`Plain list of every published ${category.shortTitle.toLowerCase()} guide on Urban Harvest Lab. Use the main topic hub for curated pathways and stronger entry points.`}
+  canonicalPath={archivePath}
   noIndex
-  jsonLd={categoryJsonLd}
+  jsonLd={[categoryJsonLd, breadcrumbJsonLd]}
 >
   <section class="page-section">
     <div class="container page-hero">
       <div class="page-hero__panel">
-        <span class="eyebrow">Category</span>
-        <h1>{category.title}</h1>
-        <p>{category.intro}</p>
+        <Breadcrumbs items={breadcrumbItems} />
+        <span class="eyebrow">Article archive</span>
+        <h1>{category.title} article archive</h1>
+        <p>
+          This is the plain utility list for every published {category.shortTitle.toLowerCase()} guide. For the main
+          topic page with curated pathways, featured entry points, and broader context, use the primary hub.
+        </p>
       </div>
     </div>
 
@@ -60,41 +70,10 @@ const categoryJsonLd = {
               <h2>{hub.data.title}</h2>
               <p>{hub.data.overview}</p>
               <div class="button-row">
-                <a class="button button--primary" href={`/${hub.slug}/`}>Open topic hub</a>
-                <a class="button button--secondary" href="#category-guides">Browse archive</a>
+                <a class="button button--primary" href={hubPath}>Open topic hub</a>
+                <a class="button button--secondary" href="#category-guides">Jump to the archive list</a>
               </div>
             </div>
-          </div>
-        </div>
-      ) : null
-    }
-
-    {
-      featuredPosts.length > 0 ? (
-        <div class="container">
-          <div class="section-heading section-heading--compact">
-            <span class="eyebrow">Featured in this category</span>
-            <h2>Start with the strongest entry points.</h2>
-          </div>
-
-          <div class="card-grid">
-            {featuredPosts.map((post) => <PostCard post={post} />)}
-          </div>
-        </div>
-      ) : null
-    }
-
-    {
-      guideSections.length > 0 ? (
-        <div class="container">
-          <div class="section-heading">
-            <span class="eyebrow">Topic pathways</span>
-            <h2>Structured routes from the primary hub</h2>
-            <p>Use these grouped sections to move from beginner questions into setup choices, troubleshooting, and deeper follow-up reads.</p>
-          </div>
-
-          <div class="stack">
-            {guideSections.map((section) => <GuideSection title={section.title} description={section.description} posts={section.posts} />)}
           </div>
         </div>
       ) : null
@@ -105,14 +84,14 @@ const categoryJsonLd = {
     <div class="container">
       <div class="section-heading">
         <span class="eyebrow">{posts.length} {posts.length === 1 ? 'article' : 'articles'}</span>
-        <h2>All {category.shortTitle.toLowerCase()} guides</h2>
+        <h2>All published {category.shortTitle.toLowerCase()} guides</h2>
         <p>
-          Browse the full set of published guides in {category.title}, from practical starting points to narrower
-          problem-solving articles.
+          Browse the full set of published guides in {category.title}. This archive stays intentionally simple so it
+          does not compete with the main hub.
         </p>
       </div>
 
-      {posts.length > 0 ? <div class="card-grid">{posts.map((post) => <PostCard post={post} />)}</div> : <div class="card"><p>No articles have been published in this category yet.</p></div>}
+      {posts.length > 0 ? <div class="card-grid">{posts.map((post) => <PostCard post={post} compact />)}</div> : <div class="card"><p>No articles have been published in this category yet.</p></div>}
     </div>
   </section>
 </BaseLayout>

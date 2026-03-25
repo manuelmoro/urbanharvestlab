@@ -5,6 +5,7 @@ import CategoryCard from '../../components/CategoryCard.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { categories } from '../../data/categories';
 import { getPublishedPosts } from '../../utils/content';
+import { categoriesIndexPath } from '../../utils/seo';
 
 const allPosts = getPublishedPosts(await getCollection('blog'));
 const categoryCounts = new Map(categories.map((category) => [category.slug, 0]));
@@ -15,18 +16,18 @@ for (const post of allPosts) {
 ---
 
 <BaseLayout
-  title="Categories"
-  description="Browse the main content categories at Urban Harvest Lab, from urban gardening and hydroponics to soil, containers, and plant troubleshooting."
-  canonicalPath="/categories/"
+  title="Topic Hubs for Urban Gardening, Hydroponics, and Indoor Growing"
+  description="Browse Urban Harvest Lab topic hubs for urban gardening, hydroponics, grow lights, containers, soil, and plant troubleshooting."
+  canonicalPath={categoriesIndexPath}
 >
   <section class="page-section">
     <div class="container page-hero">
       <div class="page-hero__panel">
         <span class="eyebrow">Categories</span>
-        <h1>Topic hubs designed for clean exploration.</h1>
+        <h1>Browse the main topic hubs for small-space growing.</h1>
         <p>
-          Each category page includes a descriptive intro, structured article listings, and a clear route for adding
-          future content without redesigning the site.
+          Each hub is built as the primary landing page for a topic, with clearer entry points than a plain article
+          archive.
         </p>
       </div>
     </div>

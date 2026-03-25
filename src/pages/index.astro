@@ -9,7 +9,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { categories } from '../data/categories';
 import { site } from '../data/site';
 import { getPopularPosts, getPostsByCategory, getPublishedPosts } from '../utils/content';
-import { getCategoryArchivePath, getCategoryPath, getPostPath } from '../utils/seo';
+import { buildOrganizationJsonLd, buildWebsiteJsonLd } from '../utils/schema';
+import { blogIndexPath, categoriesIndexPath, getCategoryPath, getPostPath, homePath } from '../utils/seo';
 
 const allPosts = getPublishedPosts(await getCollection('blog'));
 const popularPosts = getPopularPosts(allPosts).slice(0, 4);
@@ -27,33 +28,27 @@ for (const post of allPosts) {
   categoryCounts.set(post.data.category, (categoryCounts.get(post.data.category) ?? 0) + 1);
 }
 
-const homeJsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'WebSite',
-  name: site.name,
-  url: site.url,
-  description: site.description,
-};
+const homeJsonLd = [buildWebsiteJsonLd(), buildOrganizationJsonLd()];
 ---
 
 <BaseLayout
-  title="Science-Based Guides for Urban Gardening, Hydroponics, and Small-Space Growing"
-  description="Useful guides on urban gardening, hydroponics, grow lights, containers, soil, and common plant problems."
-  canonicalPath="/"
+  title="Urban Gardening, Hydroponics, and Grow Light Guides for Small Spaces"
+  description="Practical urban gardening guides for balconies, patios, indoor herbs, hydroponics, grow lights, containers, and plant troubleshooting."
+  canonicalPath={homePath}
   jsonLd={homeJsonLd}
 >
   <section class="page-section page-section--hero">
     <div class="container hero hero--home">
       <div class="hero__panel">
         <span class="eyebrow">Practical help for small-space growers</span>
-        <h1>Grow well in the space you actually have.</h1>
+        <h1>Urban gardening advice for balconies, windowsills, patios, and indoor growing.</h1>
         <p>
-          Find clear, practical guidance for herbs, vegetables, hydroponics, grow lights, and container growing in
-          balconies, patios, kitchens, and indoor shelves.
+          Find clear, practical guidance for herbs, vegetables, hydroponics, grow lights, and container growing that
+          matches real homes, real light, and realistic maintenance.
         </p>
 
         <div class="button-row">
-          <a class="button button--primary" href="/blog/">Explore guides</a>
+          <a class="button button--primary" href={blogIndexPath}>Explore guides</a>
           <a class="button button--secondary" href="#start-here">Start here</a>
         </div>
 
@@ -117,7 +112,7 @@ const homeJsonLd = {
         </div>
 
         <div class="button-row">
-          <a class="button button--secondary" href="/categories/">View all categories</a>
+          <a class="button button--secondary" href={categoriesIndexPath}>View all categories</a>
         </div>
       </div>
 
@@ -133,7 +128,7 @@ const homeJsonLd = {
         <div class="section-heading">
           <span class="eyebrow">Start here</span>
           <h2>A calm path for new growers.</h2>
-          <p>Begin with space, light, container size, and crop choice before spending on extra gear.</p>
+          <p>Begin with space, light, container size, and crop choice before spending on extra gear or complicated routines.</p>
         </div>
 
         <div class="card-grid">
@@ -186,10 +181,11 @@ const homeJsonLd = {
       <div class="section-heading section-heading--split">
         <div>
           <span class="eyebrow">Explore the full guide map</span>
-          <h2>Find every guide from one place.</h2>
+          <h2>Use the main topic hubs to go deeper.</h2>
         </div>
         <p>
-          From here you can jump into each topic and see the latest published guides without hunting through menus.
+          Each hub acts as the main landing page for a topic, with curated entry points and tighter internal pathways
+          into the most useful guides.
         </p>
       </div>
 
@@ -205,7 +201,7 @@ const homeJsonLd = {
                 {posts.map((post) => <li><a href={getPostPath(post)}>{post.data.title}</a></li>)}
               </ul>
               <p>
-                <a href={getCategoryArchivePath(category.slug)}>View full archive</a>
+                <a href={getCategoryPath(category.slug)}>Open topic hub</a>
               </p>
             </section>
           ))

@@ -1,6 +1,7 @@
 ---
 import { categories } from '../data/categories';
 import { site } from '../data/site';
+import { getCategoryPath } from '../utils/seo';
 ---
 
 <footer class="site-footer">
@@ -40,7 +41,7 @@ import { site } from '../data/site';
           {
             categories.map((category) => (
               <li>
-                <a href={`/${category.slug}/`}>{category.shortTitle}</a>
+                <a href={getCategoryPath(category.slug)}>{category.shortTitle}</a>
               </li>
             ))
           }

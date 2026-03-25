@@ -2,51 +2,81 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://urbanharvestlab.com/</loc>
-    <lastmod>2026-03-22T18:10:01.268Z</lastmod>
+    <lastmod>2026-03-25T10:39:50.064Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/blog/</loc>
-    <lastmod>2026-03-22T18:10:01.269Z</lastmod>
+    <lastmod>2026-03-25T10:39:50.064Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://urbanharvestlab.com/categories/</loc>
+    <lastmod>2026-03-25T10:39:50.064Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://urbanharvestlab.com/urban-gardening/</loc>
-    <lastmod>2026-03-21T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-25T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/hydroponics/</loc>
-    <lastmod>2026-03-21T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-25T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/grow-lights/</loc>
-    <lastmod>2026-03-21T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-25T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/containers-planters/</loc>
-    <lastmod>2026-03-21T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-25T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/soil-fertilizers/</loc>
-    <lastmod>2026-03-21T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-25T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/plant-problems/</loc>
-    <lastmod>2026-03-21T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-25T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://urbanharvestlab.com/blog/grow-lights/led-vs-fluorescent-grow-lights/</loc>
+    <lastmod>2026-03-25T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://urbanharvestlab.com/blog/hydroponics/when-to-change-hydroponic-nutrient-solution/</loc>
+    <lastmod>2026-03-25T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://urbanharvestlab.com/blog/plant-problems/why-basil-wilting-indoors/</loc>
+    <lastmod>2026-03-25T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://urbanharvestlab.com/blog/urban-gardening/north-facing-window-herbs/</loc>
+    <lastmod>2026-03-25T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/blog/hydroponics/root-rot-hydroponics-prevention/</loc>
@@ -236,25 +266,25 @@
   </url>
   <url>
     <loc>https://urbanharvestlab.com/about/</loc>
-    <lastmod>2026-03-21T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-25T00:00:00.000Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/contact/</loc>
-    <lastmod>2026-03-21T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-25T00:00:00.000Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/affiliate-disclosure/</loc>
-    <lastmod>2026-03-21T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-25T00:00:00.000Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://urbanharvestlab.com/privacy-policy/</loc>
-    <lastmod>2026-03-21T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-25T00:00:00.000Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>

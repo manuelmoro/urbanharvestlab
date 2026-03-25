@@ -9,7 +9,8 @@ import '../styles/content.css';
 import { categoryMap } from '../data/categories';
 import { site } from '../data/site';
 import { buildGuideSections, getPopularPosts, getPostsByCategory, getPostsBySlugs, getPublishedPosts } from '../utils/content';
-import { getCategoryArchivePath } from '../utils/seo';
+import { buildBreadcrumbJsonLd, buildCollectionPageJsonLd } from '../utils/schema';
+import { categoriesIndexPath, getCategoryArchivePath, getHubPath } from '../utils/seo';
 
 export async function getStaticPaths() {
   const hubs = await getCollection('hubs');
@@ -30,27 +31,24 @@ const featuredPosts = getPostsBySlugs(allPosts, hub.data.featuredSlugs);
 const archivePosts = getPostsByCategory(allPosts, hub.data.category);
 const fallbackPopular = getPopularPosts(archivePosts).slice(0, 3);
 const heroPosts = featuredPosts.length > 0 ? featuredPosts : fallbackPopular;
+const hubPath = getHubPath(hub.slug);
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
+  { label: 'Categories', href: categoriesIndexPath },
   { label: hub.data.title },
 ];
-const hubJsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'CollectionPage',
-  name: hub.data.title,
-  description: hub.data.description,
-  url: new URL(`/${hub.slug}/`, Astro.site ?? site.url).toString(),
-  about: category?.title ?? hub.data.title,
-};
+const siteBase = Astro.site ?? site.url;
+const breadcrumbJsonLd = buildBreadcrumbJsonLd(breadcrumbItems, hubPath, siteBase);
+const hubJsonLd = buildCollectionPageJsonLd(hub.data.title, hub.data.description, hubPath, siteBase, hub.data.image);
 ---
 
 <BaseLayout
-  title={hub.data.title}
+  title={`${hub.data.title} Guides`}
   description={hub.data.description}
   image={hub.data.image}
   imageAlt={hub.data.imageAlt}
-  canonicalPath={`/${hub.slug}/`}
-  jsonLd={hubJsonLd}
+  canonicalPath={hubPath}
+  jsonLd={[hubJsonLd, breadcrumbJsonLd]}
 >
   <section class="page-section page-section--narrow">
     <div class="container">
@@ -63,12 +61,12 @@ const hubJsonLd = {
 
           <div class="hub-meta">
             <span>{archivePosts.length} published guides</span>
-            <span>Start here for the full {category?.shortTitle?.toLowerCase() ?? hub.data.title.toLowerCase()} reading path</span>
+            <span>Use this as the main {category?.shortTitle?.toLowerCase() ?? hub.data.title.toLowerCase()} entry point.</span>
           </div>
 
           <div class="button-row">
-            <a class="button button--primary" href={`/category/${hub.data.category}/`}>Browse archive</a>
-            <a class="button button--secondary" href="/blog/">View all articles</a>
+            <a class="button button--primary" href="#guide-pathways">Explore guide pathways</a>
+            <a class="button button--secondary" href="#topic-guides">Browse all guides</a>
           </div>
         </div>
       </div>
@@ -99,7 +97,7 @@ const hubJsonLd = {
     </div>
   </section>
 
-  <section class="page-section">
+  <section class="page-section" id="guide-pathways">
     <div class="container">
       <div class="section-heading">
         <span class="eyebrow">Guide pathways</span>
@@ -113,7 +111,7 @@ const hubJsonLd = {
     </div>
   </section>
 
-  <section class="page-section">
+  <section class="page-section" id="topic-guides">
     <div class="container">
       <div class="section-heading section-heading--split">
         <div>
@@ -121,8 +119,8 @@ const hubJsonLd = {
           <h2>All {category?.shortTitle?.toLowerCase() ?? hub.data.title.toLowerCase()} guides</h2>
         </div>
         <p>
-          Browse the full category here, or switch to the archive page if you want a simpler list of every guide in
-          this topic.
+          This hub keeps the topic curated. If you need a plain utility list instead, use the simplified article
+          archive.
         </p>
       </div>
 
@@ -131,7 +129,7 @@ const hubJsonLd = {
       </div>
 
       <div class="button-row">
-        <a class="button button--secondary" href={getCategoryArchivePath(hub.data.category)}>Open archive page</a>
+        <a class="button button--secondary" href={getCategoryArchivePath(hub.data.category)}>Open simple archive view</a>
       </div>
     </div>
   </section>

@@ -1,6 +1,8 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 
+import { getPostPath } from '../utils/seo';
+
 interface Props {
   title?: string;
   description?: string;
@@ -24,7 +26,7 @@ const {
       </div>
 
       <ul class="context-links__list">
-        {posts.map((post) => <li><a href={`/blog/${post.slug}/`}>{post.data.title}</a></li>)}
+        {posts.map((post) => <li><a href={getPostPath(post)}>{post.data.title}</a></li>)}
       </ul>
     </section>
   ) : null

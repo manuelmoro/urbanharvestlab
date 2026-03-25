@@ -2,7 +2,8 @@
 import SiteFooter from '../components/SiteFooter.astro';
 import SiteHeader from '../components/SiteHeader.astro';
 import { site } from '../data/site';
-import { getAbsoluteAssetUrl, getAbsoluteUrl, withTrailingSlash } from '../utils/seo';
+import { getImageMetadata } from '../utils/image-metadata.js';
+import { getAbsoluteAssetUrl, getAbsoluteUrl, normalizePath } from '../utils/seo';
 
 interface Props {
   title?: string;
@@ -37,11 +38,13 @@ const {
 const pageTitle = title ? `${title} | ${site.name}` : `${site.name} | ${site.tagline}`;
 const siteBase = Astro.site ?? site.url;
 const resolvedDescription = description ?? site.description;
-const canonical = getAbsoluteUrl(withTrailingSlash(canonicalPath), siteBase);
+const canonical = getAbsoluteUrl(normalizePath(canonicalPath), siteBase);
 const resolvedOgTitle = ogTitle ?? pageTitle;
 const resolvedOgDescription = ogDescription ?? resolvedDescription;
-const socialImage = getAbsoluteAssetUrl(ogImage ?? image ?? '/og-default.png', siteBase);
+const socialImagePath = ogImage ?? image ?? '/og-default.png';
+const socialImage = getAbsoluteAssetUrl(socialImagePath, siteBase);
 const socialImageAlt = ogImageAlt ?? imageAlt ?? `${site.name} social preview`;
+const socialImageMetadata = getImageMetadata(socialImagePath);
 const jsonLdEntries = Array.isArray(jsonLd) ? jsonLd : jsonLd ? [jsonLd] : [];
 ---
 
@@ -63,6 +66,9 @@ const jsonLdEntries = Array.isArray(jsonLd) ? jsonLd : jsonLd ? [jsonLd] : [];
     <meta property="og:url" content={canonical} />
     <meta property="og:image" content={socialImage} />
     <meta property="og:image:alt" content={socialImageAlt} />
+    {socialImageMetadata?.mimeType ? <meta property="og:image:type" content={socialImageMetadata.mimeType} /> : null}
+    {socialImageMetadata?.width ? <meta property="og:image:width" content={String(socialImageMetadata.width)} /> : null}
+    {socialImageMetadata?.height ? <meta property="og:image:height" content={String(socialImageMetadata.height)} /> : null}
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={resolvedOgTitle} />
     <meta name="twitter:description" content={resolvedOgDescription} />

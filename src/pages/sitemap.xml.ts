@@ -6,7 +6,16 @@ import { getCollection } from 'astro:content';
 import { categories } from '../data/categories';
 import { site } from '../data/site';
 import { getLatestDate, getPostsByCategory, getPublishedPosts } from '../utils/content';
-import { escapeXml, getAbsoluteUrl, getCategoryPath, getPostPath, withTrailingSlash } from '../utils/seo';
+import {
+  blogIndexPath,
+  categoriesIndexPath,
+  escapeXml,
+  getAbsoluteUrl,
+  getHubPath,
+  getPostPath,
+  homePath,
+  withTrailingSlash,
+} from '../utils/seo';
 
 type ChangeFrequency = 'daily' | 'weekly' | 'monthly' | 'yearly';
 
@@ -20,6 +29,7 @@ type SitemapEntry = {
 const sitemapMetadata = {
   home: { changefreq: 'daily', priority: '1.0' },
   blogIndex: { changefreq: 'daily', priority: '0.9' },
+  categoriesIndex: { changefreq: 'weekly', priority: '0.8' },
   category: { changefreq: 'weekly', priority: '0.8' },
   article: { changefreq: 'monthly', priority: '0.7' },
   static: { changefreq: 'yearly', priority: '0.3' },
@@ -82,14 +92,19 @@ export async function GET() {
     { path: '/privacy-policy/', sourcePath: './privacy-policy.astro' },
   ];
   const homeEntry = createSitemapEntry(
-    '/',
+    homePath,
     getLatestDate([getSourceLastModified('./index.astro'), latestPostDate]) ?? latestPostDate,
     sitemapMetadata.home,
   );
   const blogIndexEntry = createSitemapEntry(
-    '/blog/',
+    blogIndexPath,
     getLatestDate([getSourceLastModified('./blog/index.astro'), latestPostDate]) ?? latestPostDate,
     sitemapMetadata.blogIndex,
+  );
+  const categoriesIndexEntry = createSitemapEntry(
+    categoriesIndexPath,
+    getLatestDate([getSourceLastModified('./categories/index.astro'), latestPostDate]) ?? latestPostDate,
+    sitemapMetadata.categoriesIndex,
   );
   const categoryPages = categories
     .filter((category) => hubSlugs.has(category.slug))
@@ -102,7 +117,7 @@ export async function GET() {
           ),
         ]) ?? latestPostDate;
 
-      return createSitemapEntry(getCategoryPath(category.slug), categoryLastModified, sitemapMetadata.category);
+      return createSitemapEntry(getHubPath(category.slug), categoryLastModified, sitemapMetadata.category);
     });
   const postPages = posts.map((post) =>
     createSitemapEntry(getPostPath(post), post.data.updatedDate ?? post.data.publishDate, sitemapMetadata.article),
@@ -114,6 +129,7 @@ export async function GET() {
   const urls = dedupeEntries([
     homeEntry,
     blogIndexEntry,
+    categoriesIndexEntry,
     ...categoryPages,
     ...postPages,
     ...staticEntries,

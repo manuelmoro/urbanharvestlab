@@ -5,23 +5,24 @@ import PostCard from '../../components/PostCard.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { categories } from '../../data/categories';
 import { getFeaturedPosts, getPublishedPosts } from '../../utils/content';
+import { blogIndexPath, getCategoryPath } from '../../utils/seo';
 
 const allPosts = getPublishedPosts(await getCollection('blog'));
 const featuredPosts = getFeaturedPosts(allPosts).slice(0, 3);
 ---
 
 <BaseLayout
-  title="Growing Guides"
-  description="Browse Urban Harvest Lab articles on urban gardening, hydroponics, grow lights, soil, containers, and plant troubleshooting."
-  canonicalPath="/blog/"
+  title="Urban Gardening, Hydroponics, and Indoor Growing Guides"
+  description="Browse every Urban Harvest Lab article on urban gardening, hydroponics, grow lights, containers, soil, and plant troubleshooting."
+  canonicalPath={blogIndexPath}
 >
   <section class="page-section">
     <div class="container page-hero">
       <div class="page-hero__panel">
         <span class="eyebrow">Browse the guides</span>
-        <h1>Find the guide that matches the problem in front of you.</h1>
+        <h1>Browse practical guides for small-space growing.</h1>
         <p>
-          Start with a broad setup guide or jump straight to the issue you are dealing with right now.
+          Start with a broad setup guide, jump into a topic hub, or go straight to the problem you need to solve now.
         </p>
       </div>
     </div>
@@ -49,7 +50,7 @@ const featuredPosts = getFeaturedPosts(allPosts).slice(0, 3);
             categories.map((category, index) => (
               <>
                 {' '}
-                <a href={`/${category.slug}/`}>{category.shortTitle}</a>
+                <a href={getCategoryPath(category.slug)}>{category.shortTitle}</a>
                 {index < categories.length - 1 ? ',' : '.'}
               </>
             ))

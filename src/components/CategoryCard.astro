@@ -1,6 +1,8 @@
 ---
 import type { CategoryDefinition } from '../data/categories';
 
+import { getCategoryPath } from '../utils/seo';
+
 interface Props {
   category: CategoryDefinition;
   count: number;
@@ -20,7 +22,7 @@ const initials =
 
 <a
   class="card category-card"
-  href={`/${category.slug}/`}
+  href={getCategoryPath(category.slug)}
   style={`--category-accent: ${category.accent};`}
 >
   <div class="category-card__top">

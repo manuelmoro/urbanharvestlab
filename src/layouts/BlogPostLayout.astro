@@ -16,7 +16,9 @@ import '../styles/content.css';
 import { categoryMap } from '../data/categories';
 import { site } from '../data/site';
 import { formatDate } from '../utils/format';
-import { getAbsoluteAssetUrl, getAbsoluteUrl, getCategoryPath, getPostPath } from '../utils/seo';
+import { getImageMetadata } from '../utils/image-metadata.js';
+import { buildArticleJsonLd, buildBreadcrumbJsonLd } from '../utils/schema';
+import { categoriesIndexPath, getAbsoluteUrl, getCategoryPath, getPostPath } from '../utils/seo';
 
 interface Heading {
   depth: number;
@@ -38,45 +40,15 @@ const category = categoryMap.get(post.data.category);
 const siteBase = Astro.site ?? site.url;
 const canonicalPath = getPostPath(post);
 const articleUrl = getAbsoluteUrl(canonicalPath, siteBase);
+const headerImageMetadata = post.data.image ? getImageMetadata(post.data.image) : undefined;
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
-  { label: 'Blog', href: '/blog/' },
+  { label: 'Categories', href: categoriesIndexPath },
   { label: category?.title ?? 'Category', href: getCategoryPath(post.data.category) },
   { label: post.data.title },
 ];
-const breadcrumbJsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'BreadcrumbList',
-  itemListElement: breadcrumbItems.map((item, index) => ({
-    '@type': 'ListItem',
-    position: index + 1,
-    name: item.label,
-    item: item.href ? getAbsoluteUrl(item.href, siteBase) : articleUrl,
-  })),
-};
-const articleJsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'Article',
-  headline: post.data.title,
-  description: post.data.description,
-  datePublished: post.data.publishDate.toISOString(),
-  dateModified: (post.data.updatedDate ?? post.data.publishDate).toISOString(),
-  mainEntityOfPage: {
-    '@type': 'WebPage',
-    '@id': articleUrl,
-  },
-  articleSection: category?.title ?? 'Guides',
-  author: {
-    '@type': 'Organization',
-    name: post.data.author,
-  },
-  publisher: {
-    '@type': 'Organization',
-    name: site.name,
-    url: site.url,
-  },
-  image: post.data.image ? getAbsoluteAssetUrl(post.data.image, siteBase) : undefined,
-};
+const breadcrumbJsonLd = buildBreadcrumbJsonLd(breadcrumbItems, canonicalPath, siteBase);
+const articleJsonLd = buildArticleJsonLd(post, articleUrl, category?.title, siteBase);
 ---
 
 <BaseLayout
@@ -100,9 +72,9 @@ const articleJsonLd = {
         <Breadcrumbs items={breadcrumbItems} />
 
         <div class="post-header__meta">
-          <span class="pill" style={`--pill-accent: ${category?.accent ?? '#6f8763'};`}>
+          <a class="pill" href={getCategoryPath(post.data.category)} style={`--pill-accent: ${category?.accent ?? '#6f8763'};`}>
             {category?.title ?? 'Guide'}
-          </span>
+          </a>
           <span>{formatDate(post.data.publishDate)}</span>
           {post.data.updatedDate ? <span>Updated {formatDate(post.data.updatedDate)}</span> : null}
         </div>
@@ -118,7 +90,14 @@ const articleJsonLd = {
         {
           post.data.image ? (
             <div class="post-header__image">
-              <img src={post.data.image} alt={post.data.imageAlt ?? ''} loading="eager" decoding="async" />
+              <img
+                src={post.data.image}
+                alt={post.data.imageAlt ?? ''}
+                loading="eager"
+                decoding="async"
+                width={headerImageMetadata?.width}
+                height={headerImageMetadata?.height}
+              />
             </div>
           ) : null
         }

@@ -690,6 +690,7 @@ a.card:hover,
   border: 1px solid rgba(43, 59, 50, 0.08);
   font-size: 0.8rem;
   font-weight: 700;
+  text-decoration: none;
 }
 
 .pill::before {
