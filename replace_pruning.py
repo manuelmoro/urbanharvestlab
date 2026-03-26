@@ -1,69 +1,12 @@
----
-title: "When to Prune Basil, Mint, Parsley, and Chives for Better Growth"
-description: "Stop picking single leaves off your herbs. Learn exactly when and where to cut basil, mint, parsley, and chives to force massive, bushy regrowth."
-excerpt: "Pruning is the most misunderstood part of indoor gardening. If you pick individual basil leaves, the plant grows tall and leggy. If you cut the main stem correctly, it explodes into a dense, bushy harvest."
-slug: "urban-gardening/pruning-basil-mint-parsley-chives"
-category: "urban-gardening"
-tags:
-  - herbs
-  - pruning
-  - harvesting
-  - basil
-  - mint
-  - beginner
-  - urban gardening
-published: true
-draft: false
-cluster_role: "supporting"
-affiliate: false
-featured: true
-popular: false
-publishDate: 2026-03-21
-image: /images/urban-gardening/herb-pruning-guide.webp
-imageAlt: Clean UI illustration showing a dotted cut line and scissors just above a node on a basil plant, demonstrating proper pruning technique
-keyTakeaways:
-  - Never pick single, large leaves off the bottom of a basil or mint plant. You must cut the stem down to a "node" to encourage branching.
-  - Basil and mint benefit from aggressive "topping" early in their life to force bushy, lateral growth instead of weak, vertical stretching.
-  - Parsley and chives grow entirely differently; they grow from the base, not a central stem. Harvest the outside stalks down to the soil line.
-  - Do not prune a stressed, dry, or over-fertilized plant. Let it recover first.
-beginnerPathTitle: Complete your herb care routine
-beginnerPathSlugs:
-  - urban-gardening/potted-herb-care
-  - urban-gardening/how-often-to-water-potted-herbs
-  - soil-fertilizers/do-potted-herbs-need-fertilizer
-topicLinksTitle: Troubleshooting a leggy or stunted plant?
-topicLinksDescription: If your plant isn't growing well enough to prune, check these guides to fix your soil and fertilizer first.
-topicLinkSlugs:
-  - urban-gardening/potted-herb-care
-  - urban-gardening/how-often-to-water-potted-herbs
-  - soil-fertilizers/do-potted-herbs-need-fertilizer
-  - urban-gardening/best-herbs-small-spaces
-faq:
-  - question: Should I pinch off the flowers on my basil?
-    answer: Yes, absolutely. Once a basil plant flowers (called "bolting"), the leaves turn tough and bitter. Pinch off flower buds the second you see them form at the top of the stems.
-  - question: If I cut the top off a mint plant, won't it die?
-    answer: No. Mint is incredibly resilient. Cutting the top off will trigger the two dormant buds beneath the cut to sprout, creating two new branches instead of one.
-  - question: How much of the plant can I cut at once?
-    answer: As a general rule, never remove more than 30% of a plant's total foliage in a single pruning session. The plant needs those leaves to photosynthesize and recover.
-comparisonTable:
-  caption: "How to Prune Different Herb Structures"
-  columns:
-    - Herb Type
-    - Examples
-    - Where to Cut
-    - The Growth Goal
-  rows:
-    - ["Stem-based (Nodes)", "Basil, Mint, Oregano", "Cut the main stem ¼ inch above a set of healthy leaves", "Force the plant to split into two new branches"]
-    - ["Clump-based (Crowns)", "Parsley, Coriander", "Cut the outermost, oldest stems completely down to the base", "Encourage new shoots to emerge from the center"]
-    - ["Grass-like", "Chives", "Cut everything 1-2 inches above the soil line like mowing a lawn", "Allow a fresh flush of hollow spears to regrow"]
-relatedSlugs:
-  - urban-gardening/potted-herb-care
-  - urban-gardening/how-often-to-water-potted-herbs
-  - soil-fertilizers/do-potted-herbs-need-fertilizer
-  - urban-gardening/best-herbs-small-spaces
----
+import os
 
-Are your indoor herbs turning into tall, wobbly stalks with only a tiny tuft of leaves at the very top? While it is easy to assume they just need more sunlight, the hidden culprit behind these "miniature palm trees" is almost always your harvesting technique: you are picking individual leaves instead of pruning the stems.
+with open("src/content/blog/urban-gardening/pruning-basil-mint-parsley-chives.md", "r") as f:
+    text = f.read()
+
+parts = text.split("---\n\n", 1)
+frontmatter = parts[0] + "---\n\n"
+
+body = """Are your indoor herbs turning into tall, wobbly stalks with only a tiny tuft of leaves at the very top? While it is easy to assume they just need more sunlight, the hidden culprit behind these "miniature palm trees" is almost always your harvesting technique: you are picking individual leaves instead of pruning the stems.
 
 In this practical decision-making guide, you will learn:
 - The exact places to cut stem-based, clump-based, and grass-like herbs.
@@ -152,3 +95,7 @@ When you are standing over your herb garden wondering what to harvest next, use 
 - **Basil is 6 inches tall with a single stem** → Cut the top half off immediately to force branching.
 - **Parsley is densely packed and floppy** → Snip the oldest, outermost stems at the soil line.
 - **Plant is yellow, wilting, or dropping leaves** → Do not prune. Check [fertilizer](/blog/soil-fertilizers/do-potted-herbs-need-fertilizer/) and watering first.
+"""
+
+with open("src/content/blog/urban-gardening/pruning-basil-mint-parsley-chives.md", "w") as f:
+    f.write(frontmatter + body)

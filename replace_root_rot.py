@@ -1,65 +1,12 @@
----
-title: "Root Rot in Hydroponics: Prevention, Early Signs, and Recovery Limits"
-description: "Root rot is the number one killer of indoor hydroponic gardens. Learn how to prevent it with proper aeration and temperature control, and when it's too late to save the plant."
-excerpt: "If your hydroponic herbs smell like a swamp and the roots are turning brown, you have root rot. This guide explains how to stop the fungus before it destroys your entire crop."
-slug: "hydroponics/root-rot-hydroponics-prevention"
-category: "hydroponics"
-tags:
-  - hydroponics
-  - root rot
-  - troubleshooting
-  - beginner
-  - indoor gardening
-published: true
-draft: false
-cluster_role: "troubleshooting"
-affiliate: false
-featured: false
-popular: false
-publishDate: 2026-03-21
-image: /images/hydroponics/root-rot-hydroponics-prevention.webp
-imageAlt: Clean UI illustration comparing healthy, bright white hydroponic roots in oxygenated water against brown, slimy roots suffering from root rot
-keyTakeaways:
-  - Root rot is caused by a lack of dissolved oxygen in the nutrient solution, usually triggered by water temperatures above 75°F (24°C).
-  - Healthy hydroponic roots should always be bright white or pale cream. If they turn dark brown, mushy, and smell foul, rot has set in.
-  - Prevention is the only reliable cure. Keep water cool and well-aerated with an air pump.
-  - Once root rot reaches an advanced stage, it is often better to throw the plant away and sterilize the system rather than attempting to save it.
-beginnerPathTitle: Master your hydroponic environment
-beginnerPathSlugs:
-  - hydroponics/countertop-hydroponic-herbs-beginner
-  - hydroponics/hydroponic-nutrients-ec-ph-basics
-topicLinksTitle: Troubleshooting other hydroponic issues? Read these
-topicLinksDescription: Root rot often goes hand-in-hand with poor nutrient chemistry. Verify your EC and pH levels if your plants are struggling.
-topicLinkSlugs:
-  - hydroponics/hydroponic-nutrients-ec-ph-basics
-  - hydroponics/hydroponic-lettuce-growing-slowly
-  - hydroponics/hydroponic-lettuce-ec-ph-chart
-faq:
-  - question: Can you cure root rot with hydrogen peroxide?
-    answer: You can suppress the early stages of root rot by adding a heavily diluted dose of food-grade hydrogen peroxide to the reservoir, but it is only a temporary fix. Unless you fix the water temperature or aeration issue, the rot will return.
-  - question: Why are my roots slightly brown but they don't smell bad?
-    answer: If you are using an organic hydroponic fertilizer (like liquid kelp or fish emulsion), it can permanently stain bright white roots a pale tan or light brown. If the roots are still firm and smell earthy (not like a sewer), they are likely healthy but stained.
-  - question: Will root rot spread to my other plants?
-    answer: Yes. Root rot is caused by waterborne pathogens like Pythium. If multiple plants share the same reservoir, the fungus will rapidly infect the entire system.
-comparisonTable:
-  caption: "Healthy Roots vs. Root Rot"
-  columns:
-    - Feature
-    - Healthy Hydroponic Roots
-    - Roots Suffering from Rot
-  rows:
-    - ["Color", "Bright white, pale cream, or light tan (if stained)", "Dark brown, black, or greyish"]
-    - ["Texture", "Firm, crisp, and distinct strands", "Mushy, slimy, and clumped together"]
-    - ["Smell", "Clean, slightly earthy, or odorless", "Foul, sour, rotten egg, or swampy smell"]
-    - ["Plant Growth", "Vigorous, bright green leaves", "Stalled growth, yellowing leaves, unexpected wilting"]
-relatedSlugs:
-  - hydroponics/hydroponic-nutrients-ec-ph-basics
-  - hydroponics/hydroponic-lettuce-growing-slowly
-  - hydroponics/hydroponic-lettuce-ec-ph-chart
-  - hydroponics/countertop-hydroponic-herbs-beginner
----
+import os
 
-Are your hydroponic herbs suddenly wilting, turning a sickly yellow, or smelling like a swamp despite the water pump running perfectly? While it is tempting to dump in more fertilizer, the hidden killer destroying your crop is almost certainly a microscopic waterborne fungus: Root Rot.
+with open("src/content/blog/hydroponics/root-rot-hydroponics-prevention.md", "r") as f:
+    text = f.read()
+
+parts = text.split("---\n\n", 1)
+frontmatter = parts[0] + "---\n\n"
+
+body = """Are your hydroponic herbs suddenly wilting, turning a sickly yellow, or smelling like a swamp despite the water pump running perfectly? While it is tempting to dump in more fertilizer, the hidden killer destroying your crop is almost certainly a microscopic waterborne fungus: Root Rot.
 
 In this practical decision-making guide, you will learn:
 - The exact triggers that cause root rot to bloom in a reservoir.
@@ -141,3 +88,7 @@ If you are running a massive, commercial farm, expensive chemical regimens might
 - **If it is advanced:** (The roots are a massive, foul-smelling brown clump and the plant is wilting). **Throw the plant in the garbage.** Do not try to save it. You will spend weeks battling the fungus only to have the plant die anyway.
 
 The most important step after throwing away an infected plant is sterilization. You must scrub your entire hydroponic reservoir, pumps, and hoses with a heavy-duty cleaner or diluted bleach solution, and let it dry completely before starting a new crop. If you don't sanitize the hardware, the spores will simply wait and immediately infect the next plant you place in the system.
+"""
+
+with open("src/content/blog/hydroponics/root-rot-hydroponics-prevention.md", "w") as f:
+    f.write(frontmatter + body)
