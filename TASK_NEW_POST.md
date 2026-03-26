@@ -23,7 +23,7 @@
 
 ## Search Intent
 - Informational and beginner education.
-- Current evidence is weak for a net-new URL because GSC shows only `17` impressions for `hydroponic feeding basics`, and the site already has `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` plus `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/` serving the same intent family.
+- Current evidence is weak for a net-new URL because GSC shows only `18` impressions for `hydroponic feeding basics` at average position `62.28`, and the site already has `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/`, `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`, and `/blog/hydroponics/when-to-change-hydroponic-nutrient-solution/` serving the same intent family.
 
 ## Recommended Structure
 ### H2
@@ -42,16 +42,16 @@
 - Simple maintenance routine
 
 ## Interlinking Requirements
-- If this brief is ever revived, it must link to `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/`, `/blog/hydroponics/hydroponic-lettuce-growing-slowly/`, `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`, and `/hydroponics/`.
+- If this brief is ever revived, it must link to `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/`, `/blog/hydroponics/when-to-change-hydroponic-nutrient-solution/`, `/blog/hydroponics/hydroponic-lettuce-growing-slowly/`, `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`, and `/hydroponics/`.
 - Do not create a second EN URL overlapping the nutrient-basics intent already covered by `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/`.
 - ES planning can continue at brief level only until an explicit ES publishing workflow exists.
 
 ## CTA / Monetization
-- CTA: route readers into the hydroponics hub and the two existing troubleshooting guides.
+- CTA: route readers into the hydroponics hub and the existing nutrient troubleshooting guides.
 - Monetization: none evidenced in current GA4 landing-page data for this angle; do not invent products or affiliate placements.
 
 ## Quality Checklist
-- Require a quantified GSC gap stronger than the current `17` impressions before moving beyond candidate state.
+- Require a quantified GSC gap materially stronger than the current `18` impressions before moving beyond candidate state.
 - Reject publication if the brief overlaps materially with `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/`.
 - Reject publication while the repository remains EN-only in `src/content`; ES can stay at planning level only.
 - Keep EN and ES keyword mapping aligned if the site later opens an ES publishing workflow.
