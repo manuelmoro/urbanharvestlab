@@ -27,16 +27,17 @@
 - Maintain clean canonical/indexation hygiene while expanding content surface area.
 
 ## Backlog Top 20
-1. Refresh title/meta and tighten snippet targeting for `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`. Evidence: `1174` impressions, `0.26%` CTR, average position `6.61`.
+1. Refresh title/meta and tighten snippet targeting for `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`. Evidence: `1624` impressions, `0.37%` CTR, average position `6.29`.
 2. Verify canonical and protocol consolidation for homepage because GSC still shows `http://urbanharvestlab.com/` with `9` impressions.
-3. Refresh title/meta for `/blog/urban-gardening/best-herbs-sunny-balcony/`. Evidence: `67` impressions, `0.00%` CTR, average position `6.00`.
-4. Refresh title/meta for `/blog/soil-fertilizers/potting-mix-vs-raised-bed-soil-containers/`. Evidence: `31` impressions, `0.00%` CTR, average position `4.26`.
-5. Refresh title/meta for `/blog/containers-planters/best-containers-herbs/`. Evidence: `28` impressions, `0.00%` CTR, average position `6.21`.
-6. Refresh title/meta for `/blog/hydroponics/root-rot-hydroponics-prevention/`. Evidence: `35` impressions, `0.00%` CTR, average position `15.71`.
-7. Refresh title/meta for `/blog/urban-gardening/pruning-basil-mint-parsley-chives/`. Evidence: `17` impressions, `0.00%` CTR, average position `12.00`.
-8. Manual indexing acceleration for core URLs because indexed URLs estimate is `12` against `31` blog posts plus `6` hubs in the content inventory.
-9. Monitor `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` for follow-up optimization after richer query coverage arrives. Evidence: `90` impressions, `1.11%` CTR, average position `21.27`.
-10. Keep backlog slots 10-20 empty until more quantitative evidence appears in GSC or GA4.
+3. Refresh title/meta for `/blog/urban-gardening/best-herbs-sunny-balcony/`. Evidence: `115` impressions, `0.00%` CTR, average position `5.32`.
+4. Refresh title/meta for `/blog/soil-fertilizers/potting-mix-vs-raised-bed-soil-containers/`. Evidence: `43` impressions, `0.00%` CTR, average position `6.58`.
+5. Refresh title/meta for `/blog/containers-planters/best-containers-herbs/`. Evidence: `75` impressions, `0.00%` CTR, average position `6.95`.
+6. Refresh title/meta for `/blog/hydroponics/root-rot-hydroponics-prevention/`. Evidence: `173` impressions, `0.00%` CTR, average position `7.64`.
+7. Refresh title/meta for `/blog/urban-gardening/pruning-basil-mint-parsley-chives/`. Evidence: `27` impressions, `0.00%` CTR, average position `15.78`.
+8. Manual indexing acceleration for core URLs because indexed URLs estimate is `13` against `35` blog posts plus `6` hubs in the content inventory.
+9. Monitor `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` for follow-up optimization after richer query coverage arrives. Evidence: `109` impressions, `0.92%` CTR, average position `20.98`.
+10. Refresh title/meta for `/blog/soil-fertilizers/do-potted-herbs-need-fertilizer/`. Evidence: `22` impressions, `0.00%` CTR, average position `8.05`.
+11. Keep backlog slots 11-20 empty until more quantitative evidence appears in GSC or GA4.
 
 ## Diario
 ### 2026-03-14
@@ -111,3 +112,14 @@
 
 #### Propuestas de cambio (pendientes)
 - Once protocol/canonical consistency is confirmed, consider moving the page-1/page-2 CTR refresh set ahead of manual indexing work because quantified snippet inefficiency is now broader than on 2026-03-22.
+
+### 2026-03-27
+- Fixed operational snapshot for this run must stay at `Indexed URLs estimate = 13`, `Queries 28d = 92`, and `Impressions 28d = 2220`, so the site remains in `bootstrap` with mode votes `indexed_urls=bootstrap,queries=bootstrap,impressions=growth`.
+- GSC strengthens the page-1/page-2 optimization set: `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/` reaches `1624` impressions at average position `6.29`, `/blog/hydroponics/root-rot-hydroponics-prevention/` reaches `173` impressions at average position `7.64`, `/blog/urban-gardening/best-herbs-sunny-balcony/` reaches `115` impressions at average position `5.32`, and `/blog/containers-planters/best-containers-herbs/` reaches `75` impressions at average position `6.95`, all with CTR still at or near zero.
+- GSC still reports `http://urbanharvestlab.com/` with `9` impressions, so protocol/canonical verification remains a critical blocker before any publication move in `bootstrap`.
+- GA4 for property `528419708` remains homepage-heavy: `/` drives `54` sessions, `40` users, `22` engaged sessions, `40.74%` engagement rate, `67.93s` average session duration, and `261` events; the strongest content-side engagement signal is `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart` with `6` sessions, `50.00%` engagement rate, `354.25s` average session duration, and `39` events.
+- The content inventory now totals `35` blog posts plus `6` hubs in `src/content`, with no ES content tree present. The prior candidate remains only a placeholder because the repository is operationally EN-only and the query evidence for a net-new URL is still weak relative to overlap with existing hydroponics assets.
+- Operational decision for today: `technical_fix_only`. Rationale: while `bootstrap` should favor indexable surface growth, the protocol/canonical issue is still a critical blocker and the current new-post candidate remains blocked by weak gap evidence plus high cannibalization risk.
+
+#### Propuestas de cambio (pendientes)
+- If the HTTP homepage impression trace disappears on the next verified run, consider downgrading protocol consolidation from critical to monitoring status and shifting execution toward the quantified CTR refresh set.
