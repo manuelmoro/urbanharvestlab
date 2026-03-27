@@ -107,3 +107,11 @@ Refusing to grow high-sun herbs in a dark kitchen is the fastest way to become a
 If your kitchen is simply too dark to keep even parsley alive, you do not have to give up. You just need to change the environment. 
 
 A simple under-cabinet LED strip changes everything. Modern LEDs are incredibly cheap, look like normal kitchen lighting, and allow you to grow absolutely whatever you want—even basil. If you are tired of watching plants die in the dark, check out the [Best Grow Lights for Herbs: What Actually Matters Before You Buy](/blog/grow-lights/best-grow-lights-for-herbs/) to see which sleek, low-profile lights hide perfectly under kitchen cabinets.
+
+## Related Guides
+
+- [Small Space Herb Gardening](/blog/urban-gardening/small-space-herb-gardening/)
+- [Best Herbs Small Spaces](/blog/urban-gardening/best-herbs-small-spaces/)
+- [Windowsill Herb Garden Low Light](/blog/urban-gardening/windowsill-herb-garden-low-light/)
+- [Can Herbs Grow Indoors Without Direct Sunlight](/blog/grow-lights/can-herbs-grow-indoors-without-direct-sunlight/)
+

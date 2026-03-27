@@ -152,3 +152,11 @@ When you are standing over your herb garden wondering what to harvest next, use 
 - **Basil is 6 inches tall with a single stem** → Cut the top half off immediately to force branching.
 - **Parsley is densely packed and floppy** → Snip the oldest, outermost stems at the soil line.
 - **Plant is yellow, wilting, or dropping leaves** → Do not prune. Check [fertilizer](/blog/soil-fertilizers/do-potted-herbs-need-fertilizer/) and watering first.
+
+## Related Guides
+
+- [Potted Herb Care](/blog/urban-gardening/potted-herb-care/)
+- [How Often To Water Potted Herbs](/blog/urban-gardening/how-often-to-water-potted-herbs/)
+- [Do Potted Herbs Need Fertilizer](/blog/soil-fertilizers/do-potted-herbs-need-fertilizer/)
+- [Best Herbs Small Spaces](/blog/urban-gardening/best-herbs-small-spaces/)
+

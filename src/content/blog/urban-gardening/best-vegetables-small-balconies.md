@@ -74,3 +74,9 @@ A balanced small balcony might use:
 - one quick-turn container for radishes or baby greens
 
 That mix gives you harvest variety without overwhelming the watering routine.
+
+## Related Guides
+
+- [Container Depth Tomatoes Peppers Herbs](/blog/containers-planters/container-depth-tomatoes-peppers-herbs/)
+- [How Many Hours Grow Lights Herbs](/blog/grow-lights/how-many-hours-grow-lights-herbs/)
+

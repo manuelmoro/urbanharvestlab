@@ -48,3 +48,9 @@ Basil, parsley, oregano, and chives can do well in moderately sized pots, especi
 Choose containers for the size of the crop at harvest, not for the size of the transplant today. That single change makes watering easier and gives you more margin when weather turns hot or windy.
 
 For growers deciding what balcony crops make sense before buying planters, [best vegetables for small balconies](/blog/urban-gardening/best-vegetables-small-balconies/) is the better planning companion.
+
+## Related Guides
+
+- [Balcony Herb Garden Beginners](/blog/urban-gardening/balcony-herb-garden-beginners/)
+- [Best Vegetables Small Balconies](/blog/urban-gardening/best-vegetables-small-balconies/)
+

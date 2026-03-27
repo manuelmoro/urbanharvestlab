@@ -75,3 +75,9 @@ Work in sequence:
 4. only then consider nutrient adjustments
 
 That order protects you from making multiple changes at once and losing the signal.
+
+## Related Guides
+
+- [Hydroponic Nutrients Ec Ph Basics](/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/)
+- [Best Grow Lights For Herbs](/blog/grow-lights/best-grow-lights-for-herbs/)
+

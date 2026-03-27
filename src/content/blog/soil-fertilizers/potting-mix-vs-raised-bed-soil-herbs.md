@@ -113,3 +113,11 @@ If you realize you have planted your precious rosemary or basil in heavy raised 
 Gently remove the plant from the pot. Do your best to knock the heavy, muddy clay off the roots without tearing them. Rinse the roots if necessary. Then, thoroughly wash out the container, fill it with a fresh bag of high-quality indoor *potting mix*, and replant the herb. 
 
 To prevent future shock, review the watering techniques laid out in [Potted Herb Care: Watering, Feeding, and Pruning Without Guesswork](/blog/urban-gardening/potted-herb-care/). Watering fluffy potting mix requires a slightly different cadence than dealing with dense outdoor dirt, but it is infinitely more forgiving and is the only path to a successful apartment garden.
+
+## Related Guides
+
+- [Small Space Herb Gardening](/blog/urban-gardening/small-space-herb-gardening/)
+- [Best Containers Herbs](/blog/containers-planters/best-containers-herbs/)
+- [Potted Herb Care](/blog/urban-gardening/potted-herb-care/)
+- [Common Potted Herb Problems](/blog/plant-problems/common-potted-herb-problems/)
+

@@ -113,3 +113,11 @@ It is incredibly easy today to integrate artificial lighting into a dim apartmen
 If you are ready to make the jump, start by reading [LED vs. Fluorescent Grow Lights for Herbs: Which is Better?](/blog/grow-lights/led-vs-fluorescent-grow-lights/) and [Grow Light Distance: How Close Should LEDs Sit?](/blog/grow-lights/grow-light-distance-herbs/) to select a fixture that belongs in a stylish living room rather than a commercial warehouse. 
 
 Embrace what your apartment offers you. Stick to the shade lovers, watch your watering, and your north-facing window will soon become the greenest corner of your home.
+
+## Related Guides
+
+- [Windowsill Herb Garden Low Light](/blog/urban-gardening/windowsill-herb-garden-low-light/)
+- [Best Herbs Small Spaces](/blog/urban-gardening/best-herbs-small-spaces/)
+- [Can Herbs Grow Indoors Without Direct Sunlight](/blog/grow-lights/can-herbs-grow-indoors-without-direct-sunlight/)
+- [Grow Light Distance Herbs](/blog/grow-lights/grow-light-distance-herbs/)
+

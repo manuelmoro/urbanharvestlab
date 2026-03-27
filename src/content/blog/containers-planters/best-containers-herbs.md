@@ -1,6 +1,6 @@
 ---
-title: "Best Containers for Herbs: Pot Size, Drainage, and Material Guide"
-description: "Choose the best herb containers by matching pot size, drainage, and material to your herbs, light conditions, and how quickly your setup dries out."
+title: "Best Herb Containers: Stop Killing Roots with Wrong Pots"
+description: "Herbs dying in tiny pots? Choose the exact right size and drainage to prevent root rot today. Fix your container garden in 3 easy steps."
 excerpt: "A practical guide to selecting herb containers that make watering easier, reduce root problems, and actually suit apartments, balconies, and windowsills."
 slug: "containers-planters/best-containers-herbs"
 category: "containers-planters"
@@ -152,3 +152,10 @@ Yes. Absolutely. Without drainage holes, it becomes mathematically impossible to
 
 ### Why do my herbs keep drying out so fast?
 The container is likely too small or the material (like unsealed terracotta) is drying too quickly for your specific site. Often, what feels like a failure of watering skill is actually just a pot that lacks necessary volume.
+
+## Related Guides
+
+- [Small Space Herb Garden Setup](/blog/urban-gardening/small-space-herb-garden-setup/)
+- [Best Herbs Small Spaces](/blog/urban-gardening/best-herbs-small-spaces/)
+- [How Much Light Herbs Need](/blog/grow-lights/how-much-light-herbs-need/)
+

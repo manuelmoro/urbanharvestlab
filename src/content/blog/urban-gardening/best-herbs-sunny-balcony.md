@@ -1,6 +1,6 @@
 ---
-title: "Best Herbs for a Sunny Balcony: Basil, Thyme, Rosemary, and Other Reliable Choices"
-description: "Turn your hot, sunny balcony into a productive herb garden by choosing resilient, heat-loving Mediterranean herbs."
+title: "4 Best Herbs for a Sunny Balcony That Survive High Heat"
+description: "Tired of potted herbs wilting by 4 PM? Plant these 4 bulletproof, heat-loving herbs today and finally keep your balcony garden alive."
 excerpt: "A sunny balcony is perfect for herbs, but the intense heat and wind require the right crop choices. Start with basil, thyme, and rosemary for reliable harvests."
 slug: "urban-gardening/best-herbs-sunny-balcony"
 category: "urban-gardening"
@@ -162,3 +162,11 @@ The herbs listed above will only survive if the infrastructure supports them. On
 A tiny, 4-inch nursery pot placed on a sun-baked concrete floor will reach lethal soil temperatures in hours. To succeed, you must use larger pots with proper drainage. Larger soil volumes buffer against heat spikes and hold moisture long enough for you to go to work and come home without returning to a graveyard of wilted plants.
 
 If you are struggling with the transition from choosing herbs to actually planting them, review [Small-Space Herb Gardening](/blog/urban-gardening/small-space-herb-gardening/) and integrate the container rules from [Best Containers for Herbs](/blog/containers-planters/best-containers-herbs/). Choose your resilient herbs, give them enough soil to survive the heat, and let the summer sun do the rest of the work.
+
+## Related Guides
+
+- [Small Space Herb Gardening](/blog/urban-gardening/small-space-herb-gardening/)
+- [Best Herbs Small Spaces](/blog/urban-gardening/best-herbs-small-spaces/)
+- [Balcony Herb Garden Beginners](/blog/urban-gardening/balcony-herb-garden-beginners/)
+- [Best Containers Herbs](/blog/containers-planters/best-containers-herbs/)
+

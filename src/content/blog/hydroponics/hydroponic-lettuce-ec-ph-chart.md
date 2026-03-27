@@ -1,6 +1,6 @@
 ---
-title: "Hydroponic Lettuce EC and pH Chart for Beginners"
-description: "Master hydroponic lettuce with this precise EC and pH chart. Learn the exact nutrient levels needed to grow crisp, fast-growing indoor greens."
+title: "Fix Tip Burn Fast: Hydroponic Lettuce EC & pH Chart"
+description: "Lettuce leaves turning yellow or crisping? Fix your reservoir today with our exact 3-step EC and pH chart for fast, perfect harvests."
 excerpt: "Lettuce is the easiest crop to grow hydroponically, but it requires specific water chemistry. Use this beginner-friendly EC and pH guide to prevent tip burn and slow growth."
 slug: "hydroponics/hydroponic-lettuce-ec-ph-chart"
 category: "hydroponics"
@@ -149,3 +149,10 @@ When you mix a fresh batch of hydroponic nutrients, the chemistry will naturally
 - **Check EC once a week:** If the EC is rising, the plant is drinking more water than fertilizer. Add plain water. If the EC is falling fast, the plant is eating heavily. Add a slight boost of nutrient solution.
 
 By strictly adhering to the 0.8 - 1.2 EC range and the 5.5 - 6.0 pH pocket, you eliminate 90% of the problems indoor hydroponic gardeners face. Keep the water clean, keep the lights close, and your lettuce will be ready for harvest in under 40 days.
+
+## Related Guides
+
+- [Hydroponic Nutrients Ec Ph Basics](/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/)
+- [Hydroponic Lettuce Growing Slowly](/blog/hydroponics/hydroponic-lettuce-growing-slowly/)
+- [Countertop Hydroponic Herbs Beginner](/blog/hydroponics/countertop-hydroponic-herbs-beginner/)
+

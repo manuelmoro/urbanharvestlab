@@ -107,3 +107,11 @@ You must completely dump the reservoir, scrub the plastic sides, and mix a brand
 - **If growth stalls:** If the pH is correct, the lights are on, but the plant simply looks sad and stops growing, dump the water. A fresh chemical baseline fixes 90% of unknown hydroponic issues.
 
 Hydroponics is a miracle of modern indoor gardening, but it is effectively life support for a plant. If you don't periodically flush the "lungs" of the system by dumping the old, imbalanced water, the plant will eventually suffocate. Set a calendar reminder every two weeks, and your herbs will reward you with massive, continuous harvests.
+
+## Related Guides
+
+- [Hydroponic Nutrients Ec Ph Basics](/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/)
+- [Hydroponic Lettuce Ec Ph Chart](/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/)
+- [Root Rot Hydroponics Prevention](/blog/hydroponics/root-rot-hydroponics-prevention/)
+- [Countertop Hydroponic Herbs Beginner](/blog/hydroponics/countertop-hydroponic-herbs-beginner/)
+

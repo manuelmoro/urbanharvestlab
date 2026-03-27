@@ -115,3 +115,11 @@ Not all herbs eat at the same pace. Read more about the broader care strategies 
 
 - **Heavy Feeders (Basil, Parsley, Cilantro, Mint):** These fast-growing, leafy herbs consume nitrogen rapidly. They do exceptionally well with a combination: a baseline of slow-release pellets in the soil, supplemented by a weak liquid dose during peak summer heat when they are exploding with growth.
 - **Light Feeders (Rosemary, Thyme, Oregano, Sage):** These Mediterranean survivors are used to poor, rocky soil. They often only need a quarter-dose of liquid fertilizer every four weeks, or a single application of slow-release granules at the beginning of spring. Overfeeding them will result in weak, floppy stems and a severe loss of flavor.
+
+## Related Guides
+
+- [Potted Herb Care](/blog/urban-gardening/potted-herb-care/)
+- [Best Potting Mix Potted Herbs](/blog/soil-fertilizers/best-potting-mix-potted-herbs/)
+- [How Often To Water Potted Herbs](/blog/urban-gardening/how-often-to-water-potted-herbs/)
+- [Common Potted Herb Problems](/blog/plant-problems/common-potted-herb-problems/)
+

@@ -117,3 +117,11 @@ Perlite consists of those little white, porous rocks you see in commercial soil.
 When you buy a premium bag of soil, resist the urge to immediately drench it with liquid fertilizer. FoxFarm and Espoma are already loaded with nutrients. If you add heavy synthetic fertilizer on day one, you will "burn" the roots of your herbs, causing the leaf tips to turn brown and crispy. Let the plant settle into its new home for at least four weeks before considering additional feeding. 
 
 Select the soil that matches your herb's natural environment, add a bit of perlite for safety, and watch your apartment garden finally stop dying and start thriving.
+
+## Related Guides
+
+- [Potting Mix Vs Raised Bed Soil Herbs](/blog/soil-fertilizers/potting-mix-vs-raised-bed-soil-herbs/)
+- [Potted Herb Care](/blog/urban-gardening/potted-herb-care/)
+- [Common Potted Herb Problems](/blog/plant-problems/common-potted-herb-problems/)
+- [Best Containers Herbs](/blog/containers-planters/best-containers-herbs/)
+

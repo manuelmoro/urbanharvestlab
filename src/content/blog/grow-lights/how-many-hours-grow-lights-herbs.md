@@ -85,3 +85,11 @@ If you see pale, stressed growth, the answer may be less intensity or more dista
 ## Where product recommendations fit
 
 When this topic includes fixture recommendations, the goal should be matching light output to shelf size, crop type, and noise or heat tolerance. It should not be pushing oversized fixtures into beginner setups that only need herbs on one shelf.
+
+## Related Guides
+
+- [Small Space Herb Gardening](/blog/urban-gardening/small-space-herb-gardening/)
+- [How Much Light Herbs Need](/blog/grow-lights/how-much-light-herbs-need/)
+- [Indoor Herb Garden Apartment Setup](/blog/urban-gardening/indoor-herb-garden-apartment-setup/)
+- [Can Herbs Grow Indoors Without Direct Sunlight](/blog/grow-lights/can-herbs-grow-indoors-without-direct-sunlight/)
+

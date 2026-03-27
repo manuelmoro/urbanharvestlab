@@ -62,3 +62,9 @@ Some growers chase every small reading change. That creates instability. In smal
 ## When symptoms appear
 
 If basil or lettuce starts looking pale, stretched, or weak, do not assume the nutrient bottle is wrong. Check light, temperature, and reservoir hygiene first. Hydroponics is still a whole-system problem, not just a nutrient label problem.
+
+## Related Guides
+
+- [Countertop Hydroponic Herbs Beginner](/blog/hydroponics/countertop-hydroponic-herbs-beginner/)
+- [Why Basil Leaves Yellow Indoors](/blog/plant-problems/why-basil-leaves-yellow-indoors/)
+

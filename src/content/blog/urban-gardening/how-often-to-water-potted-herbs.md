@@ -125,3 +125,11 @@ Never give a plant a "sip" (just splashing half a cup of water on the surface). 
 Instead, when an herb needs water, you "drench" it. Pour water slowly and evenly over the entire surface of the soil until a significant amount runs out the bottom drainage holes. This ensures the entire pot is saturated and forces fresh oxygen down into the root zone. 
 
 Empty the saucer a few minutes later so the pot doesn't sit in a puddle. Then, wait until the weight test (or finger test) tells you it is time to repeat the cycle.
+
+## Related Guides
+
+- [Potted Herb Care](/blog/urban-gardening/potted-herb-care/)
+- [Best Containers Herbs](/blog/containers-planters/best-containers-herbs/)
+- [Potting Mix Vs Raised Bed Soil Herbs](/blog/soil-fertilizers/potting-mix-vs-raised-bed-soil-herbs/)
+- [Best Potting Mix Potted Herbs](/blog/soil-fertilizers/best-potting-mix-potted-herbs/)
+

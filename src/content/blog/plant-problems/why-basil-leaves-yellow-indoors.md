@@ -79,3 +79,10 @@ The answer is often a combination issue rather than one dramatic deficiency.
 ## Fix the environment before adding products
 
 It is tempting to respond with fertilizer. That can help when the diagnosis is clear, but yellow basil more often improves when light, moisture, and root conditions are corrected first.
+
+## Related Guides
+
+- [Common Potted Herb Problems](/blog/plant-problems/common-potted-herb-problems/)
+- [How Many Hours Grow Lights Herbs](/blog/grow-lights/how-many-hours-grow-lights-herbs/)
+- [Hydroponic Nutrients Ec Ph Basics](/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/)
+

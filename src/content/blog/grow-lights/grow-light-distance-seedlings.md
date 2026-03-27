@@ -73,3 +73,8 @@ Move the light closer if seedlings are:
 - producing large internodes early
 
 Distance and runtime work together, which is why [grow light hours for herbs](/blog/grow-lights/how-many-hours-grow-lights-herbs/) should be considered alongside fixture placement.
+
+## Related Guides
+
+- [How Many Hours Grow Lights Herbs](/blog/grow-lights/how-many-hours-grow-lights-herbs/)
+

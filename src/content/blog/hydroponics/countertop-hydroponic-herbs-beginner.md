@@ -71,3 +71,9 @@ Basil especially benefits from early pruning. If you let a countertop system bec
 Even beginner-friendly kits do not remove the need for nutrient discipline. Overconcentrated solution, dirty reservoirs, and skipped water top-ups are common reasons performance falls off after the first few weeks.
 
 If you want the core principles in plain English, continue with [hydroponic nutrients for beginners: EC and pH basics](/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/).
+
+## Related Guides
+
+- [Hydroponic Nutrients Ec Ph Basics](/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/)
+- [How Many Hours Grow Lights Herbs](/blog/grow-lights/how-many-hours-grow-lights-herbs/)
+

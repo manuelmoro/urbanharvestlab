@@ -111,3 +111,11 @@ Chives grow from tiny, shallow bulbs that multiply in tight clusters. They don't
 When you buy a herb from the supermarket or garden center, it usually comes in a flimsy 3-to-4 inch square plastic nursery pot. The golden rule of container gardening is that *these pots are temporary holding cells, not permanent homes.* 
 
 By the time a herb makes it to the supermarket shelf, its roots have already filled that tiny plastic cup. If you leave it there, it has no room to expand, no excess soil to hold water, and no buffer against temperature swings. As soon as you bring an herb home, map it to the sizes above and immediately repot it.
+
+## Related Guides
+
+- [Small Space Herb Gardening](/blog/urban-gardening/small-space-herb-gardening/)
+- [Best Containers Herbs](/blog/containers-planters/best-containers-herbs/)
+- [Best Herbs Small Spaces](/blog/urban-gardening/best-herbs-small-spaces/)
+- [Best Herbs Sunny Balcony](/blog/urban-gardening/best-herbs-sunny-balcony/)
+

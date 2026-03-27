@@ -110,3 +110,10 @@ While older gardeners affectionately defend their trusted T5 fluorescent racks, 
 For an apartment dweller, the lack of intense heat generation is the most critical factor. An LED allows you to grow massive amounts of heat-sensitive lettuce and basil in small, enclosed spaces without needing to buy expensive exhaust fans to cool the room.
 
 Save up the extra $30, skip the fragile glass tubes, and invest in a modern white-light LED panel. Your herbs—and your electric bill—will thank you.
+
+## Related Guides
+
+- [How Much Light Herbs Need](/blog/grow-lights/how-much-light-herbs-need/)
+- [Best Grow Lights For Herbs](/blog/grow-lights/best-grow-lights-for-herbs/)
+- [How Many Hours Grow Lights Herbs](/blog/grow-lights/how-many-hours-grow-lights-herbs/)
+

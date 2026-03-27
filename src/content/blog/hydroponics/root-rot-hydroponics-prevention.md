@@ -1,6 +1,6 @@
 ---
-title: "Root Rot in Hydroponics: Prevention, Early Signs, and Recovery Limits"
-description: "Root rot is the number one killer of indoor hydroponic gardens. Learn how to prevent it with proper aeration and temperature control, and when it's too late to save the plant."
+title: "Fix Hydroponic Root Rot Fast: 3 Signs & Recovery Steps"
+description: "Roots turning brown? Stop hydroponic root rot before it kills your crop. Use these 3 urgent fixes to save dying plants in 48 hours."
 excerpt: "If your hydroponic herbs smell like a swamp and the roots are turning brown, you have root rot. This guide explains how to stop the fungus before it destroys your entire crop."
 slug: "hydroponics/root-rot-hydroponics-prevention"
 category: "hydroponics"
@@ -141,3 +141,11 @@ If you are running a massive, commercial farm, expensive chemical regimens might
 - **If it is advanced:** (The roots are a massive, foul-smelling brown clump and the plant is wilting). **Throw the plant in the garbage.** Do not try to save it. You will spend weeks battling the fungus only to have the plant die anyway.
 
 The most important step after throwing away an infected plant is sterilization. You must scrub your entire hydroponic reservoir, pumps, and hoses with a heavy-duty cleaner or diluted bleach solution, and let it dry completely before starting a new crop. If you don't sanitize the hardware, the spores will simply wait and immediately infect the next plant you place in the system.
+
+## Related Guides
+
+- [Hydroponic Nutrients Ec Ph Basics](/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/)
+- [Hydroponic Lettuce Growing Slowly](/blog/hydroponics/hydroponic-lettuce-growing-slowly/)
+- [Hydroponic Lettuce Ec Ph Chart](/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/)
+- [Countertop Hydroponic Herbs Beginner](/blog/hydroponics/countertop-hydroponic-herbs-beginner/)
+

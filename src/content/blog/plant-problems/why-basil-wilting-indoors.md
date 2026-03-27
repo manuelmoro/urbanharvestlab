@@ -100,3 +100,11 @@ If you recently bought a basil plant from the supermarket, ripped the root ball 
 - **The Fix:** Keep the soil consistently damp (not soggy), keep the plant out of intense, blasting direct sunlight for three days, and leave it alone while it heals. 
 
 By checking the weight of the pot before you panic, you can eliminate 90% of basil wilting mysteries in less than five seconds. Basil wants to live; you just have to give its roots the environment they need to do their job.
+
+## Related Guides
+
+- [How Often To Water Potted Herbs](/blog/urban-gardening/how-often-to-water-potted-herbs/)
+- [Common Potted Herb Problems](/blog/plant-problems/common-potted-herb-problems/)
+- [Potting Mix Vs Raised Bed Soil Herbs](/blog/soil-fertilizers/potting-mix-vs-raised-bed-soil-herbs/)
+- [Why Basil Leaves Yellow Indoors](/blog/plant-problems/why-basil-leaves-yellow-indoors/)
+

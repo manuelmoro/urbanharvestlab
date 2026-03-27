@@ -1,6 +1,6 @@
 ---
-title: "Potting Mix vs. Raised Bed Soil for Containers: What Actually Belongs in Pots"
-description: "Use the right container growing medium by understanding why potting mix outperforms raised bed soil in most containers."
+title: "Potting Mix vs Raised Bed Soil: Fix Container Yellowing"
+description: "Container plants turning yellow? Stop suffocating roots with dense dirt. Discover the #1 rule for potting mix to save your dying herbs."
 excerpt: "Container plants need air space, drainage, and predictable structure. That is why raised bed soil and in-ground blends usually disappoint in pots."
 category: soil-fertilizers
 tags:
@@ -107,3 +107,9 @@ When you are filling new containers or troubleshooting old ones, use these short
 - **Planting a standard 5-gallon pot or smaller** → You must use lightweight potting mix.
 
 If the crop lives in a pot, start with a true potting mix. Then adapt your feeding to the crop and growth stage. That sequence reduces more beginner problems than any branded fertilizer upgrade ever could.
+
+## Related Guides
+
+- [Container Depth Tomatoes Peppers Herbs](/blog/containers-planters/container-depth-tomatoes-peppers-herbs/)
+- [Balcony Herb Garden Beginners](/blog/urban-gardening/balcony-herb-garden-beginners/)
+
