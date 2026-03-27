@@ -1,7 +1,7 @@
-# SEO Decision - 2026-03-22
+# SEO Decision - 2026-03-27
 
-Date: 2026-03-22
-Run: 20260322-182502
+Date: 2026-03-27
+Run: 20260327-195447
 Decision: technical_fix_only
 Confidence: high
 Source recommendation: technical_fix_only
@@ -11,8 +11,8 @@ Publish bias: high
 Optimization debt: high
 Publish readiness: no
 Publish blocked by: cannibalization_risk,critical_issue_pending,weak_gap_evidence
-Optimization priority score: 86
-Publish priority score: 12
+Optimization priority score: 92
+Publish priority score: 14
 Publish gate passed: no
 Pending tasks today: 0
 Blocked tasks today: 0
@@ -27,10 +27,10 @@ Inputs considered today:
 - `SEO_AUTOMATION_STATE.md`
 - `SEO_CTR_EXPERIMENTS.md` (si existe)
 - `SEO_INDEXING_LOG.md` (si existe)
-- `./outputs/seo/urbanharvestlab/seo_daily_2026-03-22.md` (si aplica)
+- `./outputs/seo/urbanharvestlab/seo_daily_2026-03-27.md` (si aplica)
 
 Reasoning summary:
-- Site mode: `bootstrap` con quick wins `critical=1`, `important=3`, `minor=3`.
+- Site mode: `bootstrap` con quick wins `critical=1`, `important=7`, `minor=3`.
 - Recommendation de entrada: `technical_fix_only`; el hard gate la resolvió como `technical_fix_only`.
 - Candidate publish ready: `no`; critical blockers: `yes`.
 - Publish gate passed: `no`; blocked by final: `cannibalization_risk,critical_issue_pending,weak_gap_evidence`.
