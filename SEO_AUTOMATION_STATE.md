@@ -80,3 +80,12 @@
 - Next: `run_urbanharvestlab_tech_seo_qa_pr.sh`
 <!-- AWFM:daily:2026-03-25:end -->
 
+<!-- AWFM:daily:2026-03-27:start -->
+## Daily brain 2026-03-27
+- Run: `20260327-194407`
+- Branch: `awfm/seo-strategy-20260327-194407`
+- Updated: `SEO_STRATEGY.md`, `TASK_NEW_POST.md`, `SEO_DAILY_SIGNALS.md`, `SEO_NEXT_ACTION.md`, `SEO_MODE_STATE.md`, `SEO_QUICK_WINS_STATE.md`
+- Recommendation: `technical_fix_only`
+- Next: `run_urbanharvestlab_tech_seo_qa_pr.sh`
+<!-- AWFM:daily:2026-03-27:end -->
+
