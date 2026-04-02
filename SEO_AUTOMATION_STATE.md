@@ -98,3 +98,12 @@
 - Next: priorizar `run_urbanharvestlab_tech_seo_qa_pr.sh` y saltar `run_urbanharvestlab_new_post_pr.sh`
 <!-- AWFM:decision:2026-03-27:end -->
 
+<!-- AWFM:daily:2026-04-02:start -->
+## Daily brain 2026-04-02
+- Run: `20260402-200936`
+- Branch: `awfm/seo-strategy-20260402-200936`
+- Updated: `SEO_STRATEGY.md`, `TASK_NEW_POST.md`, `SEO_DAILY_SIGNALS.md`, `SEO_NEXT_ACTION.md`, `SEO_MODE_STATE.md`, `SEO_QUICK_WINS_STATE.md`
+- Recommendation: `technical_fix_only`
+- Next: `run_urbanharvestlab_tech_seo_qa_pr.sh`
+<!-- AWFM:daily:2026-04-02:end -->
+
