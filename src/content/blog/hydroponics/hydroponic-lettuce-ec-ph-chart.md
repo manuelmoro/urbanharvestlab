@@ -59,8 +59,6 @@ relatedSlugs:
   - hydroponics/countertop-hydroponic-herbs-beginner
 ---
 
-# Hydroponic Lettuce EC & pH Chart (Exact Values)
-
 Are your hydroponic lettuce leaves turning yellow, growing agonizingly slow, or developing a bitter taste just before harvest? While it's easy to blame your grow lights or the room temperature, the hidden culprit is almost always your water chemistry: specifically, your EC and pH levels. Even in an excellent [container or system setup](/blog/hydroponics/countertop-hydroponic-herbs-beginner/), lettuce will struggle if these two metrics are off.
 
 In this practical decision-making guide, you will learn:

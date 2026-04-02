@@ -61,8 +61,6 @@ relatedSlugs:
   - containers-planters/best-containers-herbs
 ---
 
-# Best Herbs for a Sunny Balcony (Full Sun & Heat Tolerant)
-
 Are your balcony herbs turning brown, constantly wilting in the afternoon, or dying just weeks after you brought them home from the nursery? While it is easy to blame your watering habits, the hidden cause is almost always your plant selection: you are trying to grow delicate, moisture-loving herbs in a harsh, baking environment. 
 
 In this practical decision-making guide, you will learn:

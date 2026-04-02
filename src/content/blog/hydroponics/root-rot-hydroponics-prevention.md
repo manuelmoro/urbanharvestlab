@@ -59,8 +59,6 @@ relatedSlugs:
   - hydroponics/countertop-hydroponic-herbs-beginner
 ---
 
-# How to Fix Root Rot in Hydroponics (Step-by-Step Guide)
-
 Are your hydroponic herbs suddenly wilting, turning a sickly yellow, or smelling like a swamp despite the water pump running perfectly? While it is tempting to dump in more fertilizer, the hidden killer destroying your crop is almost certainly a microscopic waterborne fungus: Root Rot.
 
 In this practical decision-making guide, you will learn:
