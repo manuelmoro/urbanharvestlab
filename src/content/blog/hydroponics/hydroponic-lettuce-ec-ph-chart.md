@@ -1,6 +1,6 @@
 ---
-title: "Fix Tip Burn Fast: Hydroponic Lettuce EC & pH Chart"
-description: "Lettuce leaves turning yellow or crisping? Fix your reservoir today with our exact 3-step EC and pH chart for fast, perfect harvests."
+title: "Hydroponic lettuce EC & pH Chart (perfect range for fast growth)"
+description: "Get the exact EC (0.8–1.2) and pH (5.5–6.0) for hydroponic lettuce. Simple chart + quick fixes for tip burn, yellow leaves, and slow growth."
 excerpt: "Lettuce is the easiest crop to grow hydroponically, but it requires specific water chemistry. Use this beginner-friendly EC and pH guide to prevent tip burn and slow growth."
 slug: "hydroponics/hydroponic-lettuce-ec-ph-chart"
 category: "hydroponics"
@@ -59,6 +59,8 @@ relatedSlugs:
   - hydroponics/countertop-hydroponic-herbs-beginner
 ---
 
+# Hydroponic Lettuce EC & pH Chart (Exact Values)
+
 Are your hydroponic lettuce leaves turning yellow, growing agonizingly slow, or developing a bitter taste just before harvest? While it's easy to blame your grow lights or the room temperature, the hidden culprit is almost always your water chemistry: specifically, your EC and pH levels. Even in an excellent [container or system setup](/blog/hydroponics/countertop-hydroponic-herbs-beginner/), lettuce will struggle if these two metrics are off.
 
 In this practical decision-making guide, you will learn:
@@ -67,6 +69,14 @@ In this practical decision-making guide, you will learn:
 - A quick decision framework to know exactly when and how to adjust your reservoir.
 
 If you are brand new to measuring water chemistry, you must first read our [nutrient basics guide](/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/) to understand *how* to use your meters. If you are already set up, keep reading to master the exact *numbers* you need to hit for a perfect, crisp lettuce harvest.
+
+## Quick Answer: Lettuce EC & pH
+
+* EC: 0.8 – 1.2 mS/cm
+* pH: 5.5 – 6.0
+
+If your lettuce has tip burn, your EC is too high.
+If leaves turn yellow, your pH is too high.
 
 ## The Magic Numbers: Lettuce EC and pH
 
@@ -155,4 +165,3 @@ By strictly adhering to the 0.8 - 1.2 EC range and the 5.5 - 6.0 pH pocket, you 
 - [Hydroponic Nutrients Ec Ph Basics](/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/)
 - [Hydroponic Lettuce Growing Slowly](/blog/hydroponics/hydroponic-lettuce-growing-slowly/)
 - [Countertop Hydroponic Herbs Beginner](/blog/hydroponics/countertop-hydroponic-herbs-beginner/)
-

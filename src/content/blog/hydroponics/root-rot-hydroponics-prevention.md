@@ -1,6 +1,6 @@
 ---
-title: "Fix Hydroponic Root Rot Fast: 3 Signs & Recovery Steps"
-description: "Roots turning brown? Stop hydroponic root rot before it kills your crop. Use these 3 urgent fixes to save dying plants in 48 hours."
+title: "Hydroponic root rot: How to fix It before your plants die"
+description: "Roots turning brown or slimy? Learn how to fix hydroponic root rot fast, what causes it, and when it's too late to save your plants."
 excerpt: "If your hydroponic herbs smell like a swamp and the roots are turning brown, you have root rot. This guide explains how to stop the fungus before it destroys your entire crop."
 slug: "hydroponics/root-rot-hydroponics-prevention"
 category: "hydroponics"
@@ -59,6 +59,8 @@ relatedSlugs:
   - hydroponics/countertop-hydroponic-herbs-beginner
 ---
 
+# How to Fix Root Rot in Hydroponics (Step-by-Step Guide)
+
 Are your hydroponic herbs suddenly wilting, turning a sickly yellow, or smelling like a swamp despite the water pump running perfectly? While it is tempting to dump in more fertilizer, the hidden killer destroying your crop is almost certainly a microscopic waterborne fungus: Root Rot.
 
 In this practical decision-making guide, you will learn:
@@ -67,6 +69,15 @@ In this practical decision-making guide, you will learn:
 - A quick decision framework to know exactly when a plant can be saved, and when it must be thrown away.
 
 If you are just getting started with indoor setups, refer back to [Hydroponic Nutrients, EC, and pH Basics](/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/) to ensure your fundamental chemistry is correct. Otherwise, keep reading to stop the fungus before it destroys your entire crop.
+
+## Quick Fix: Hydroponic Root Rot
+
+1. Dump and replace the nutrient solution immediately
+2. Rinse roots under clean water
+3. Lower water temperature below 24°C (75°F)
+4. Add strong aeration (air stone or pump)
+
+If roots are fully brown and mushy, the plant cannot be saved.
 
 ## The Root Diagnosis Cheat Sheet
 
@@ -89,7 +100,7 @@ Because root rot happens underwater, many beginners don't realize there is a pro
 - **Pale, yellowing new growth:** If your [EC and pH targets](/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/) are perfect, but the plant is turning yellow, the rotting roots are completely failing to absorb nitrogen and iron, mimicking a nutrient deficiency.
 - **Brown slime coating the roots:** Lift the plant out of the water. If the roots are no longer distinct, stringy white strands but instead form a single, brown, slimy clump that drips heavily, the fungus has taken over.
 
-## What is Root Rot?
+## What Is Root Rot in Hydroponics?
 
 Root rot in hydroponics is primarily caused by water-borne pathogens, the most famous of which is *Pythium*. These pathogens exist practically everywhere in small, dormant amounts. 
 
@@ -97,7 +108,7 @@ In a healthy hydroponic system, the plants are strong enough to ignore these pat
 
 As the fungi eat the roots, the roots turn to brown slime and lose their ability to absorb water or nutrients. The plant above the surface starves to death, often wilting dramatically even though it is literally sitting in water.
 
-## The Two Triggers of Root Rot
+## What Causes Root Rot in Hydroponics
 
 Why does the fungus suddenly attack? It almost always boils down to a lack of dissolved oxygen in the reservoir.
 
@@ -148,4 +159,3 @@ The most important step after throwing away an infected plant is sterilization. 
 - [Hydroponic Lettuce Growing Slowly](/blog/hydroponics/hydroponic-lettuce-growing-slowly/)
 - [Hydroponic Lettuce Ec Ph Chart](/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/)
 - [Countertop Hydroponic Herbs Beginner](/blog/hydroponics/countertop-hydroponic-herbs-beginner/)
-

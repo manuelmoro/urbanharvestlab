@@ -1,6 +1,6 @@
 ---
-title: "4 Best Herbs for a Sunny Balcony That Survive High Heat"
-description: "Tired of potted herbs wilting by 4 PM? Plant these 4 bulletproof, heat-loving herbs today and finally keep your balcony garden alive."
+title: "Best herbs for a sunny balcony (full sun, heat & wind proof)"
+description: "These herbs actually survive full sun balconies. Discover heat-tolerant picks like rosemary, thyme, and basil + how to stop plants from drying out."
 excerpt: "A sunny balcony is perfect for herbs, but the intense heat and wind require the right crop choices. Start with basil, thyme, and rosemary for reliable harvests."
 slug: "urban-gardening/best-herbs-sunny-balcony"
 category: "urban-gardening"
@@ -61,6 +61,8 @@ relatedSlugs:
   - containers-planters/best-containers-herbs
 ---
 
+# Best Herbs for a Sunny Balcony (Full Sun & Heat Tolerant)
+
 Are your balcony herbs turning brown, constantly wilting in the afternoon, or dying just weeks after you brought them home from the nursery? While it is easy to blame your watering habits, the hidden cause is almost always your plant selection: you are trying to grow delicate, moisture-loving herbs in a harsh, baking environment. 
 
 In this practical decision-making guide, you will learn:
@@ -69,6 +71,14 @@ In this practical decision-making guide, you will learn:
 - A quick decision framework to know exactly when to move or water your herbs.
 
 If you are just starting and haven't fully organized your space yet, review [Balcony Herb Garden for Beginners](/blog/urban-gardening/balcony-herb-garden-beginners/) and [Small-Space Herb Gardening](/blog/urban-gardening/small-space-herb-gardening/) to establish a reliable foundation. Otherwise, keep reading to choose the absolute best herbs for your hot, sun-drenched balcony.
+
+## Quick Answer: Best Herbs for a Sunny Balcony
+
+* Best overall: Rosemary, Thyme, Oregano
+* Best for fast growth: Basil
+* Avoid in full sun: Mint, Cilantro
+
+If your herbs dry out daily, your pots are too small — not your watering.
 
 ## The Sun-Drenched Balcony Cheat Sheet
 
@@ -91,7 +101,7 @@ Before you throw out a failing plant, your herbs will often tell you exactly why
 - **Drooping stems by mid-afternoon:** If the entire plant collapses into a wilted heap by 4:00 PM but recovers overnight, you have **insufficient root volume**. The pot is too small to hold a full day's worth of water in direct sun.
 - **Pale, yellowing lower leaves:** If the oldest leaves are turning yellow and dropping off despite the soil feeling wet, you likely have **poor drainage**. The roots are boiling in hot, stagnant water.
 
-## 1. The Mediterranean Anchors: Rosemary, Thyme, and Oregano
+## Best Heat-Tolerant Herbs for Full Sun Balconies
 
 If your balcony feels like an oven in July, you need plants that evolved to thrive in rocky, hot, and exposed climates. The Mediterranean herbs are the absolute safest choices for full sun.
 
@@ -169,4 +179,3 @@ If you are struggling with the transition from choosing herbs to actually planti
 - [Best Herbs Small Spaces](/blog/urban-gardening/best-herbs-small-spaces/)
 - [Balcony Herb Garden Beginners](/blog/urban-gardening/balcony-herb-garden-beginners/)
 - [Best Containers Herbs](/blog/containers-planters/best-containers-herbs/)
-
