@@ -146,3 +146,15 @@
   - `https://urbanharvestlab.com/blog/grow-lights/can-herbs-grow-indoors-without-direct-sunlight/`
 - Siguiente: ejecutar `run_urbanharvestlab_seo_tasks_executor_pr.sh`
 <!-- AWFM:ctr:2026-04-03:end -->
+
+<!-- AWFM:index-coverage:2026-04-03:start -->
+## Index coverage audit 2026-04-03
+- Run: `20260403-133825`
+- Branch: `awfm/seo-index-coverage-20260403-133825`
+- Updated: `SEO_INDEX_COVERAGE.md`, `SEO_INDEX_COVERAGE_ACTIONS.md`
+- Search Console mode: `url_inspection_api_partial`
+- URLs reviewed: `20`
+- Status counts: `indexed=20`, `likely_not_indexed=0`, `likely_pending=0`, `unknown=0`
+- Action counts: `request_manual_indexing=0`, `strengthen_internal_links=0`, `recheck_canonical=0`, `wait_and_observe=0`, `do_not_touch=20`
+- Next: ejecutar `run_urbanharvestlab_seo_decision_gate.sh`
+<!-- AWFM:index-coverage:2026-04-03:end -->
