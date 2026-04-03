@@ -144,4 +144,12 @@ Publish priority score: 24
 - `/blog/soil-fertilizers/do-potted-herbs-need-fertilizer/`: refresh de title/meta, intro, quick answer, FAQ e interlinking hacia problemas, riego y poda.
 - `/blog/grow-lights/how-much-light-herbs-need/`: refresh de title/meta, intro, quick answer, FAQ e interlinking hacia low-light, grow-light hours y apartment setup.
 
+## CTR follow-up queued today
+- Se mantiene el historial previo y no se duplican tareas: los targets CTR seleccionados ya están registrados como `ST-SEO-003` y `ST-SEO-004` en `SEO_OPTIMIZATION_TASKS.md`.
+- URLs en cola para el siguiente executor real `run_urbanharvestlab_seo_tasks_executor_pr.sh`:
+  - `/blog/plant-problems/common-potted-herb-problems/`
+  - `/blog/grow-lights/can-herbs-grow-indoors-without-direct-sunlight/`
+- Alcance pendiente de ese executor: refresh de `title/meta` solamente; no se aplicó ningún experimento ni cambio de contenido en este paso de sincronización.
+- Compatibilidad de ejecución: estas URLs quedan explícitamente reservadas para la siguiente corrida del executor y no para un experimento CTR aplicado en esta cadena.
+
 <!-- awfm-run: 2026-04-03 20260403-114334 -->

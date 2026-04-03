@@ -136,3 +136,13 @@
 - Siguiente: ejecutar `run_urbanharvestlab_ctr_optimizer_pr.sh`
 <!-- AWFM:execution:2026-04-03:end -->
 
+<!-- AWFM:ctr:2026-04-03:start -->
+## Sincronización de cola CTR 2026-04-03
+- Ejecución: `20260403-132954`
+- Rama: `awfm/seo-ctr-20260403-132954`
+- Estado: `queued_for_executor`
+- URLs en cola:
+  - `https://urbanharvestlab.com/blog/plant-problems/common-potted-herb-problems/`
+  - `https://urbanharvestlab.com/blog/grow-lights/can-herbs-grow-indoors-without-direct-sunlight/`
+- Siguiente: ejecutar `run_urbanharvestlab_seo_tasks_executor_pr.sh`
+<!-- AWFM:ctr:2026-04-03:end -->
