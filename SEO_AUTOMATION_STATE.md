@@ -178,3 +178,11 @@
 - Next: saltar `run_urbanharvestlab_new_post_pr.sh` hoy
 <!-- AWFM:decision:2026-04-03:end -->
 
+<!-- AWFM:affiliate-audit:2026-04-03:start -->
+## Affiliate links audit 2026-04-03
+- Run: `20260403-221553`
+- Branch: `awfm/affiliate-audit-20260403-221554`
+- Context used: `CONTENT_GUIDELINES.md`, `TASK_NEW_POST.md`, `SEO_STRATEGY.md`, `SEO_DAILY_SIGNALS.md`, `SEO_NEXT_ACTION.md`, `SEO_AUTOMATION_STATE.md`, `SEO_OPTIMIZATION_QUEUE.md` (if present), `SEO_OPTIMIZATION_TASKS.md` (if present)
+- Next: ejecutar `run_urbanharvestlab_tech_seo_qa_pr.sh`
+<!-- AWFM:affiliate-audit:2026-04-03:end -->
+
