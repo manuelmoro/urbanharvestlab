@@ -43,3 +43,17 @@ URLs CTR en cola:
 - https://urbanharvestlab.com/blog/grow-lights/can-herbs-grow-indoors-without-direct-sunlight/
 Siguiente job operativo: run_urbanharvestlab_seo_tasks_executor_pr.sh
 <!-- AWFM:ctr-operation:2026-04-03:end -->
+
+<!-- AWFM:index-coverage:2026-04-03:start -->
+Index coverage audit status: `completed`
+Index coverage run: `20260403-133825`
+Index coverage mode: `url_inspection_api_partial`
+Index coverage URLs reviewed: `20`
+Index coverage actions:
+- request_manual_indexing: `0`
+- strengthen_internal_links: `0`
+- recheck_canonical: `0`
+- wait_and_observe: `0`
+- do_not_touch: `20`
+Operational next job after index coverage: run_urbanharvestlab_seo_decision_gate.sh
+<!-- AWFM:index-coverage:2026-04-03:end -->
