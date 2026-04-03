@@ -4,64 +4,79 @@
 - 2026-04-03
 
 ## Top señales GSC
-- Fixed snapshot for this run: `Indexed URLs estimate = 36`, `Queries 28d = 230`, `Impressions 28d = 5435`.
-- `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/` leads with `9` clicks, `2936` impressions, `0.31%` CTR, and average position `6.23`.
-- `/blog/containers-planters/herb-pot-size-guide/` reaches `485` impressions, `1.03%` CTR, and average position `7.21`.
-- `/blog/hydroponics/root-rot-hydroponics-prevention/` and `/blog/urban-gardening/best-herbs-sunny-balcony/` each reach `309` and `293` impressions with `0.00%` CTR from average positions `7.43` and `5.85`.
-- Query evidence for net-new content remains weak: `hydroponic feeding basics` has only `27` impressions at average position `61.70`, while higher-volume lettuce EC/pH queries already map to existing hydroponics URLs.
+- Snapshot fijo del run: `Indexed URLs estimate = 36`, `Queries 28d = 230`, `Impressions 28d = 5435`.
+- `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/` lidera con `9` clics, `2936` impresiones, `0.31%` CTR y posición media `6.23`.
+- `/blog/containers-planters/herb-pot-size-guide/` alcanza `485` impresiones, `1.03%` CTR y posición media `7.21`.
+- `/blog/hydroponics/root-rot-hydroponics-prevention/` y `/blog/urban-gardening/best-herbs-sunny-balcony/` alcanzan `309` y `293` impresiones con `0.00%` CTR desde posiciones medias `7.43` y `5.85`.
+- La oportunidad de contenido nuevo sigue débil: no aparece una familia de queries limpia y no solapada con volumen suficiente; el hueco de `hydroponic feeding basics` sigue demasiado cerca de las URLs hidroponics ya publicadas.
 
 ## Top señales GA4
-- Property `528419708` is accessible in `analytics-mcp`; account summary confirms property `UrbanHarvestLab`.
-- Homepage `/` leads with `71` sessions, `54` users, `24` engaged sessions, `33.80%` engagement rate, `58.93s` average session duration, and `325` events.
-- `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart` is the strongest content landing page with `27` sessions, `23` users, `11` engaged sessions, `40.74%` engagement rate, `269.72s` average session duration, and `139` events.
-- `/blog/containers-planters/herb-pot-size-guide` follows with `11` sessions, `10` users, `4` engaged sessions, `36.36%` engagement rate, `364.67s` average session duration, and `49` events.
-- `averageEngagementTime` is not available in this GA4 access; the valid metric returned by MCP is `averageSessionDuration`.
+- La propiedad `528419708` está accesible en `analytics-mcp`; el resumen de cuenta confirma la propiedad `UrbanHarvestLab`.
+- La homepage `/` lidera con `71` sesiones, `54` usuarios, `24` sesiones con interacción, `33.80%` de engagement rate, `58.93s` de duración media de sesión y `325` eventos.
+- `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart` es la landing de contenido más fuerte con `27` sesiones, `23` usuarios, `11` sesiones con interacción, `40.74%` de engagement rate, `269.72s` de duración media de sesión y `139` eventos.
+- `/blog/containers-planters/herb-pot-size-guide` sigue con `11` sesiones, `10` usuarios, `4` sesiones con interacción, `36.36%` de engagement rate, `364.67s` de duración media de sesión y `49` eventos.
+- `averageEngagementTime` no está disponible en este acceso de GA4; la métrica válida devuelta por MCP es `averageSessionDuration`.
 
 ## URLs en striking distance
-- `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/` at average position `6.23` with `2936` impressions.
-- `/blog/containers-planters/herb-pot-size-guide/` at average position `7.21` with `485` impressions.
-- `/blog/hydroponics/root-rot-hydroponics-prevention/` at average position `7.43` with `309` impressions.
-- `/blog/urban-gardening/best-herbs-sunny-balcony/` at average position `5.85` with `293` impressions.
-- `/blog/containers-planters/best-containers-herbs/` at average position `10.79` with `293` impressions.
-- `/blog/urban-gardening/how-often-to-water-potted-herbs/` at average position `11.84` with `148` impressions.
-- `/blog/soil-fertilizers/do-potted-herbs-need-fertilizer/` at average position `8.71` with `93` impressions.
+- `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/` en posición media `6.23` con `2936` impresiones.
+- `/blog/containers-planters/herb-pot-size-guide/` en posición media `7.21` con `485` impresiones.
+- `/blog/hydroponics/root-rot-hydroponics-prevention/` en posición media `7.43` con `309` impresiones.
+- `/blog/urban-gardening/best-herbs-sunny-balcony/` en posición media `5.85` con `293` impresiones.
+- `/blog/containers-planters/best-containers-herbs/` en posición media `10.79` con `293` impresiones.
+- `/blog/urban-gardening/how-often-to-water-potted-herbs/` en posición media `11.84` con `148` impresiones.
+- `/blog/soil-fertilizers/do-potted-herbs-need-fertilizer/` en posición media `8.71` con `93` impresiones.
 
-## CTR opportunities
+## Oportunidades CTR
 - `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`
-  baseline ctr: `0.31%`
-  impressions: `2936`
-  position: `6.23`
-  expected action: `title/meta refresh`
+  ctr base: `0.31%`
+  impresiones: `2936`
+  posición: `6.23`
+  acción esperada: `observacion_enfriamiento`
 - `/blog/containers-planters/herb-pot-size-guide/`
-  baseline ctr: `1.03%`
-  impressions: `485`
-  position: `7.21`
-  expected action: `title/meta refresh`
+  ctr base: `1.03%`
+  impresiones: `485`
+  posición: `7.21`
+  acción esperada: `observacion_enfriamiento`
 - `/blog/hydroponics/root-rot-hydroponics-prevention/`
-  baseline ctr: `0.00%`
-  impressions: `309`
-  position: `7.43`
-  expected action: `title/meta refresh`
+  ctr base: `0.00%`
+  impresiones: `309`
+  posición: `7.43`
+  acción esperada: `observacion_enfriamiento`
 - `/blog/urban-gardening/best-herbs-sunny-balcony/`
-  baseline ctr: `0.00%`
-  impressions: `293`
-  position: `5.85`
-  expected action: `title/meta refresh`
+  ctr base: `0.00%`
+  impresiones: `293`
+  posición: `5.85`
+  acción esperada: `observacion_enfriamiento`
 - `/blog/containers-planters/best-containers-herbs/`
-  baseline ctr: `1.02%`
-  impressions: `293`
-  position: `10.79`
-  expected action: `title/meta refresh`
+  ctr base: `1.02%`
+  impresiones: `293`
+  posición: `10.79`
+  acción esperada: `observacion_enfriamiento`
+- `/blog/soil-fertilizers/do-potted-herbs-need-fertilizer/`
+  ctr base: `0.00%`
+  impresiones: `93`
+  posición: `8.71`
+  acción esperada: `title/meta refresh`
+- `/blog/soil-fertilizers/potting-mix-vs-raised-bed-soil-containers/`
+  ctr base: `0.00%`
+  impresiones: `82`
+  posición: `11.57`
+  acción esperada: `title/meta refresh`
+- `/blog/plant-problems/common-potted-herb-problems/`
+  ctr base: `0.00%`
+  impresiones: `28`
+  posición: `8.61`
+  acción esperada: `title/meta refresh`
 
 ## Riesgos técnicos detectados
-- `http://urbanharvestlab.com/` still appears in GSC with `9` impressions, but the historical trace is flat across repeated snapshots with `0` clicks and runtime tech QA is still missing, so it is treated as an important residue rather than a live critical blocker.
-- The current new-post placeholder still has high cannibalization risk against `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` and `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`.
-- The content tree remains EN-only; there is no site-level EN/ES split in `src/content`.
+- `http://urbanharvestlab.com/` sigue apareciendo en GSC con `9` impresiones, pero la traza histórica está plana en snapshots repetidos con `0` clics y sigue faltando runtime tech QA, así que se trata como residuo importante y no como bloqueo crítico vivo.
+- El placeholder del nuevo post mantiene riesgo alto de canibalización frente a `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` y `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`.
+- El árbol de contenido sigue siendo solo EN; no existe una separación EN/ES publicada en `src/content`.
 
 ## Oportunidad principal del día
-- Run a quantified snippet refresh batch on `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`, `/blog/containers-planters/herb-pot-size-guide/`, `/blog/hydroponics/root-rot-hydroponics-prevention/`, `/blog/urban-gardening/best-herbs-sunny-balcony/`, and `/blog/containers-planters/best-containers-herbs/`. There is no clear low-risk new-post opportunity today.
+- Ejecutar un lote de refresh de snippet en URLs con señal suficiente y fuera de la ventana de enfriamiento: `/blog/soil-fertilizers/do-potted-herbs-need-fertilizer/`, `/blog/soil-fertilizers/potting-mix-vs-raised-bed-soil-containers/`, `/blog/plant-problems/common-potted-herb-problems/`, `/blog/grow-lights/can-herbs-grow-indoors-without-direct-sunlight/` y `/blog/grow-lights/how-much-light-herbs-need/`. Las URLs más fuertes de CTR quedan hoy en observación por cambios recientes.
 
-## Machine-readable
+## Bloque machine-readable
 Site mode: bootstrap
 Mode candidate: bootstrap
 Mode streak: 0
@@ -81,17 +96,18 @@ Publish priority score: 24
 Recommendation: optimize_only
 
 <!-- AWFM:ctr-signals:2026-04-03:start -->
-## CTR opportunities
-- URL: `https://urbanharvestlab.com/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`
-  - Baseline CTR: `0.31%`
-  - Baseline clicks / impressions: `9` / `2936`
-  - Position: `6.23`
-  - Expected action: `title/meta refresh`
-  - Reason: Position 6.23 with 2936 impressions and CTR 0.31% below expected 5.61%.
-- URL: `https://urbanharvestlab.com/blog/urban-gardening/best-herbs-sunny-balcony/`
-  - Baseline CTR: `0.00%`
-  - Baseline clicks / impressions: `0` / `293`
-  - Position: `5.85`
-  - Expected action: `title/meta refresh`
-  - Reason: Position 5.85 with 293 impressions and CTR 0.00% below expected 5.98%.
+## Oportunidades CTR
+- URL: `https://urbanharvestlab.com/blog/plant-problems/common-potted-herb-problems/`
+  - CTR base: `0.00%`
+  - Clics / impresiones base: `0` / `28`
+  - Posición media: `8.61`
+  - Acción esperada: `optimización de title/meta`
+  - Motivo: Posición 8.61 con 28 impresiones y CTR 0.00% por debajo del esperado 4.07%.
+- URL: `https://urbanharvestlab.com/blog/grow-lights/can-herbs-grow-indoors-without-direct-sunlight/`
+  - CTR base: `0.00%`
+  - Clics / impresiones base: `0` / `21`
+  - Posición media: `11.38`
+  - Acción esperada: `optimización de title/meta`
+  - Motivo: Posición 11.38 con 21 impresiones y CTR 0.00% por debajo del esperado 3.08%.
 <!-- AWFM:ctr-signals:2026-04-03:end -->
+

@@ -23,7 +23,7 @@
 
 ## Search Intent
 - Informational and beginner education.
-- Current evidence is still weak for a net-new URL because GSC shows only `27` impressions for `hydroponic feeding basics` at average position `61.70`, and the site already has `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` plus `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/` serving the same intent family.
+- Current evidence is still weak for a net-new URL because GSC does not show a clean non-overlapping query family with enough volume, and the site already has `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` plus `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/` serving the same intent family.
 
 ## Recommended Structure
 ### H2
@@ -59,7 +59,7 @@
 - Keep the candidate blocked until cannibalization risk is reduced.
 
 ## Priority Note
-- No clear opportunity for a net-new post today. This placeholder brief remains only to keep the workflow explicit because GSC still shows a small query trace around hydroponic feeding basics, but the evidence is too weak and the overlap with the existing hydroponics pages is too high to justify publication. The stronger quantified opportunity today is to optimize existing page-1/page-2 URLs instead.
+- No clear opportunity for a net-new post today. This placeholder brief remains only to keep the workflow explicit because the current query evidence is too weak and the overlap with the existing hydroponics pages is too high to justify publication. The stronger quantified opportunity today is to optimize existing URLs while recent edits on several page-1/page-2 pages continue their measurement window.
 
 ## Publish Gate
 Status: candidate_only
