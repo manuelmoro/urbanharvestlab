@@ -23,7 +23,7 @@
 
 ## Search Intent
 - Informational and beginner education.
-- Current evidence is still weak for a net-new URL because GSC shows only `26` impressions for `hydroponic feeding basics`, and the site already has `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` plus `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/` serving the same intent family.
+- Current evidence is still weak for a net-new URL because today’s GSC file broadens to `230` queries overall, but the visible hydroponics demand remains concentrated in existing URLs. There is no quantified uncovered topic with enough volume and low overlap to justify publication today.
 
 ## Recommended Structure
 ### H2
@@ -51,7 +51,7 @@
 - Monetization: none evidenced in current GA4 landing-page data for this angle; do not invent products or affiliate placements.
 
 ## Quality Checklist
-- Require a quantified GSC gap stronger than the current `26` impressions before moving beyond candidate state.
+- Require a quantified GSC gap stronger than the current evidence set before moving beyond candidate state.
 - Reject publication if the brief overlaps materially with `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/`.
 - Reject publication while the repository remains EN-only in `src/content`; ES can stay at planning level only.
 - Keep EN and ES keyword mapping aligned if the site later opens an ES publishing workflow.
@@ -59,7 +59,7 @@
 - Keep the candidate blocked until cannibalization risk is reduced.
 
 ## Priority Note
-- No clear opportunity for a net-new post today. This placeholder brief remains only to keep the workflow explicit because GSC still shows a small query trace around hydroponic feeding basics, but the evidence is too weak and the overlap with the existing hydroponics pages is too high to justify publication.
+- No clear opportunity for a net-new post today. This placeholder brief remains only to keep the workflow explicit because the current demand trace does not reveal a cleaner gap than the existing hydroponics URLs, and the overlap risk is still too high to justify publication.
 
 ## Publish Gate
 Status: candidate_only
