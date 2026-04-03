@@ -178,3 +178,11 @@
 - Next: saltar `run_urbanharvestlab_new_post_pr.sh` hoy
 <!-- AWFM:decision:2026-04-03:end -->
 
+<!-- AWFM:tech-qa:2026-04-03:start -->
+## QA técnico SEO 2026-04-03
+- Ejecución: `20260403-225352`
+- Rama: `awfm/seo-tech-qa-20260403-225352`
+- Reporte: `SEO_TECH_QA_REPORT.md`
+- Siguiente: cierre del ciclo o siguiente run planificado
+<!-- AWFM:tech-qa:2026-04-03:end -->
+
