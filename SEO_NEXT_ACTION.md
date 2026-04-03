@@ -35,3 +35,11 @@ Acción CTR esperada: optimización de title/meta
 Siguiente job operativo tras el executor: run_urbanharvestlab_ctr_optimizer_pr.sh
 <!-- AWFM:ctr-next:2026-04-03:end -->
 
+<!-- AWFM:ctr-operation:2026-04-03:start -->
+Estado del optimizador CTR: queued_for_executor
+Ejecución del optimizador CTR: `20260403-132954`
+URLs CTR en cola:
+- https://urbanharvestlab.com/blog/plant-problems/common-potted-herb-problems/
+- https://urbanharvestlab.com/blog/grow-lights/can-herbs-grow-indoors-without-direct-sunlight/
+Siguiente job operativo: run_urbanharvestlab_seo_tasks_executor_pr.sh
+<!-- AWFM:ctr-operation:2026-04-03:end -->
