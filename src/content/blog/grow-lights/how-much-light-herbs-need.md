@@ -1,7 +1,7 @@
 ---
-title: "How Much Light Do Herbs Need? Realistic Sun and Grow Light Rules"
-description: "Understand how much light herbs really need by comparing direct sun, bright windows, and indoor grow light setups with realistic expectations for common herbs."
-excerpt: "A practical guide to herb light needs for real homes, with clear rules for sunny windows, balconies, dimmer apartments, and beginner grow light setups."
+title: "How Much Light Do Herbs Need? A Practical Guide for Indoors and Sun"
+description: "Learn how much light herbs need indoors and in sunny windows, with practical rules for direct sun, bright rooms, and grow light setups."
+excerpt: "A practical guide to how much light herbs need, including a quick answer for direct sun, indoor windows, and grow light setups that actually support growth."
 slug: "grow-lights/how-much-light-herbs-need"
 category: "grow-lights"
 tags:
@@ -23,12 +23,29 @@ keyTakeaways:
   - Most culinary herbs need more light than a generally bright room provides.
   - Basil, thyme, oregano, and rosemary usually want the strongest light, while parsley, chives, and mint can tolerate somewhat less.
   - If herbs are stretching, paling, or growing slowly, light quality and distance are often bigger issues than fertilizer.
+topicLinksTitle: If you are judging herb light levels, also read
+topicLinksDescription: These guides help you turn a vague light problem into decisions about direct sun, grow light hours, and indoor setup.
 topicLinkSlugs:
+  - grow-lights/can-herbs-grow-indoors-without-direct-sunlight
+  - grow-lights/how-many-hours-grow-lights-herbs
   - urban-gardening/small-space-herb-garden-setup
+  - urban-gardening/indoor-herb-garden-apartment-setup
   - urban-gardening/best-herbs-small-spaces
 relatedSlugs:
+  - grow-lights/can-herbs-grow-indoors-without-direct-sunlight
+  - grow-lights/how-many-hours-grow-lights-herbs
+  - urban-gardening/indoor-herb-garden-apartment-setup
   - urban-gardening/small-space-herb-garden-setup
   - urban-gardening/best-herbs-small-spaces
+faq:
+  - question: How much direct sun do herbs usually need?
+    answer: Many common culinary herbs do best with around 6 hours or more of strong direct sun, though the real result depends on season, window strength, and the herb itself.
+  - question: Can herbs grow with bright indirect light only?
+    answer: Some can, especially parsley, chives, and mint, but growth is usually slower and high-light herbs like basil are more likely to become leggy or weak.
+  - question: How many hours should grow lights run for herbs?
+    answer: Many indoor herb setups land around 12 to 16 hours per day, but runtime only works when the fixture is close enough and strong enough for the growing area.
+  - question: What are the signs herbs need more light?
+    answer: Stretching, pale growth, wider gaps between leaves, slow regrowth, and soil that stays wet for too long are common signs the setup is below target.
 comparisonTable:
   caption: "Practical light expectations for common small-space herb situations"
   columns:
@@ -43,13 +60,15 @@ comparisonTable:
     - ["Indoor shelf with a suitable grow light", "Variable but controllable", "Most culinary herbs if the fixture is strong enough and well placed", "Distance and runtime matter as much as fixture label claims"]
 ---
 
+How much light do herbs need? In most homes, the short answer is more than a generally bright room provides. Many culinary herbs want strong direct sun, a genuinely bright window, or a grow light setup that is close enough and consistent enough to replace that missing sun. If you are deciding whether your home can support herbs at all, pair this page with [Can Herbs Grow Indoors Without Direct Sunlight? What to Expect in Real Homes](/blog/grow-lights/can-herbs-grow-indoors-without-direct-sunlight/) and [Indoor Herb Garden Setup for Apartments Without Outdoor Space](/blog/urban-gardening/indoor-herb-garden-apartment-setup/).
+
 Herbs do not all need identical light, but they do share one inconvenient truth for beginners: most of them want more usable light than people think. A room can feel bright to you and still be weak for basil. A windowsill can look sunny for an hour and still fall short for a high-light herb. Many disappointing herb setups are not really watering failures or fertilizer failures. They are light mismatches.
 
 That is why light should be treated as a first design decision, not a detail to solve later. Before choosing crops, before buying decorative pots, and before assuming a plant is “difficult,” it helps to understand what herbs are actually asking for. If you are still building the overall system, start with [How to Set Up a Small-Space Herb Garden That Actually Works](/blog/urban-gardening/small-space-herb-garden-setup/). If you are still deciding which herbs fit your home, pair this guide with [Best Herbs for Small Spaces: What Grows Well in Apartments, Balconies, and Windowsills](/blog/urban-gardening/best-herbs-small-spaces/).
 
 ## Quick Answer
 
-The short version is that most culinary herbs do best with strong direct sun, a genuinely bright location, or a competent grow light setup. In practical terms, basil, thyme, oregano, and rosemary usually want the strongest light. Parsley, chives, and mint can tolerate somewhat less, though they still perform better when the window or fixture is honestly bright.
+The short version is that most culinary herbs do best with strong direct sun, a genuinely bright location, or a competent grow light setup. In practical terms, many herbs perform best with roughly 6 hours or more of meaningful direct sun, or with an indoor setup that delivers similar usable light over the course of the day. Basil, thyme, oregano, and rosemary usually want the strongest light. Parsley, chives, and mint can tolerate somewhat less, though they still perform better when the window or fixture is honestly bright.
 
 For many homes, a useful beginner rule looks like this:
 
@@ -57,7 +76,7 @@ For many homes, a useful beginner rule looks like this:
 - If the space is bright but only lightly sunny, parsley, chives, and mint are safer bets than basil-heavy plans.
 - If the home is dim, herbs may survive, but they often stop being productive unless you add a grow light.
 
-What matters most is not just the number of hours on paper. It is the combination of light intensity, duration, and distance. That is why a bright balcony behaves differently from a weak north-facing sill, and why a grow light hung too high can underperform even when it runs all day.
+What matters most is not just the number of hours on paper. It is the combination of light intensity, duration, and distance. That is why a bright balcony behaves differently from a weak north-facing sill, and why a grow light hung too high can underperform even when it runs all day. If your next question is how long to keep the fixture on, [How Many Hours Should Grow Lights Run for Herbs?](/blog/grow-lights/how-many-hours-grow-lights-herbs/) is the right follow-up.
 
 ![Overview chart of herb light needs by herb type and home setup](/images/how-much-light-herbs-need/herb-light-needs-overview.webp)
 

@@ -1,7 +1,7 @@
 ---
-title: "Do Potted Herbs Need Fertilizer? Liquid vs. Slow-Release Options Explained"
-description: "Master the art of feeding indoor herbs. Learn the critical differences between liquid fertilizer and slow-release pellets to stop yellowing leaves safely."
-excerpt: "Potted herbs rely entirely on you for nutrients. This guide explains when to feed them, how to avoid fertilizer burn, and whether liquid or slow-release options are better."
+title: "Do Potted Herbs Need Fertilizer? When to Feed Herbs in Pots"
+description: "Learn if potted herbs need fertilizer, when to feed them, and whether liquid or slow-release products make more sense for container herbs."
+excerpt: "Yes, potted herbs usually need fertilizer once the original potting mix is spent. This guide explains when to feed, what to use, and how to avoid fertilizer burn."
 slug: "soil-fertilizers/do-potted-herbs-need-fertilizer"
 category: "soil-fertilizers"
 tags:
@@ -39,10 +39,14 @@ topicLinkSlugs:
 faq:
   - question: Can I just use my standard houseplant fertilizer on herbs?
     answer: Yes, but you must dilute it. Houseplant fertilizers are often heavily concentrated. For herbs—which you intend to eat—it is usually safer to trace organic fertilizers or dilute synthetic ones to half-strength.
+  - question: How often should I fertilize potted herbs?
+    answer: It depends on the herb, the potting mix, and the product. Liquid fertilizers are often used every 1 to 2 weeks at weak strength, while slow-release products may last for 2 to 3 months.
   - question: Why did the tips of my basil leaves turn brown and crispy after fertilizing?
     answer: This is "fertilizer burn." You likely applied too much concentrated nitrogen, or you applied it while the soil was dry, which caused the roots to uptake the chemical too rapidly.
   - question: Do I need to fertilize fresh potting mix?
     answer: Generally, no. Premium mixes (like those detailed in our potting mix guide) come pre-loaded with enough organic nutrients to feed your herbs for the first 4 to 6 weeks.
+  - question: What is the best fertilizer for potted herbs indoors?
+    answer: For most indoor herbs, a mild liquid fertilizer or a gentle slow-release product works well. The best choice is usually the one you can apply consistently without overfeeding the plant.
 comparisonTable:
   caption: "Liquid vs. Slow-Release Granular Fertilizer"
   columns:
@@ -61,13 +65,21 @@ relatedSlugs:
   - plant-problems/common-potted-herb-problems
 ---
 
-There is a stubborn myth in the gardening world that "herbs thrive on neglect" and therefore never need fertilizer. While this might be true for a massive, ancient rosemary bush growing directly in the ground in Tuscany, it is absolutely false for an apartment balcony container garden. 
+Most potted herbs do need fertilizer eventually. The useful question is not whether herbs in pots need feeding at all. It is when the original potting mix stops carrying the plant and how to add nutrients without creating a second problem. That distinction matters because many container herbs decline from weak feeding habits on one side and fertilizer burn on the other. If the plant is already yellowing, wilting, or stalling, use this guide together with [Common Problems With Potted Herbs: How to Diagnose Yellow Leaves, Wilting, and Weak Growth](/blog/plant-problems/common-potted-herb-problems/) so you do not mistake root stress for simple hunger.
+
+There is a stubborn myth in the gardening world that "herbs thrive on neglect" and therefore never need fertilizer. While this might be true for a massive, ancient rosemary bush growing directly in the ground in Tuscany, it is absolutely false for an apartment balcony container garden.
 
 A pot is a closed system. The plant only has access to whatever nutrients were included in the bag of potting soil you bought. When those nutrients are consumed by the roots—or flushed out the drainage holes every time you water—they are gone forever. 
 
 If you do not replace those missing nutrients, the plant will hit a wall. New growth will stall, the lower leaves will pale to a sickly yellow, and the plant will eventually succumb to stress. This is one of the leading causes behind the issues outlined in [Common Problems With Potted Herbs: How to Diagnose Yellow Leaves, Wilting, and Weak Growth](/blog/plant-problems/common-potted-herb-problems/).
 
-To keep an indoor herb garden thriving for months on end, you must fertilize. The question is simply how to do it safely.
+To keep an indoor herb garden thriving for months on end, you usually need to fertilize. The question is simply how to do it safely.
+
+## Quick Answer
+
+Yes, potted herbs usually need fertilizer after the nutrients in the original potting mix are used up. In practical terms, that often means waiting about 4 to 6 weeks after potting into fresh mix, then feeding lightly based on the herb, the growth rate, and the product you are using.
+
+For most container growers, the safer rule is small doses and honest observation. If the herb is actively growing, the mix drains well, and the plant is not stressed, a weak liquid feed or a slow-release product can help. If the pot is staying soggy, the herb is wilted, or the roots are already struggling, fix that first. You can also pair feeding decisions with [How Often Should You Water Potted Herbs? (Stop Guessing)](/blog/urban-gardening/how-often-to-water-potted-herbs/) and [When to Prune Basil, Mint, Parsley, and Chives for Better Growth](/blog/urban-gardening/pruning-basil-mint-parsley-chives/) so you are not treating every slowdown like a fertilizer problem.
 
 ## Step 1: Check Your Soil Before You Feed
 
@@ -122,4 +134,3 @@ Not all herbs eat at the same pace. Read more about the broader care strategies 
 - [Best Potting Mix Potted Herbs](/blog/soil-fertilizers/best-potting-mix-potted-herbs/)
 - [How Often To Water Potted Herbs](/blog/urban-gardening/how-often-to-water-potted-herbs/)
 - [Common Potted Herb Problems](/blog/plant-problems/common-potted-herb-problems/)
-

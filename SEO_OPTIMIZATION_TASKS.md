@@ -18,19 +18,21 @@ Run ID: 20260403-optimization-planner
 
 ## Checklist ejecutable (hoy)
 
-- [ ] `ST-SEO-001`
-  - Estado: pending
+- [x] `ST-SEO-001`
+  - Estado: done
   - Post objetivo: `src/content/blog/soil-fertilizers/do-potted-herbs-need-fertilizer.md`
   - Acciones: title/meta, intro, FAQ, enlaces internos, canonical, schema
   - Validación: comprobar mañana si el frontmatter refleja un snippet más específico para `do potted herbs need fertilizer`, si se añadieron enlaces contextuales hacia `common-potted-herb-problems`, `how-often-to-water-potted-herbs` y `pruning-basil-mint-parsley-chives`, y si el schema FAQ sigue válido sin romper canonical
   - Fecha de ejecución: 2026-04-03
+  - Nota de implementación: title, description y excerpt alineados con la query principal; se añadió un quick answer y FAQ específica; se reforzaron enlaces internos a problemas, riego y poda; se mantuvo el slug para preservar canonical y el bloque `faq` para el schema.
 
-- [ ] `ST-SEO-002`
-  - Estado: pending
+- [x] `ST-SEO-002`
+  - Estado: done
   - Post objetivo: `src/content/blog/grow-lights/how-much-light-herbs-need.md`
   - Acciones: title/meta, intro, FAQ, enlaces internos, canonical, schema
   - Validación: comprobar mañana si el snippet alinea mejor la intención `how much light do herbs need`, si el quick answer gana precisión para page-1, si enlaza mejor hacia `can-herbs-grow-indoors-without-direct-sunlight`, `how-many-hours-grow-lights-herbs` y `indoor-herb-garden-apartment-setup`, y si canonical/schema permanecen estables
   - Fecha de ejecución: 2026-04-03
+  - Nota de implementación: title, description y excerpt se hicieron más directos para la intención principal; se afinó intro y quick answer; se añadieron `topicLinks`, `relatedSlugs` y FAQ hacia low-light, runtime de grow lights y apartment setup; se conservó el slug y el bloque `faq` para mantener canonical/schema estables.
 
 ## Backlog
 
