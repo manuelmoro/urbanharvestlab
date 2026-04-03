@@ -141,9 +141,7 @@ Publish priority score: 24
 - La salida de este planner sí deja el trabajo compatible con el siguiente job operativo de optimización sobre contenido existente.
 
 ## Ejecutado hoy
-- Se consolidó una cola priorizada solo para URLs existentes.
-- Se respetó el cooldown de URLs tocadas muy recientemente usando `/tmp/tmp.3t4td997zy` y `git log`.
-- Se dejó el lote del día limitado a `2` posts principales para el executor.
-- Se mantuvo fuera de esta cola cualquier tarea de publicación de post nuevo.
+- `/blog/soil-fertilizers/do-potted-herbs-need-fertilizer/`: refresh de title/meta, intro, quick answer, FAQ e interlinking hacia problemas, riego y poda.
+- `/blog/grow-lights/how-much-light-herbs-need/`: refresh de title/meta, intro, quick answer, FAQ e interlinking hacia low-light, grow-light hours y apartment setup.
 
 <!-- awfm-run: 2026-04-03 20260403-114334 -->

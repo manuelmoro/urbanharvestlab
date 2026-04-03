@@ -125,3 +125,14 @@
 - Siguiente: ejecutar `run_urbanharvestlab_seo_tasks_executor_pr.sh`
 <!-- AWFM:optimization:2026-04-03:end -->
 
+<!-- AWFM:execution:2026-04-03:start -->
+## Ejecución de tareas SEO 2026-04-03
+- Ejecución: `20260403-130323`
+- Rama: `awfm/seo-implement-20260403-130323`
+- Actualizado: `SEO_OPTIMIZATION_TASKS.md`, `SEO_OPTIMIZATION_QUEUE.md` y posts existentes
+- Targets ejecutados:
+- `ST-SEO-001` -> `src/content/blog/soil-fertilizers/do-potted-herbs-need-fertilizer.md`
+- `ST-SEO-002` -> `src/content/blog/grow-lights/how-much-light-herbs-need.md`
+- Siguiente: ejecutar `run_urbanharvestlab_ctr_optimizer_pr.sh`
+<!-- AWFM:execution:2026-04-03:end -->
+
