@@ -23,7 +23,7 @@
 
 ## Search Intent
 - Informational and beginner education.
-- Current evidence is still weak for a net-new URL because GSC shows only `26` impressions for `hydroponic feeding basics`, and the site already has `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` plus `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/` serving the same intent family.
+- Current evidence is still weak for a net-new URL because GSC shows only `27` impressions for `hydroponic feeding basics` at average position `61.70`, and the site already has `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` plus `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/` serving the same intent family.
 
 ## Recommended Structure
 ### H2
@@ -44,14 +44,14 @@
 ## Interlinking Requirements
 - If this brief is ever revived, it must link to `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/`, `/blog/hydroponics/hydroponic-lettuce-growing-slowly/`, `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`, and `/hydroponics/`.
 - Do not create a second EN URL overlapping the nutrient-basics intent already covered by `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/`.
-- ES planning can continue at brief level only until an explicit ES publishing workflow exists.
+- ES planning can continue at brief level only until an explicit ES publishing workflow exists; there is still no ES tree in `src/content`.
 
 ## CTA / Monetization
 - CTA: route readers into the hydroponics hub and the two existing troubleshooting guides.
 - Monetization: none evidenced in current GA4 landing-page data for this angle; do not invent products or affiliate placements.
 
 ## Quality Checklist
-- Require a quantified GSC gap stronger than the current `26` impressions before moving beyond candidate state.
+- Require a quantified GSC gap stronger than the current `27` impressions before moving beyond candidate state.
 - Reject publication if the brief overlaps materially with `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/`.
 - Reject publication while the repository remains EN-only in `src/content`; ES can stay at planning level only.
 - Keep EN and ES keyword mapping aligned if the site later opens an ES publishing workflow.
@@ -59,7 +59,7 @@
 - Keep the candidate blocked until cannibalization risk is reduced.
 
 ## Priority Note
-- No clear opportunity for a net-new post today. This placeholder brief remains only to keep the workflow explicit because GSC still shows a small query trace around hydroponic feeding basics, but the evidence is too weak and the overlap with the existing hydroponics pages is too high to justify publication.
+- No clear opportunity for a net-new post today. This placeholder brief remains only to keep the workflow explicit because GSC still shows a small query trace around hydroponic feeding basics, but the evidence is too weak and the overlap with the existing hydroponics pages is too high to justify publication. The stronger quantified opportunity today is to optimize existing page-1/page-2 URLs instead.
 
 ## Publish Gate
 Status: candidate_only
