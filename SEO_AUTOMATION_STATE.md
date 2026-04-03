@@ -158,3 +158,13 @@
 - Action counts: `request_manual_indexing=0`, `strengthen_internal_links=0`, `recheck_canonical=0`, `wait_and_observe=0`, `do_not_touch=20`
 - Next: ejecutar `run_urbanharvestlab_seo_decision_gate.sh`
 <!-- AWFM:index-coverage:2026-04-03:end -->
+
+<!-- AWFM:indexing:2026-04-03:start -->
+## Indexing acceleration 2026-04-03
+- Run: `20260403-221404`
+- Branch: `awfm/seo-indexing-20260403-221404`
+- URLs notified: `2`
+- Sitemap ping executed: `yes` (`success`)
+- Indexing request status: `failed`
+- Next: ejecutar `run_urbanharvestlab_seo_decision_gate.sh`
+<!-- AWFM:indexing:2026-04-03:end -->
