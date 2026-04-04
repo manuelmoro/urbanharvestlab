@@ -34,3 +34,12 @@ CTR target URLs:
 Acción CTR esperada: optimización de title/meta
 Siguiente job operativo tras el executor: run_urbanharvestlab_ctr_optimizer_pr.sh
 <!-- AWFM:ctr-next:2026-04-04:end -->
+
+<!-- AWFM:ctr-operation:2026-04-04:start -->
+Estado del optimizador CTR: queued_for_executor
+Ejecución del optimizador CTR: `20260404-162745`
+URLs CTR en cola:
+- https://urbanharvestlab.com/blog/containers-planters/herb-pot-size-guide/
+- https://urbanharvestlab.com/blog/urban-gardening/north-facing-window-herbs/
+Siguiente job operativo: run_urbanharvestlab_seo_tasks_executor_pr.sh
+<!-- AWFM:ctr-operation:2026-04-04:end -->

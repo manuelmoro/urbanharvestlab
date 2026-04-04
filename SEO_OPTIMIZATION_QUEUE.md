@@ -121,4 +121,13 @@ Publish priority score: 23
 - `ST-SEO-009` ejecutada sobre `/blog/grow-lights/how-many-hours-grow-lights-herbs/` con refresh de title/meta, intro y FAQ, manteniendo slug y estructura del clúster grow-lights.
 - `ST-SEO-003` ejecutada sobre `/blog/plant-problems/common-potted-herb-problems/` con refresh de title/meta, intro y FAQ, reforzando interlinks hacia diagnóstico y cuidado existentes.
 
+## CTR follow-up queued today
+- Fecha: `2026-04-04`
+- Fuente considerada: `/tmp/tmp.ECRjY0djUy`, `SEO_DAILY_SIGNALS.md`, `SEO_NEXT_ACTION.md`, `TASK_NEW_POST.md`, `SEO_AUTOMATION_STATE.md`, `SEO_OPTIMIZATION_TASKS.md`
+- URLs encoladas para seguimiento CTR:
+  - `/blog/containers-planters/herb-pot-size-guide/` -> tarea `ST-SEO-011`
+  - `/blog/urban-gardening/north-facing-window-herbs/` -> tarea `ST-SEO-012`
+- Estado operativo: quedan en cola para el siguiente executor y no se aplican como experimento ni como cambio de contenido en este paso
+- Execution compatibility: backlog compatible con el flujo actual; el siguiente job ejecutor real es `run_urbanharvestlab_seo_tasks_executor_pr.sh`
+
 <!-- awfm-run: 2026-04-04 20260404-161822 -->

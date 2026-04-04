@@ -73,6 +73,20 @@ Run ID: 20260404-optimization-planner
   - Validación: comprobar si el refresh mejora la intención `when to change hydroponic nutrient solution` sin invadir el espacio semántico de `hydroponic-nutrients-ec-ph-basics` ni del candidato bloqueado en `TASK_NEW_POST.md`
   - Fecha de ejecución: pending
 
+- [ ] `ST-SEO-011`
+  - Estado: pending
+  - Post objetivo: `src/content/blog/containers-planters/herb-pot-size-guide.md`
+  - Acciones: title/meta
+  - Validación: comprobar en el siguiente executor si el refresh de snippet mejora CTR para la URL seleccionada sin tocar slug ni abrir una reescritura de contenido fuera de alcance
+  - Fecha de ejecución: pending
+
+- [ ] `ST-SEO-012`
+  - Estado: pending
+  - Post objetivo: `src/content/blog/urban-gardening/north-facing-window-herbs.md`
+  - Acciones: title/meta
+  - Validación: comprobar en el siguiente executor si el refresh de snippet mejora CTR para la URL seleccionada sin tocar slug ni abrir una reescritura de contenido fuera de alcance
+  - Fecha de ejecución: pending
+
 - [ ] `ST-SEO-006`
   - Estado: manual
   - Post objetivo: `src/content/blog/hydroponics/hydroponic-lettuce-ec-ph-chart.md`
@@ -105,6 +119,6 @@ Run ID: 20260404-optimization-planner
 - Optimization debt: `high`
 - Publish readiness: `no`
 - Publish blocked by: `weak_gap_evidence,cannibalization_risk`
-- cómo afecta a las tareas del día: se priorizan solo dos quick wins sobre URLs existentes, se respetan los cooldowns del histórico consolidado, no se crean tareas para nuevos posts y se deja el backlog listo para `run_urbanharvestlab_seo_tasks_executor_pr.sh` sin convertir la verificación técnica pendiente en blocker crítico
+- cómo afecta a las tareas del día: se priorizan solo dos quick wins sobre URLs existentes, se respetan los cooldowns del histórico consolidado, los dos targets CTR seleccionados hoy quedan añadidos solo en `## Backlog` y el siguiente job ejecutor real sigue siendo `run_urbanharvestlab_seo_tasks_executor_pr.sh` sin convertir la verificación técnica pendiente en blocker crítico
 
 <!-- awfm-run: 2026-04-04 20260404-161822 -->

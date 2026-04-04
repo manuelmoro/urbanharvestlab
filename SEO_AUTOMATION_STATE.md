@@ -223,3 +223,13 @@
 - Siguiente: ejecutar `run_urbanharvestlab_ctr_optimizer_pr.sh`
 <!-- AWFM:execution:2026-04-04:end -->
 
+<!-- AWFM:ctr:2026-04-04:start -->
+## Sincronización de cola CTR 2026-04-04
+- Ejecución: `20260404-162745`
+- Rama: `awfm/seo-ctr-20260404-162745`
+- Estado: `queued_for_executor`
+- URLs en cola:
+  - `https://urbanharvestlab.com/blog/containers-planters/herb-pot-size-guide/`
+  - `https://urbanharvestlab.com/blog/urban-gardening/north-facing-window-herbs/`
+- Siguiente: ejecutar `run_urbanharvestlab_seo_tasks_executor_pr.sh`
+<!-- AWFM:ctr:2026-04-04:end -->
