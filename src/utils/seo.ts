@@ -39,6 +39,11 @@ export function normalizePathname(pathname: string) {
     return normalizedPath;
   }
 
+  // Preserve file-like routes such as /404.html without forcing a trailing slash.
+  if (/\.[a-z\d]+$/i.test(normalizedPath)) {
+    return normalizedPath.replace(/\/+$/, '');
+  }
+
   return normalizedPath.replace(/\/+$/, '') + '/';
 }
 
