@@ -233,3 +233,15 @@
   - `https://urbanharvestlab.com/blog/urban-gardening/north-facing-window-herbs/`
 - Siguiente: ejecutar `run_urbanharvestlab_seo_tasks_executor_pr.sh`
 <!-- AWFM:ctr:2026-04-04:end -->
+
+<!-- AWFM:index-coverage:2026-04-04:start -->
+## Index coverage audit 2026-04-04
+- Run: `20260404-162954`
+- Branch: `awfm/seo-index-coverage-20260404-162954`
+- Updated: `SEO_INDEX_COVERAGE.md`, `SEO_INDEX_COVERAGE_ACTIONS.md`
+- Search Console mode: `url_inspection_api_partial`
+- URLs reviewed: `20`
+- Status counts: `indexed=18`, `likely_not_indexed=0`, `likely_pending=0`, `unknown=2`
+- Action counts: `request_manual_indexing=0`, `strengthen_internal_links=2`, `recheck_canonical=1`, `wait_and_observe=0`, `do_not_touch=17`
+- Next: ejecutar `run_urbanharvestlab_tech_seo_qa_pr.sh`
+<!-- AWFM:index-coverage:2026-04-04:end -->
