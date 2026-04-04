@@ -1,7 +1,7 @@
-# SEO Decision - 2026-04-03
+# SEO Decision - 2026-04-04
 
-Date: 2026-04-03
-Run: 20260403-221449
+Date: 2026-04-04
+Run: 20260404-163316
 Decision: optimize_only
 Confidence: medium
 Source recommendation: optimize_only
@@ -11,8 +11,8 @@ Publish bias: high
 Optimization debt: high
 Publish readiness: no
 Publish blocked by: cannibalization_risk,weak_gap_evidence
-Optimization priority score: 82
-Publish priority score: 24
+Optimization priority score: 81
+Publish priority score: 23
 Publish gate passed: no
 Pending tasks today: 0
 Blocked tasks today: 0
@@ -27,7 +27,7 @@ Inputs considered today:
 - `SEO_AUTOMATION_STATE.md`
 - `SEO_CTR_EXPERIMENTS.md` (si existe)
 - `SEO_INDEXING_LOG.md` (si existe)
-- `./outputs/seo/urbanharvestlab/seo_daily_2026-04-03.md` (si aplica)
+- `./outputs/seo/urbanharvestlab/seo_daily_2026-04-04.md` (si aplica)
 
 Reasoning summary:
 - Site mode: `bootstrap` con quick wins `critical=0`, `important=18`, `minor=3`.
