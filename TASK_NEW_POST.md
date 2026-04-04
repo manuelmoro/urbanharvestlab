@@ -1,7 +1,7 @@
 # New Post Candidate
 
 ## Candidate
-- Topic: No clear new-post priority today; keep a placeholder brief only so the workflow remains explicit.
+- Topic: No hay prioridad clara de post nuevo hoy; se mantiene un candidato de backlog para no perder el workflow, pero no debe pasar a publicación.
 - Language: EN and ES
 - Status: candidate only for backlog; not scheduled for publication today
 
@@ -15,15 +15,16 @@
 - EN: `ec and ph hydroponics basics`
 - EN: `how to feed hydroponic plants`
 - EN: `hydroponic nutrient schedule basics`
+- EN: `how to mix hydroponic nutrients`
 - ES: `nutrientes hidroponicos para principiantes`
 - ES: `ec y ph hidroponia basico`
 - ES: `como alimentar plantas hidroponicas`
 - ES: `guia basica nutrientes hidroponia`
-- ES: `solucion nutritiva hidroponica basica`
+- ES: `como mezclar nutrientes hidroponicos`
 
 ## Search Intent
 - Informational and beginner education.
-- Current evidence is still weak for a net-new URL because GSC does not show a clean non-overlapping query family with enough volume, and the site already has `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` plus `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/` serving the same intent family.
+- La evidencia actual sigue siendo insuficiente para una URL nueva: GSC no muestra una familia de queries limpia y no solapada con volumen suficiente, y el sitio ya cubre la misma intención en `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` y `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`.
 
 ## Recommended Structure
 ### H2
@@ -42,27 +43,27 @@
 - Simple maintenance routine
 
 ## Interlinking Requirements
-- If this brief is ever revived, it must link to `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/`, `/blog/hydroponics/hydroponic-lettuce-growing-slowly/`, `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`, and `/hydroponics/`.
-- Do not create a second EN URL overlapping the nutrient-basics intent already covered by `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/`.
-- ES planning can continue at brief level only until an explicit ES publishing workflow exists; there is still no ES tree in `src/content`.
+- Si este brief se reactiva, debe enlazar a `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/`, `/blog/hydroponics/hydroponic-lettuce-growing-slowly/`, `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/` y `/hydroponics/`.
+- No crear una segunda URL EN que duplique la intención ya cubierta por `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/`.
+- El árbol publicado sigue siendo solo EN en `src/content`; ES puede mantenerse solo a nivel de planificación hasta que exista workflow real de publicación.
 
 ## CTA / Monetization
-- CTA: route readers into the hydroponics hub and the two existing troubleshooting guides.
-- Monetization: none evidenced in current GA4 landing-page data for this angle; do not invent products or affiliate placements.
+- CTA: dirigir al usuario hacia el hub de hydroponics y hacia las guías ya publicadas de diagnóstico y ajuste de solución nutritiva.
+- Monetization: no hay evidencia actual en GA4 que justifique un ángulo comercial para esta pieza; no inventar productos ni bloques de afiliación.
 
 ## Quality Checklist
-- Require a quantified GSC gap stronger than the current `27` impressions before moving beyond candidate state.
-- Reject publication if the brief overlaps materially with `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/`.
-- Reject publication while the repository remains EN-only in `src/content`; ES can stay at planning level only.
-- Keep EN and ES keyword mapping aligned if the site later opens an ES publishing workflow.
-- Require reciprocal interlink planning before moving any future candidate to ready state.
-- Keep the candidate blocked until cannibalization risk is reduced.
+- Exigir una brecha cuantificada en GSC más clara que la actual antes de mover el candidato.
+- Rechazar publicación si el contenido solapa de forma material con `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/`.
+- Rechazar publicación mientras el blocker técnico de trailing slash siga vivo en runtime.
+- Rechazar publicación mientras `src/content` siga sin árbol ES publicado.
+- Mantener el mapping EN/ES alineado si en el futuro se abre un flujo ES real.
+- Confirmar interlinking recíproco y enlace al hub antes de cualquier cambio de estado.
 
 ## Priority Note
-- No clear opportunity for a net-new post today. This placeholder brief remains only to keep the workflow explicit because the current query evidence is too weak and the overlap with the existing hydroponics pages is too high to justify publication. The stronger quantified opportunity today is to optimize existing URLs while recent edits on several page-1/page-2 pages continue their measurement window.
+- No clear opportunity for a net-new post today. This placeholder brief stays in `candidate_only` because the query gap is weak, overlap with existing hydroponics URLs remains high, and a live technical blocker is still unresolved. The stronger work for today is technical remediation, not publication.
 
 ## Publish Gate
 Status: candidate_only
 Publish readiness: no
-Publish blocked by: weak_gap_evidence,cannibalization_risk
+Publish blocked by: critical_issue_pending,weak_gap_evidence,cannibalization_risk
 Cannibalization risk: high
