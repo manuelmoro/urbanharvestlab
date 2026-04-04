@@ -255,3 +255,13 @@
 - Indexing request status: `failed`
 - Next: ejecutar `run_urbanharvestlab_seo_decision_gate.sh`
 <!-- AWFM:indexing:2026-04-04:end -->
+
+<!-- AWFM:decision:2026-04-04:start -->
+## SEO decision 2026-04-04
+- Run: `20260404-163316`
+- Branch: `awfm/seo-decision-20260404-163316`
+- Decision file: `SEO_DECISION.md`
+- Decision: `optimize_only`
+- Next: saltar `run_urbanharvestlab_new_post_pr.sh` hoy
+<!-- AWFM:decision:2026-04-04:end -->
+
