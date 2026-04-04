@@ -1,8 +1,11 @@
 <!-- AWFM_RUNTIME_HTTP_STATUS: deploy_pending -->
-<!-- AWFM_RUNTIME_HTTP_URLS_TESTED: 96 -->
+<!-- AWFM_RUNTIME_HTTP_PREVIEW_LIMITATION: yes -->
+<!-- AWFM_RUNTIME_HTTP_PRODUCTION_ISSUE_CONFIRMED: no -->
+<!-- AWFM_RUNTIME_HTTP_HOST_FINAL_VERIFICATION_PENDING: yes -->
+<!-- AWFM_RUNTIME_HTTP_URLS_TESTED: 98 -->
 <!-- AWFM_RUNTIME_HTTP_REDIRECT_CHECKED: yes -->
 <!-- AWFM_RUNTIME_HTTP_CODE_CHECKED: yes -->
-<!-- AWFM_RUNTIME_HTTP_VERIFIED: true -->
+<!-- AWFM_RUNTIME_HTTP_VERIFIED: false -->
 <!-- AWFM_RUNTIME_HTTP_CANONICAL_200: 48/48 -->
 <!-- AWFM_RUNTIME_HTTP_NOSLASH_REDIRECT_308: 0/47 -->
 
@@ -19,56 +22,48 @@
 - `SEO_OPTIMIZATION_TASKS.md`
 
 ## Resumen ejecutivo
-- Se auditó el sitemap generado en `dist/sitemap.xml` y se validaron `48` URLs canónicas publicadas.
-- Las `48/48` URLs canónicas respondieron `200` en runtime local y mostraron canonical autorreferencial exacta con slash final.
-- No se detectaron páginas de sitemap con `noindex`; tampoco se detectaron dobles versiones `200` con y sin slash en el preview local.
-- El hallazgo crítico es de consolidación: las `47` variantes sin slash auditadas no redirigen `301/308` a su URL final con slash; en `astro preview` responden `404`.
-- No se aplicó una regla de redirect en código/config porque el repositorio no identifica el host final de despliegue y no es seguro inventar una capa concreta (`Netlify`, `Vercel`, `Nginx`, etc.).
-- `hreflang` EN/ES no aplica hoy: el árbol publicado sigue siendo solo EN y no existe equivalente ES en `src/content`.
+- Se auditó `dist/sitemap.xml` y se validaron `48` URLs canónicas publicadas con slash final.
+- Las `48/48` URLs del sitemap devolvieron `200`, canonical autorreferencial exacta, sin `noindex` y con un solo `H1` detectable.
+- No hay fallo confirmado de producción en el alcance auditado desde este repo: no aparecieron dobles versiones `200` con y sin slash ni errores `5xx` en la validación local.
+- La verificación pendiente sigue en la capa de host final: en `astro preview` las variantes sin slash no redirigen `301/308`; responden `404`, por lo que la consolidación final de señales queda `deploy_pending`.
+- `hreflang` EN<->ES no aplica hoy porque el sitio publicado en este repo sigue siendo solo EN y no existe árbol ES real en `src/content`.
+- Se corrigió una incoherencia técnica menor en la `404` compilada para que su canonical apunte a `/404.html` y no a `/404/`.
 
 ## Validación runtime realizada
 - Build ejecutada con `npm run build`.
-- Preview local ejecutado con `npm run preview -- --host 127.0.0.1 --port 4321`.
-- Requests HTTP reales ejecutados:
-  - `48` URLs canónicas del sitemap.
-  - `47` variantes equivalentes sin slash.
-  - `1` URL inexistente para validar handling `404`.
-- Resultado canónicas:
-  - `48/48` con `200`.
-  - `48/48` con `<link rel="canonical">` exacta y autorreferencial.
-  - `48/48` sin `noindex`.
-  - `48/48` con un solo `H1` detectable.
-- Resultado redirects sin slash:
-  - `0/47` con `301/308`.
-  - `47/47` devolvieron `404` en el preview local.
-- Resultado errores:
-  - Muestra `404` validada en `/definitely-missing-page/` con estado `404`.
-  - No hubo evidencia de `5xx` en el alcance auditado.
+- Validación estática ejecutada con `npm run check` sin errores ni warnings.
+- Preview local ejecutado con `npm run preview -- --host 127.0.0.1 --port 4322`.
+- Requests HTTP reales ejecutados en esta corrida:
+- `48` URLs canónicas extraídas de `dist/sitemap.xml`.
+- `47` variantes equivalentes sin slash.
+- `3` rutas de error para comprobar `404` y una muestra de handling no canónico.
+- Resultado sobre URLs canónicas del sitemap:
+- `48/48` con estado `200`.
+- `48/48` con `<link rel="canonical">` exacta y autorreferencial.
+- `48/48` sin `noindex`.
+- `48/48` con un solo `H1` detectable.
+- Resultado sobre variantes sin slash:
+- `0/47` con `301/308` en `astro preview`.
+- `47/47` con `404` en `astro preview`, sin evidencia de doble versión `200`.
+- Resultado sobre errores:
+- Muestras `404` en `/definitely-missing-page/`, `/blog/not-a-real-category/not-a-real-post/` y `/category/not-real/`.
+- La muestra con slash final sí sirvió la `404` propia del sitio; las rutas sin slash quedan condicionadas por la limitación de `astro preview` con `trailingSlash: 'always'`.
+- No hubo evidencia de `5xx` en el alcance auditado.
 
 ## Hallazgos
 | Tipo | URL | Severidad | Evidencia | Fix aplicado |
 | --- | --- | --- | --- | --- |
-| Redirect trailing slash ausente | `/blog/grow-lights/how-much-light-herbs-need/` y mismo patrón en las `47` variantes sin slash auditadas | Crítica | `astro preview` devuelve `404` para `/blog/grow-lights/how-much-light-herbs-need` en lugar de `301/308` hacia `/blog/grow-lights/how-much-light-herbs-need/`; mismo comportamiento para hubs, índices y páginas estáticas | No aplicado en código porque la regla depende del host final y el repo no expone esa capa; queda pendiente preparar/verificar redirect en despliegue |
-| Canonical autorreferencial correcta | `48` URLs del sitemap | Baja | `48/48` páginas del sitemap devolvieron `200` y canonical exacta con slash final | No hacía falta cambio |
-| Sitemap vs build consistente | `dist/sitemap.xml` | Baja | Las URLs del sitemap existen en la build estática y no se detectaron URLs de sitemap con `noindex` | No hacía falta cambio |
-| Hreflang EN/ES no aplicable | Sitio completo auditado | Baja | No existe árbol ES publicado en `src/content`; no hay pares EN<->ES reales que puedan exigir reciprocidad | No hacía falta cambio; se evita introducir `hreflang` ficticio |
-| Manejo de 404 correcto en muestra | `/definitely-missing-page/` | Baja | El preview local respondió `404`; no se observó `200 soft-404` en la muestra | No hacía falta cambio |
+| Verificación de redirect trailing slash en host final | `Variantes sin slash equivalentes a las URLs canónicas del sitemap` | Pendiente de verificación | `astro preview` respondió `404` en las variantes sin slash y `200` en las canónicas con slash; no hubo doble respuesta `200` y este repo no permite confirmar la capa de redirect del hosting final | No aplicado en código del repo. La validación definitiva queda fuera de Astro preview y debe confirmarse en el host final, sin que este resultado implique un fallo confirmado de producción |
+| Canonical de la `404` compilada incoherente | `/404.html` | Media | La build previa generaba canonical `https://urbanharvestlab.com/404/` aunque el archivo real es `404.html` | Sí. Se ajustó [src/utils/seo.ts](/home/mmoro/Documentos/AiWorkForMe/bundles/urbanharvestlab/src/utils/seo.ts) y [src/pages/404.astro](/home/mmoro/Documentos/AiWorkForMe/bundles/urbanharvestlab/src/pages/404.astro) para preservar rutas con extensión y dejar canonical autorreferencial correcta |
+| Canonical sitemap/build consistente en URLs indexables | `48` URLs del sitemap | Baja | `48/48` páginas del sitemap devolvieron `200` con canonical exacta y slash final coherente con `dist/sitemap.xml` | No hacía falta cambio adicional |
+| `noindex` controlado y fuera del sitemap | `/category/{slug}/` y `/404.html` | Baja | Los archivos no indexables detectados están fuera del sitemap y usan `noindex` de forma intencional | No hacía falta cambio adicional |
+| `hreflang` EN<->ES no aplicable | Alcance completo del sitio | Baja | No existe árbol ES publicado en `src/content`, así que no hay pares EN/ES reales que permitan reciprocidad válida | No se introduce `hreflang` ficticio |
 
 ## URLs todavía con riesgo
-- `/blog/`
-- `/categories/`
-- `/urban-gardening/`
-- `/hydroponics/`
-- `/grow-lights/`
-- `/containers-planters/`
-- `/soil-fertilizers/`
-- `/plant-problems/`
-- `/about/`
-- `/contact/`
-- `/affiliate-disclosure/`
-- `/privacy-policy/`
-- Todas las URLs de artículo del sitemap bajo el patrón `/blog/{category}/{slug}/`, porque su variante sin slash sigue sin redirect `301/308` validado en runtime local.
+- No hay URLs con fallo confirmado en producción dentro del alcance auditado desde este repo.
+- Queda pendiente validar en el host final la respuesta de las variantes sin slash equivalentes a las URLs canónicas del sitemap.
 
 ## Archivos modificados
-- `SEO_TECH_QA_REPORT.md`
-- No se aplicaron cambios de código ni de configuración SEO porque no había una corrección de redirect segura sin identificar el host final de despliegue.
+- [src/utils/seo.ts](/home/mmoro/Documentos/AiWorkForMe/bundles/urbanharvestlab/src/utils/seo.ts)
+- [src/pages/404.astro](/home/mmoro/Documentos/AiWorkForMe/bundles/urbanharvestlab/src/pages/404.astro)
+- [SEO_TECH_QA_REPORT.md](/home/mmoro/Documentos/AiWorkForMe/bundles/urbanharvestlab/SEO_TECH_QA_REPORT.md)
