@@ -1,5 +1,5 @@
-Date: 2026-04-03
-Run ID: 20260403-optimization-planner
+Date: 2026-04-04
+Run ID: 20260404-optimization-planner
 Recommendation received: optimize_only
 Site mode: bootstrap
 Quick wins critical: 0
@@ -10,8 +10,8 @@ Publish bias: high
 Optimization debt: high
 Publish readiness: no
 Publish blocked by: weak_gap_evidence,cannibalization_risk
-Optimization priority score: 82
-Publish priority score: 24
+Optimization priority score: 81
+Publish priority score: 23
 
 ## Inputs considered today
 - `SEO_DAILY_SIGNALS.md`
@@ -19,137 +19,108 @@ Publish priority score: 24
 - `SEO_STRATEGY.md`
 - `SEO_AUTOMATION_STATE.md`
 - `TASK_NEW_POST.md`
-- `./outputs/seo/urbanharvestlab/seo_daily_2026-04-03.md` no existe en la ruta indicada
-- `./outputs/seo/urbanharvestlab/raw/gsc_2026-04-03.json` no existe en la ruta indicada; se conservan como base operativa las señales GSC fijadas en `SEO_DAILY_SIGNALS.md`, `SEO_NEXT_ACTION.md` y `/tmp/tmp.3t4td997zy`
-- `/tmp/tmp.3t4td997zy`
-- `SEO_CTR_EXPERIMENTS.md` no existe
-- `SEO_TECH_QA_REPORT.md` no existe
+- `./outputs/seo/urbanharvestlab/seo_daily_2026-04-04.md` no existe en este workspace
+- `./outputs/seo/urbanharvestlab/raw/gsc_2026-04-04.json` no existe en este workspace; se deja constancia tras intentar leerlo y se usan como respaldo operativo las señales consolidadas en `SEO_DAILY_SIGNALS.md`, `SEO_NEXT_ACTION.md` y `/tmp/tmp.zwfVl86BlQ`
+- `/tmp/tmp.zwfVl86BlQ`
+- `SEO_CTR_EXPERIMENTS.md` no existe en este workspace
+- `SEO_TECH_QA_REPORT.md`
+- `SEO_OPTIMIZATION_QUEUE.md` previo
+- `SEO_OPTIMIZATION_TASKS.md` previo
 - Inventario revisado en `src/content/blog`
-- No existían `SEO_OPTIMIZATION_QUEUE.md` ni `SEO_OPTIMIZATION_TASKS.md` previos en el repo
 
 ## Top oportunidades
-1. URL: `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`
+1. URL: `/blog/grow-lights/how-many-hours-grow-lights-herbs/`
    - Query: señal de URL agregada
-   - Impresiones: `2936`
-   - Posición: `6.23`
-   - Razón: máxima oportunidad CTR del sitio, pero sigue en enfriamiento por cambios confirmados el `2026-04-02`
+   - Impresiones: `61`
+   - Posición: `8.46`
+   - Razón: `SEO_DAILY_SIGNALS.md` la marca como `title/meta refresh`; está en página 1 baja, fuera del historial de cambios de las últimas 24 horas y encaja con `optimize_only`
    - Tipo: quick win
-2. URL: `/blog/containers-planters/herb-pot-size-guide/`
+2. URL: `/blog/plant-problems/common-potted-herb-problems/`
    - Query: señal de URL agregada
-   - Impresiones: `485`
-   - Posición: `7.21`
-   - Razón: página 1 con CTR bajo, pero tocada hace `7` días y conviene no reabrirla hoy
+   - Impresiones: `36`
+   - Posición: `7.97`
+   - Razón: `SEO_DAILY_SIGNALS.md` la marca como `title/meta refresh`; tiene buen encaje para mejorar snippet y reforzar interlinks desde problemas y cuidado
    - Tipo: quick win
-3. URL: `/blog/hydroponics/root-rot-hydroponics-prevention/`
+3. URL: `/blog/grow-lights/can-herbs-grow-indoors-without-direct-sunlight/`
    - Query: señal de URL agregada
-   - Impresiones: `309`
-   - Posición: `7.43`
-   - Razón: CTR `0.00%` con volumen ya útil, pero editada el `2026-04-02`
+   - Impresiones: `29`
+   - Posición: `12.28`
+   - Razón: sigue siendo refresh explícito de snippet y ya estaba en cola previa, pero hoy queda como supporting target detrás de la URL de horas de luz para no abrir dos cambios principales en el mismo clúster
    - Tipo: quick win
-4. URL: `/blog/urban-gardening/best-herbs-sunny-balcony/`
+4. URL: `/blog/hydroponics/when-to-change-hydroponic-nutrient-solution/`
    - Query: señal de URL agregada
-   - Impresiones: `293`
-   - Posición: `5.85`
-   - Razón: CTR `0.00%` en página 1, pero dentro de cooldown por cambios del `2026-04-02`
+   - Impresiones: `51`
+   - Posición: `9.51`
+   - Razón: refresh explícito en `SEO_DAILY_SIGNALS.md`, pero se deja detrás del lote principal para no tensar el clúster hydroponics mientras `TASK_NEW_POST.md` sigue bloqueado por canibalización
    - Tipo: quick win
-5. URL: `/blog/containers-planters/best-containers-herbs/`
-   - Query: señal de URL agregada
-   - Impresiones: `293`
-   - Posición: `10.79`
-   - Razón: sigue en striking distance, pero viene de cambios recientes y se deja en observación estable
-   - Tipo: quick win
-6. URL: `/blog/urban-gardening/how-often-to-water-potted-herbs/`
-   - Query: señal de URL agregada
-   - Impresiones: `148`
-   - Posición: `11.84`
-   - Razón: volumen suficiente en rango 8-20 con CTR `0.00%`; queda como siguiente lote si el executor cierra hoy solo dos posts
-   - Tipo: quick win
-7. URL: `/blog/soil-fertilizers/do-potted-herbs-need-fertilizer/`
-   - Query: señal de URL agregada
-   - Impresiones: `93`
-   - Posición: `8.71`
-   - Razón: quick win `important` fuera del grupo caliente del `2026-04-02`, además recomendado explícitamente en `SEO_NEXT_ACTION.md`
-   - Tipo: quick win
-8. URL: `/blog/soil-fertilizers/potting-mix-vs-raised-bed-soil-containers/`
+5. URL: `/blog/soil-fertilizers/potting-mix-vs-raised-bed-soil-containers/`
    - Query: señal de URL agregada
    - Impresiones: `82`
    - Posición: `11.57`
-   - Razón: title/meta refresh con señal real, pero tocada en la última ventana amplia del `2026-03-27`; backlog inmediato
+   - Razón: `SEO_NEXT_ACTION.md` la mantiene en target primario del día; la señal es válida, pero hoy queda en backlog para respetar el límite de dos posts
    - Tipo: quick win
-9. URL: `/blog/urban-gardening/pruning-basil-mint-parsley-chives/`
+6. URL: `/blog/soil-fertilizers/do-potted-herbs-need-fertilizer/`
    - Query: señal de URL agregada
-   - Impresiones: `95`
-   - Posición: `15.23`
-   - Razón: CTR `0.00%` con fit claro de snippet; no entra hoy por límite de 2 posts
+   - Impresiones: `99`
+   - Posición: `8.95`
+   - Razón: sigue siendo quick win relevante, pero `/tmp/tmp.zwfVl86BlQ` confirma ejecución el `2026-04-03`; queda en observación de cooldown
    - Tipo: quick win
-10. URL: `/blog/soil-fertilizers/best-potting-mix-potted-herbs/`
+7. URL: `/blog/grow-lights/how-much-light-herbs-need/`
+   - Query: señal de URL agregada
+   - Impresiones: `45`
+   - Posición: `11.64`
+   - Razón: URL reciente ejecutada el `2026-04-03`; se mantiene como referencia estructural del clúster, no como target reabierto
+   - Tipo: structural
+8. URL: `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`
+   - Query: señal de URL agregada
+   - Impresiones: `3334`
+   - Posición: `6.29`
+   - Razón: mayor oportunidad CTR del sitio, pero sigue en enfriamiento según `SEO_DAILY_SIGNALS.md` y el histórico consolidado
+   - Tipo: quick win
+9. URL: `/blog/hydroponics/root-rot-hydroponics-prevention/`
+   - Query: señal de URL agregada
+   - Impresiones: `309`
+   - Posición: `7.43`
+   - Razón: CTR `0.00%` con volumen real, pero viene de cambios recientes y no se reabre sin deterioro material
+   - Tipo: quick win
+10. URL: `/blog/urban-gardening/best-herbs-sunny-balcony/`
     - Query: señal de URL agregada
-    - Impresiones: `54`
-    - Posición: `12.70`
-    - Razón: soporte lógico para el clúster de macetas y fertilización; útil para segunda ola de refresh
-    - Tipo: structural
-11. URL: `/blog/grow-lights/how-many-hours-grow-lights-herbs/`
-    - Query: señal de URL agregada
-    - Impresiones: `47`
-    - Posición: `8.85`
-    - Razón: página 1 baja con CTR `0.00%`, pero tuvo cambios el `2026-03-27` y se mantiene fuera del lote principal
+    - Impresiones: `313`
+    - Posición: `6.27`
+    - Razón: página 1 con CTR `0.00%`, pero sigue en cooldown y no se toca hoy
     - Tipo: quick win
-12. URL: `/blog/hydroponics/when-to-change-hydroponic-nutrient-solution/`
+11. URL: `/blog/containers-planters/herb-pot-size-guide/`
     - Query: señal de URL agregada
-    - Impresiones: `42`
-    - Posición: `10.33`
-    - Razón: oportunidad existente con señal suficiente, pero el día sigue sesgado a clústeres no tocados recientemente
+    - Impresiones: `561`
+    - Posición: `7.25`
+    - Razón: oportunidad CTR fuerte según `SEO_DAILY_SIGNALS.md`, pero el bloque CTR ya la dejó para observación y no conviene duplicar trabajo hoy
     - Tipo: quick win
-13. URL: `/blog/grow-lights/how-much-light-herbs-need/`
+12. URL: `/blog/urban-gardening/north-facing-window-herbs/`
     - Query: señal de URL agregada
-    - Impresiones: `38`
-    - Posición: `9.24`
-    - Razón: cornerstone con posición útil, sin rastro de cambio reciente en git y con capacidad de reforzar varios enlaces internos del clúster
-    - Tipo: structural
-14. URL: `/blog/plant-problems/common-potted-herb-problems/`
-    - Query: señal de URL agregada
-    - Impresiones: `28`
-    - Posición: `8.61`
-    - Razón: CTR `0.00%` y ángulo amplio con buena compatibilidad de interlinking; queda a un paso del lote de hoy
-    - Tipo: quick win
-15. URL: `/blog/hydroponics/hydroponic-lettuce-growing-slowly/`
-    - Query: señal de URL agregada
-    - Impresiones: `25`
-    - Posición: `5.84`
-    - Razón: señal fuerte de posición pero viene del paquete tocado el `2026-03-27`
-    - Tipo: quick win
-16. URL: `/blog/grow-lights/can-herbs-grow-indoors-without-direct-sunlight/`
-    - Query: señal de URL agregada
-    - Impresiones: `21`
-    - Posición: `11.38`
-    - Razón: title/meta refresh pedido por `SEO_DAILY_SIGNALS.md` y sin conflicto con `TASK_NEW_POST.md`
+    - Impresiones: `103`
+    - Posición: `4.09`
+    - Razón: aparece en el bloque CTR de `SEO_DAILY_SIGNALS.md`, pero queda fuera del lote de hoy por prioridad a refreshs más directos en rango 8-20
     - Tipo: quick win
 
 ## Primary optimization targets today
-- Target 1: `/blog/soil-fertilizers/do-potted-herbs-need-fertilizer/`
-  - Motivo: mejor equilibrio entre impresiones (`93`), posición (`8.71`) y encaje explícito con la recomendación `optimize_only`
-  - Alcance esperado: refresh de title/meta, ajuste de intro a intención principal, ampliación de FAQ y refuerzo de enlaces internos desde el clúster de problemas y poda
-- Target 2: `/blog/grow-lights/how-much-light-herbs-need/`
-  - Motivo: URL cornerstone no marcada como tocada recientemente, posición `9.24`, y puede empujar varias URLs supporting del clúster de luz
-  - Alcance esperado: refresh de snippet, clarificación del quick answer y enlaces internos hacia low-light, grow lights y setup
-- Reserva inmediata si el executor detecta bloqueo editorial en alguno de los dos targets: `/blog/plant-problems/common-potted-herb-problems/`
+- Target 1: `/blog/grow-lights/how-many-hours-grow-lights-herbs/`
+  - Motivo: combina posición `8.46`, `61` impresiones y señal explícita de `title/meta refresh`; además refuerza el clúster grow-lights sin reabrir la URL ya tocada ayer
+  - Alcance esperado: `title/meta`, ajuste de intro hacia intención transaccional-informativa de horario, y refuerzo de enlaces internos hacia `how-much-light-herbs-need`, `can-herbs-grow-indoors-without-direct-sunlight` e `indoor-herb-garden-apartment-setup`
+- Target 2: `/blog/plant-problems/common-potted-herb-problems/`
+  - Motivo: posición `7.97` con CTR `0.00%`, ángulo amplio y baja fricción editorial para mejorar snippet, quick answer y enlaces a guías de diagnóstico ya publicadas
+  - Alcance esperado: `title/meta`, ajuste de intro, FAQ y enlaces internos hacia `why-basil-leaves-yellow-indoors`, `best-containers-herbs` y `potted-herb-care`
+- Reserva inmediata si el executor encuentra bloqueo editorial: `/blog/grow-lights/can-herbs-grow-indoors-without-direct-sunlight/`
 
 ## Execution compatibility
 - El día queda en `optimize_only` por contrato de `SEO_NEXT_ACTION.md`.
-- Publicar no forma parte de este job y sigue no listo por `weak_gap_evidence,cannibalization_risk`.
-- No hay blocker crítico técnico nuevo confirmado hoy; aun así, la publicación no queda compatible para este mismo turno porque el candidato de `TASK_NEW_POST.md` sigue solapado con URLs hidroponics existentes.
-- La salida de este planner sí deja el trabajo compatible con el siguiente job operativo de optimización sobre contenido existente.
+- No hay blocker técnico crítico confirmado hoy; `SEO_TECH_QA_REPORT.md` mantiene solo verificación pendiente en host final y no frena la optimización.
+- Publicar sigue no listo, pero no por un bloqueo crítico de ejecución SEO sobre URLs existentes; sigue bloqueado por `weak_gap_evidence,cannibalization_risk` en `TASK_NEW_POST.md`.
+- La cola de hoy sí deja preparado el siguiente job `run_urbanharvestlab_seo_tasks_executor_pr.sh`; si más tarde mejora la evidencia de publicación, este lote sigue siendo compatible con publicar después sin rehacer el trabajo de optimización.
 
 ## Ejecutado hoy
-- `/blog/soil-fertilizers/do-potted-herbs-need-fertilizer/`: refresh de title/meta, intro, quick answer, FAQ e interlinking hacia problemas, riego y poda.
-- `/blog/grow-lights/how-much-light-herbs-need/`: refresh de title/meta, intro, quick answer, FAQ e interlinking hacia low-light, grow-light hours y apartment setup.
+- Se refrescó la priorización diaria con snapshot `2026-04-04` y se conservaron como histórico útil las ejecuciones `ST-SEO-001` y `ST-SEO-002` del `2026-04-03`, sin reabrirlas en cooldown.
+- Se promovieron dos posts principales para hoy: `/blog/grow-lights/how-many-hours-grow-lights-herbs/` y `/blog/plant-problems/common-potted-herb-problems/`.
+- Se mantuvo como backlog compatible para el siguiente executor: `/blog/grow-lights/can-herbs-grow-indoors-without-direct-sunlight/`, `/blog/hydroponics/when-to-change-hydroponic-nutrient-solution/` y `/blog/soil-fertilizers/potting-mix-vs-raised-bed-soil-containers/`.
+- Se mantuvieron en observación manual las URLs de mayor volumen tocadas recientemente para no romper el cooldown del histórico consolidado.
 
-## CTR follow-up queued today
-- Se mantiene el historial previo y no se duplican tareas: los targets CTR seleccionados ya están registrados como `ST-SEO-003` y `ST-SEO-004` en `SEO_OPTIMIZATION_TASKS.md`.
-- URLs en cola para el siguiente executor real `run_urbanharvestlab_seo_tasks_executor_pr.sh`:
-  - `/blog/plant-problems/common-potted-herb-problems/`
-  - `/blog/grow-lights/can-herbs-grow-indoors-without-direct-sunlight/`
-- Alcance pendiente de ese executor: refresh de `title/meta` solamente; no se aplicó ningún experimento ni cambio de contenido en este paso de sincronización.
-- Compatibilidad de ejecución: estas URLs quedan explícitamente reservadas para la siguiente corrida del executor y no para un experimento CTR aplicado en esta cadena.
-
-<!-- awfm-run: 2026-04-03 20260403-114334 -->
+<!-- awfm-run: 2026-04-04 20260404-161822 -->
