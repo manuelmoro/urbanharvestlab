@@ -1,9 +1,9 @@
 # New Post Candidate
 
 ## Candidate
-- Topic: No clear new-post priority today; keep a placeholder brief only so the workflow remains explicit.
+- Topic: No clear new-post priority today; keep a placeholder candidate only.
 - Language: EN and ES
-- Status: candidate only for backlog; not scheduled for publication today
+- Status: candidate only for backlog; not scheduled for publication today.
 
 ## Primary Keyword
 - EN: `hydroponic feeding basics`
@@ -12,54 +12,54 @@
 ## Secondary Keywords
 - EN: `hydroponic nutrient basics`
 - EN: `hydroponic nutrients for beginners`
-- EN: `ec and ph hydroponics basics`
 - EN: `how to feed hydroponic plants`
 - EN: `hydroponic nutrient schedule basics`
+- EN: `hydroponic reservoir feeding guide`
 - ES: `nutrientes hidroponicos para principiantes`
-- ES: `ec y ph hidroponia basico`
 - ES: `como alimentar plantas hidroponicas`
 - ES: `guia basica nutrientes hidroponia`
-- ES: `solucion nutritiva hidroponica basica`
+- ES: `programa de nutrientes hidroponia`
+- ES: `manejo basico solucion nutritiva`
 
 ## Search Intent
-- Informational and beginner education.
-- Current evidence is still weak for a net-new URL because GSC does not show a clean non-overlapping query family with enough volume, and the site already has `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` plus `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/` serving the same intent family.
+- Informational, beginner education, and troubleshooting orientation.
+- La evidencia sigue siendo insuficiente para abrir una URL nueva: GSC muestra `hydroponic feeding basics` con `28` impresiones, `0` clics y posición media `61.86`, muy por detrás de lo necesario para justificar una pieza nueva y demasiado cerca de la intención ya cubierta por `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` y `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`.
 
 ## Recommended Structure
 ### H2
-- What hydroponic feeding actually means
-- The role of EC, pH, and water quality
-- How nutrient strength changes by crop and stage
-- Beginner feeding mistakes that cause slow growth
-- When to adjust the reservoir and when not to
+- What hydroponic feeding means for beginners
+- EC, pH, and dilution rules that matter first
+- How feeding changes for herbs vs lettuce
+- Common feeding mistakes that look like other problems
+- When to top off and when to replace the reservoir
 - FAQ
 
 ### H3
-- Base nutrients vs additives
+- Base nutrients vs boosters
 - Seedlings vs established plants
-- Lettuce vs herbs
-- Signs the issue is not nutrient strength
-- Simple maintenance routine
+- Water quality and measurement basics
+- Symptoms that are not caused by feeding strength
+- Simple weekly maintenance routine
 
 ## Interlinking Requirements
-- If this brief is ever revived, it must link to `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/`, `/blog/hydroponics/hydroponic-lettuce-growing-slowly/`, `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`, and `/hydroponics/`.
-- Do not create a second EN URL overlapping the nutrient-basics intent already covered by `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/`.
-- ES planning can continue at brief level only until an explicit ES publishing workflow exists; there is still no ES tree in `src/content`.
+- Requerido si este candidato se reactiva: enlazar a `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/`, `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`, `/blog/hydroponics/hydroponic-lettuce-growing-slowly/`, `/blog/hydroponics/when-to-change-hydroponic-nutrient-solution/` y `/hydroponics/`.
+- No abrir una segunda URL EN que replique la intención de nutrient basics ya cubierta.
+- Mantener el brief EN y ES alineado, pero sin asumir publicación ES mientras `src/content` siga sin árbol ES.
 
 ## CTA / Monetization
-- CTA: route readers into the hydroponics hub and the two existing troubleshooting guides.
-- Monetization: none evidenced in current GA4 landing-page data for this angle; do not invent products or affiliate placements.
+- CTA: derivar tráfico al hub de hydroponics y a las guías ya publicadas de EC/pH y troubleshooting.
+- Monetization: none. No hay evidencia suficiente en GA4 para justificar una capa comercial específica y no se deben inventar productos.
 
 ## Quality Checklist
-- Require a quantified GSC gap stronger than the current `27` impressions before moving beyond candidate state.
-- Reject publication if the brief overlaps materially with `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/`.
-- Reject publication while the repository remains EN-only in `src/content`; ES can stay at planning level only.
-- Keep EN and ES keyword mapping aligned if the site later opens an ES publishing workflow.
-- Require reciprocal interlink planning before moving any future candidate to ready state.
-- Keep the candidate blocked until cannibalization risk is reduced.
+- Exigir una brecha cuantitativa más fuerte que la señal actual antes de salir de candidato.
+- Verificar que la pieza no canibaliza `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/`.
+- Mantener idioma planificado: EN y ES.
+- Incluir mapa de interlinks recíprocos antes de cualquier cambio de estado.
+- No mover a ready mientras el riesgo de canibalización siga alto.
+- No proponer publicación hoy.
 
 ## Priority Note
-- No clear opportunity for a net-new post today. This placeholder brief remains only to keep the workflow explicit because the current query evidence is too weak and the overlap with the existing hydroponics pages is too high to justify publication. The stronger quantified opportunity today is to optimize existing URLs while recent edits on several page-1/page-2 pages continue their measurement window.
+- No hay oportunidad clara de contenido nuevo hoy. La prioridad operativa sigue en optimizar URLs existentes con señal cuantitativa y dejar este brief en observación hasta que aparezca una familia de queries no solapada.
 
 ## Publish Gate
 Status: candidate_only
