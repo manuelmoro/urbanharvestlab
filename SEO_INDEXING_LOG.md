@@ -17,3 +17,21 @@
 - Observaciones:
   - Best-effort pipeline: sitemap availability is enforced; Search Console submit and Google Indexing API do not break the run on auth/support failures.
 <!-- AWFM:indexing-run:20260403-221404:end -->
+
+<!-- AWFM:indexing-run:20260404-163213:start -->
+## Indexing acceleration run 2026-04-04
+- Date: `2026-04-04`
+- Run ID: `20260404-163213`
+- URLs notified:
+  - `https://urbanharvestlab.com/blog/grow-lights/how-many-hours-grow-lights-herbs/` (executor)
+  - `https://urbanharvestlab.com/blog/plant-problems/common-potted-herb-problems/` (executor)
+- Sitemap ping executed: `no`
+- Sitemap availability check: `failed`
+- Sitemap submit best effort: `success`
+- Indexing request: `failed`
+- Detail by URL:
+  - `https://urbanharvestlab.com/blog/grow-lights/how-many-hours-grow-lights-herbs/` -> `failed` (HTTP Error 403: Forbidden)
+  - `https://urbanharvestlab.com/blog/plant-problems/common-potted-herb-problems/` -> `failed` (HTTP Error 403: Forbidden)
+- Observaciones:
+  - Best-effort pipeline: sitemap availability is enforced; Search Console submit and Google Indexing API do not break the run on auth/support failures.
+<!-- AWFM:indexing-run:20260404-163213:end -->

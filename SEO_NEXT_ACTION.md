@@ -57,3 +57,12 @@ Index coverage actions:
 - do_not_touch: `17`
 Operational next job after index coverage: run_urbanharvestlab_tech_seo_qa_pr.sh
 <!-- AWFM:index-coverage:2026-04-04:end -->
+
+<!-- AWFM:indexing-operation:2026-04-04:start -->
+Indexing accelerator status: `failed`
+Indexing accelerator run: `20260404-163213`
+Indexing target URLs:
+- https://urbanharvestlab.com/blog/grow-lights/how-many-hours-grow-lights-herbs/
+- https://urbanharvestlab.com/blog/plant-problems/common-potted-herb-problems/
+Operational next job: run_urbanharvestlab_seo_decision_gate.sh
+<!-- AWFM:indexing-operation:2026-04-04:end -->
