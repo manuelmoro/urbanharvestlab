@@ -118,9 +118,7 @@ Publish priority score: 23
 - La cola de hoy sí deja preparado el siguiente job `run_urbanharvestlab_seo_tasks_executor_pr.sh`; si más tarde mejora la evidencia de publicación, este lote sigue siendo compatible con publicar después sin rehacer el trabajo de optimización.
 
 ## Ejecutado hoy
-- Se refrescó la priorización diaria con snapshot `2026-04-04` y se conservaron como histórico útil las ejecuciones `ST-SEO-001` y `ST-SEO-002` del `2026-04-03`, sin reabrirlas en cooldown.
-- Se promovieron dos posts principales para hoy: `/blog/grow-lights/how-many-hours-grow-lights-herbs/` y `/blog/plant-problems/common-potted-herb-problems/`.
-- Se mantuvo como backlog compatible para el siguiente executor: `/blog/grow-lights/can-herbs-grow-indoors-without-direct-sunlight/`, `/blog/hydroponics/when-to-change-hydroponic-nutrient-solution/` y `/blog/soil-fertilizers/potting-mix-vs-raised-bed-soil-containers/`.
-- Se mantuvieron en observación manual las URLs de mayor volumen tocadas recientemente para no romper el cooldown del histórico consolidado.
+- `ST-SEO-009` ejecutada sobre `/blog/grow-lights/how-many-hours-grow-lights-herbs/` con refresh de title/meta, intro y FAQ, manteniendo slug y estructura del clúster grow-lights.
+- `ST-SEO-003` ejecutada sobre `/blog/plant-problems/common-potted-herb-problems/` con refresh de title/meta, intro y FAQ, reforzando interlinks hacia diagnóstico y cuidado existentes.
 
 <!-- awfm-run: 2026-04-04 20260404-161822 -->

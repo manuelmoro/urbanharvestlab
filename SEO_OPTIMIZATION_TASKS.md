@@ -20,19 +20,21 @@ Run ID: 20260404-optimization-planner
 
 ## Checklist ejecutable (hoy)
 
-- [ ] `ST-SEO-003`
-  - Estado: pending
+- [x] `ST-SEO-003`
+  - Estado: done
   - Post objetivo: `src/content/blog/plant-problems/common-potted-herb-problems.md`
   - Acciones: title/meta, intro, FAQ, enlaces internos, canonical, schema
   - Validación: comprobar mañana si el snippet captura mejor la intención `common potted herb problems`, si la intro deja un quick answer más claro y si se refuerzan enlaces hacia `why-basil-leaves-yellow-indoors`, `best-containers-herbs` y `potted-herb-care` sin romper canonical ni FAQ schema
   - Fecha de ejecución: 2026-04-04
+  - Nota de implementación: refresh conservador de title/meta e intro, añadido FAQ para la intención principal y validación de enlaces internos existentes hacia `why-basil-leaves-yellow-indoors`, `best-containers-herbs` y `potted-herb-care`
 
-- [ ] `ST-SEO-009`
-  - Estado: pending
+- [x] `ST-SEO-009`
+  - Estado: done
   - Post objetivo: `src/content/blog/grow-lights/how-many-hours-grow-lights-herbs.md`
   - Acciones: title/meta, intro, FAQ, enlaces internos, canonical, schema
   - Validación: comprobar mañana si el refresh mejora la intención `how many hours should grow lights run for herbs`, si la intro responde antes a la duda principal y si enlaza mejor con `how-much-light-herbs-need`, `can-herbs-grow-indoors-without-direct-sunlight` e `indoor-herb-garden-apartment-setup` sin alterar slug ni marcado estructurado
   - Fecha de ejecución: 2026-04-04
+  - Nota de implementación: quick answer adelantado en title/meta e intro, ampliado FAQ para distinguir seedlings frente a herbs establecidos y reforzado el camino interno hacia guías de luz, setup y fixture selection
 
 - [x] `ST-SEO-001`
   - Estado: done

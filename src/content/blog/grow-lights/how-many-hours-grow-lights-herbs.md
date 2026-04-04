@@ -1,7 +1,7 @@
 ---
-title: "How Many Hours Should Grow Lights Run for Herbs?"
-description: "Set a practical grow light schedule for herbs by matching daily light hours to crop type, fixture strength, and plant stress signals."
-excerpt: "A longer light schedule is not always a better one. Herbs need enough daily light, but they also benefit from a stable dark period and realistic fixture placement."
+title: "How Many Hours Should Grow Lights Run for Herbs? A Practical 12 to 16 Hour Rule"
+description: "How many hours should grow lights run for herbs? Most indoor setups land around 12 to 16 hours, depending on fixture strength, distance, and plant stress."
+excerpt: "Most herb grow lights should run about 12 to 16 hours per day, but fixture strength, distance, and a stable dark period matter as much as the timer itself."
 category: grow-lights
 tags:
   - grow-lights
@@ -11,7 +11,7 @@ tags:
 image: /images/grow-lights/how-many-hours-grow-lights-herbs.webp
 imageAlt: UI illustration showing an LED grow light over herbs with a digital timer indicating a 14-hour schedule
 publishDate: 2026-02-22
-updatedDate: 2026-03-11
+updatedDate: 2026-04-04
 draft: false
 affiliate: true
 featured: true
@@ -34,6 +34,8 @@ faq:
     answer: No. Herbs generally benefit from a daily dark period, and constant light can increase stress without improving useful growth.
   - question: Why are herbs stretching even with long light hours?
     answer: Stretching usually points to insufficient light intensity or excessive fixture distance rather than too few total hours.
+  - question: Do seedlings and established herbs need the same grow light schedule?
+    answer: Not always. Seedlings and weak fixtures often do better closer to 14 to 16 hours, while established herbs under a stronger fixture may stay compact with 12 to 14 hours.
 comparisonTable:
   caption: "Typical daily lighting ranges for common indoor herb scenarios"
   columns:
@@ -53,9 +55,9 @@ relatedSlugs:
   - grow-lights/best-grow-lights-for-herbs
 ---
 
-Indoor herbs need enough daily light to keep growth compact and flavorful, but that does not mean the fixture should run as long as possible. The useful question is how much light the plant is receiving over the whole day, given the strength of the fixture and how far it sits from the leaves. If you are still deciding whether your apartment herbs need artificial light at all, use this page together with [Can Herbs Grow Indoors Without Direct Sunlight? What to Expect in Real Homes](/blog/grow-lights/can-herbs-grow-indoors-without-direct-sunlight/) and [Indoor Herb Garden Setup for Apartments Without Outdoor Space](/blog/urban-gardening/indoor-herb-garden-apartment-setup/).
+For most indoor herbs, grow lights should run about 12 to 16 hours per day. That does not mean longer is always better. The useful question is how much light the plant is receiving over the whole day, given the strength of the fixture and how far it sits from the leaves. If you are still deciding whether your apartment herbs need artificial light at all, use this page together with [Can Herbs Grow Indoors Without Direct Sunlight? What to Expect in Real Homes](/blog/grow-lights/can-herbs-grow-indoors-without-direct-sunlight/) and [Indoor Herb Garden Setup for Apartments Without Outdoor Space](/blog/urban-gardening/indoor-herb-garden-apartment-setup/).
 
-## A practical baseline for herbs
+## Quick answer: 12 to 16 hours works for most herbs
 
 For most indoor herb setups, 12 to 16 hours per day is a sensible working range. Basil, parsley, dill, cilantro, and chives usually do well in that window when the fixture is appropriately sized and positioned.
 
@@ -84,7 +86,7 @@ If you see pale, stressed growth, the answer may be less intensity or more dista
 
 ## Where product recommendations fit
 
-When this topic includes fixture recommendations, the goal should be matching light output to shelf size, crop type, and noise or heat tolerance. It should not be pushing oversized fixtures into beginner setups that only need herbs on one shelf.
+When this topic includes fixture recommendations, the goal should be matching light output to shelf size, crop type, and noise or heat tolerance. It should not be pushing oversized fixtures into beginner setups that only need herbs on one shelf. If you are still comparing fixtures rather than timers, [Best Grow Lights for Herbs](/blog/grow-lights/best-grow-lights-for-herbs/) is the more useful next step.
 
 ## Related Guides
 
@@ -92,4 +94,3 @@ When this topic includes fixture recommendations, the goal should be matching li
 - [How Much Light Herbs Need](/blog/grow-lights/how-much-light-herbs-need/)
 - [Indoor Herb Garden Apartment Setup](/blog/urban-gardening/indoor-herb-garden-apartment-setup/)
 - [Can Herbs Grow Indoors Without Direct Sunlight](/blog/grow-lights/can-herbs-grow-indoors-without-direct-sunlight/)
-

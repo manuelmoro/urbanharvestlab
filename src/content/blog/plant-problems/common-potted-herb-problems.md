@@ -1,7 +1,7 @@
 ---
-title: "Common Problems With Potted Herbs: How to Diagnose Yellow Leaves, Wilting, and Weak Growth"
-description: "Diagnose common potted herb problems by checking light, root-zone moisture, container design, and care habits in the right order."
-excerpt: "Most potted herb problems are not isolated mysteries. Yellow leaves, wilting, and weak growth usually trace back to light, drainage, containers, or routine drift."
+title: "Common Potted Herb Problems: Yellow Leaves, Wilting, and Weak Growth"
+description: "Common potted herb problems usually trace back to light, root-zone moisture, container design, and care habits rather than one isolated cause."
+excerpt: "Common potted herb problems usually show up as yellow leaves, wilting, or weak growth, but the useful diagnosis starts with light, drainage, and root stress."
 category: plant-problems
 tags:
   - herbs
@@ -11,6 +11,7 @@ tags:
 image: /images/plant-problems/common-potted-herb-problems.webp
 imageAlt: Clean UI illustration showing yellow leaves, wilting, and weak growth in potted herbs
 publishDate: 2026-03-09
+updatedDate: 2026-04-04
 draft: false
 affiliate: false
 featured: true
@@ -35,6 +36,8 @@ faq:
     answer: Usually not first. Correct light, moisture, and drainage before adding fertilizer, because stressed roots often cannot use extra nutrients well.
   - question: Can a bad container cause both overwatering and underwatering symptoms?
     answer: Yes. Small or poorly designed pots can swing between staying wet too long in the lower root zone and drying too quickly near the top, which confuses the diagnosis.
+  - question: What are the most common potted herb problems to check first?
+    answer: The most common patterns are yellow leaves, wilting in wet soil, and weak or leggy growth. Start by checking light, root-zone moisture, and container drainage before changing fertilizer or pruning.
   - question: When should I repot a struggling herb?
     answer: Repot when roots are crowded, the mix has become dense or sour, or the current container does not drain and dry in a manageable way for the light conditions.
 comparisonTable:
@@ -69,11 +72,11 @@ diagnosis:
     - Simplify the setup so each herb is easier to read and water correctly.
 ---
 
-Potted herbs usually decline in patterns, not in random acts of bad luck. Yellow leaves, wilted stems, stalled regrowth, and weak flavor often look like separate issues, but they commonly trace back to the same small group of causes: poor light, stressed roots, mismatched containers, or a care routine that no longer fits the environment. If you want the full cluster roadmap before diagnosing symptoms one by one, start with [Small-Space Herb Gardening: Start Here for Apartments, Balconies, and Indoor Setups](/blog/urban-gardening/small-space-herb-gardening/).
+The most common potted herb problems are yellow leaves, wilting, and weak or leggy growth. In containers, those symptoms usually point back to a short list of causes: poor light, stressed roots, mismatched containers, or a care routine that no longer fits the environment. If you want the full cluster roadmap before diagnosing symptoms one by one, start with [Small-Space Herb Gardening: Start Here for Apartments, Balconies, and Indoor Setups](/blog/urban-gardening/small-space-herb-gardening/).
 
-This guide is the broad diagnostic page for potted herbs. Its job is not to guess one dramatic cause. Its job is to help you read the system in the right order so you can isolate the real bottleneck before you change five things at once.
+This guide is the broad diagnostic page for common potted herb problems. Its job is not to guess one dramatic cause. Its job is to help you read the system in the right order so you can isolate the real bottleneck before you change five things at once.
 
-## Start with the system, not the symptom
+## Quick answer: start with the system, not the symptom
 
 When a herb looks bad, many growers react at the leaf level. Yellow leaves must mean fertilizer. Wilt must mean more water. Weak growth must mean the plant is fussy. In containers, that logic often fails because the symptom is usually downstream of a system problem.
 
@@ -168,7 +171,7 @@ Repot when the current container is making the problem hard to solve. If roots a
 
 ## Related Guides
 
-Use these next if you want to move from symptom diagnosis to root-cause correction:
+Use these next if you want to move from common potted herb problems to root-cause correction:
 
 - [Small-Space Herb Gardening: Start Here for Apartments, Balconies, and Indoor Setups](/blog/urban-gardening/small-space-herb-gardening/)
 - [How Much Light Do Herbs Need? Realistic Sun and Grow Light Rules](/blog/grow-lights/how-much-light-herbs-need/)
