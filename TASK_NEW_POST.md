@@ -23,7 +23,7 @@
 
 ## Search Intent
 - Informational, beginner education, and troubleshooting orientation.
-- La evidencia sigue siendo insuficiente para abrir una URL nueva: GSC muestra `hydroponic feeding basics` con `28` impresiones, `0` clics y posición media `61.86`, muy por detrás de lo necesario para justificar una pieza nueva y demasiado cerca de la intención ya cubierta por `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` y `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`.
+- La evidencia sigue siendo insuficiente para abrir una URL nueva: GSC muestra `hydroponic feeding basics` con `29` impresiones, `0` clics y posición media `61.97`, muy por detrás de lo necesario para justificar una pieza nueva y demasiado cerca de la intención ya cubierta por `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` y `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`.
 
 ## Recommended Structure
 ### H2
