@@ -27,28 +27,41 @@
 - Maintain clean canonical/indexation hygiene while expanding content surface area.
 
 ## Backlog Top 20
-1. Refresh title/meta and tighten snippet targeting for `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`. Evidence: `3334` impressions, `0.30%` CTR, average position `6.29`.
+1. Refresh title/meta and tighten snippet targeting for `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`. Evidence: `3529` impressions, `0.28%` CTR, average position `6.34`.
 2. Monitor residual protocol consolidation for homepage because GSC still shows `http://urbanharvestlab.com/` with `9` impressions, `0` clicks, and the historical trace is flat across `6` repeated snapshots.
-3. Refresh title/meta for `/blog/containers-planters/herb-pot-size-guide/`. Evidence: `561` impressions, `0.89%` CTR, average position `7.25`.
-4. Refresh title/meta for `/blog/hydroponics/root-rot-hydroponics-prevention/`. Evidence: `309` impressions, `0.00%` CTR, average position `7.43`.
-5. Refresh title/meta for `/blog/urban-gardening/best-herbs-sunny-balcony/`. Evidence: `313` impressions, `0.00%` CTR, average position `6.27`.
-6. Refresh title/meta for `/blog/containers-planters/best-containers-herbs/`. Evidence: `315` impressions, `0.95%` CTR, average position `10.47`.
-7. Refresh title/meta for `/blog/urban-gardening/how-often-to-water-potted-herbs/`. Evidence: `155` impressions, `0.00%` CTR, average position `12.10`.
-8. Refresh title/meta for `/blog/urban-gardening/pruning-basil-mint-parsley-chives/`. Evidence: `101` impressions, `0.00%` CTR, average position `14.73`.
-9. Refresh title/meta for `/blog/soil-fertilizers/do-potted-herbs-need-fertilizer/`. Evidence: `99` impressions, `0.00%` CTR, average position `8.95`.
-10. Refresh title/meta for `/blog/soil-fertilizers/potting-mix-vs-raised-bed-soil-containers/`. Evidence: `82` impressions, `0.00%` CTR, average position `11.57`.
-11. Refresh title/meta for `/blog/soil-fertilizers/best-potting-mix-potted-herbs/`. Evidence: `67` impressions, `1.49%` CTR, average position `10.49`.
-12. Refresh title/meta for `/blog/grow-lights/how-many-hours-grow-lights-herbs/`. Evidence: `61` impressions, `0.00%` CTR, average position `8.46`.
-13. Refresh title/meta for `/blog/hydroponics/when-to-change-hydroponic-nutrient-solution/`. Evidence: `51` impressions, `0.00%` CTR, average position `9.51`.
-14. Refresh title/meta for `/blog/grow-lights/how-much-light-herbs-need/`. Evidence: `45` impressions, `2.22%` CTR, average position `11.64`.
-15. Refresh title/meta for `/blog/containers-planters/container-depth-tomatoes-peppers-herbs/`. Evidence: `36` impressions, `0.00%` CTR, average position `21.83`.
-16. Refresh title/meta for `/blog/plant-problems/common-potted-herb-problems/`. Evidence: `36` impressions, `0.00%` CTR, average position `7.97`.
-17. Refresh title/meta for `/blog/hydroponics/hydroponic-lettuce-growing-slowly/`. Evidence: `28` impressions, `0.00%` CTR, average position `6.14`.
-18. Monitor `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` for follow-up optimization after richer query coverage arrives. Evidence: `200` impressions, `0.50%` CTR, average position `20.43`.
-19. Keep manual indexing follow-up queued only as observation because indexed URLs estimate is `41` against `35` blog posts plus `6` hubs in the content inventory.
+3. Refresh title/meta for `/blog/containers-planters/herb-pot-size-guide/`. Evidence: `642` impressions, `0.93%` CTR, average position `7.12`.
+4. Refresh title/meta for `/blog/hydroponics/root-rot-hydroponics-prevention/`. Evidence: `313` impressions, `0.00%` CTR, average position `7.58`.
+5. Refresh title/meta for `/blog/urban-gardening/best-herbs-sunny-balcony/`. Evidence: `338` impressions, `0.00%` CTR, average position `6.37`.
+6. Refresh title/meta for `/blog/containers-planters/best-containers-herbs/`. Evidence: `334` impressions, `0.90%` CTR, average position `10.45`.
+7. Refresh title/meta for `/blog/urban-gardening/how-often-to-water-potted-herbs/`. Evidence: `172` impressions, `0.00%` CTR, average position `12.07`.
+8. Refresh title/meta for `/blog/urban-gardening/pruning-basil-mint-parsley-chives/`. Evidence: `112` impressions, `0.00%` CTR, average position `15.30`.
+9. Refresh title/meta for `/blog/soil-fertilizers/do-potted-herbs-need-fertilizer/`. Evidence: `103` impressions, `0.00%` CTR, average position `10.03`.
+10. Refresh title/meta for `/blog/soil-fertilizers/potting-mix-vs-raised-bed-soil-containers/`. Evidence: `85` impressions, `0.00%` CTR, average position `11.45`.
+11. Refresh title/meta for `/blog/soil-fertilizers/best-potting-mix-potted-herbs/`. Evidence: `77` impressions, `1.30%` CTR, average position `13.35`.
+12. Refresh title/meta for `/blog/grow-lights/how-many-hours-grow-lights-herbs/`. Evidence: `70` impressions, `0.00%` CTR, average position `8.31`.
+13. Refresh title/meta for `/blog/hydroponics/when-to-change-hydroponic-nutrient-solution/`. Evidence: `61` impressions, `0.00%` CTR, average position `9.39`.
+14. Refresh title/meta for `/blog/grow-lights/how-much-light-herbs-need/`. Evidence: `62` impressions, `1.61%` CTR, average position `18.81`.
+15. Refresh title/meta for `/blog/containers-planters/container-depth-tomatoes-peppers-herbs/`. Evidence: `46` impressions, `0.00%` CTR, average position `22.30`.
+16. Refresh title/meta for `/blog/plant-problems/common-potted-herb-problems/`. Evidence: `42` impressions, `0.00%` CTR, average position `7.74`.
+17. Refresh title/meta for `/blog/hydroponics/hydroponic-lettuce-growing-slowly/`. Evidence: `38` impressions, `0.00%` CTR, average position `6.26`.
+18. Monitor `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` for follow-up optimization after richer query coverage arrives. Evidence: `203` impressions, `0.49%` CTR, average position `20.56`.
+19. Keep manual indexing follow-up queued only as observation because indexed URLs estimate is `47` against `35` blog posts plus `6` hubs in the content inventory.
 20. Keep backlog slots beyond the quantified set frozen until stronger evidence appears in GSC or GA4.
 
 ## Diario
+### 2026-04-05
+- Fixed operational snapshot for this run must stay at `Indexed URLs estimate = 47`, `Queries 28d = 284`, and `Impressions 28d = 6609`, so the site remains in `bootstrap` with mode votes `indexed_urls=bootstrap,queries=bootstrap,impressions=growth`.
+- GSC sigue dominado por oportunidades de CTR y snippet sobre URLs ya publicadas: `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/` sube a `3529` impresiones con `0.28%` CTR y posición media `6.34`, `/blog/containers-planters/herb-pot-size-guide/` llega a `642` impresiones con `0.93%` CTR y posición media `7.12`, y `/blog/urban-gardening/best-herbs-sunny-balcony/` más `/blog/hydroponics/root-rot-hydroponics-prevention/` siguen por encima de `300` impresiones con `0` clics.
+- El histórico consolidado mantiene el patrón de enfriamiento y evita repetir refresh ciegos en URLs tocadas entre `2026-04-02` y `2026-04-04`; además, `http://urbanharvestlab.com/` permanece plano en `9` impresiones y `0` clics durante múltiples snapshots, así que se conserva como residuo técnico importante y no como blocker crítico vivo.
+- GA4 para `528419708` sigue homepage-led, pero confirma engagement real en las landings que ya lideran GSC: `/` suma `81` sesiones y `378` eventos, `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart` mantiene `31` sesiones, `45.16%` de engagement rate y `149` eventos, y `/blog/containers-planters/herb-pot-size-guide` sube a `15` sesiones con `268.33s` de duración media de sesión. `averageEngagementTime` no está disponible en este acceso y la métrica válida devuelta por MCP es `averageSessionDuration`.
+- El inventario de `src/content` sigue en `35` posts + `6` hubs, concentrado en EN y sin árbol ES publicado. La query `hydroponic feeding basics` solo llega a `29` impresiones, `0` clics y posición media `61.97`, por lo que el placeholder de nuevo post permanece bloqueado por evidencia débil y alto solapamiento con `/blog/hydroponics/hydroponic-nutrients-ec-ph-basics/` y `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/`.
+- `SEO_TECH_QA_REPORT.md` y las señales obligatorias de este run confirman `deploy_pending`, `preview limitation = yes`, `production issue confirmed = no`, `host-final verification pending = yes`, `canonical 200 ratio = 48/48`, `no-slash redirect ratio = 0/47` y ausencia de dobles `200` slash/no-slash. Esto se interpreta como validación pendiente de host final, no como incidente confirmado en producción ni como blocker crítico.
+- Operational decision for today: `optimize_only`. Rationale: el site sigue en `bootstrap`, no hay quick wins críticos vivos, el candidato de nuevo contenido no está listo para publicar y la mejor acción ejecutable sigue siendo optimizar URLs existentes fuera del cooldown reciente.
+
+#### Propuestas de cambio (pendientes)
+- Si el host final confirma la consolidación de variantes sin slash tras el deploy, bajar esta verificación pendiente a observación menor y liberar capacidad para el backlog CTR.
+- Si una familia de queries nueva supera la franja de posición `20-40` con impresiones sostenidas y sin solaparse con nutrient basics o lettuce EC/pH, reemplazar el placeholder del nuevo post por un brief EN/ES de menor riesgo.
+
 ### 2026-04-04
 - Fixed operational snapshot for this run must stay at `Indexed URLs estimate = 41`, `Queries 28d = 258`, and `Impressions 28d = 6077`, so the site remains in `bootstrap` with mode votes `indexed_urls=bootstrap,queries=bootstrap,impressions=growth`.
 - GSC sigue concentrando la oportunidad en URLs ya publicadas y no en un hueco claro de contenido nuevo: `/blog/hydroponics/hydroponic-lettuce-ec-ph-chart/` sube a `3334` impresiones con `0.30%` CTR y posición media `6.29`, `/blog/containers-planters/herb-pot-size-guide/` llega a `561` impresiones con posición media `7.25`, y `/blog/hydroponics/root-rot-hydroponics-prevention/` y `/blog/urban-gardening/best-herbs-sunny-balcony/` siguen por encima de `309` impresiones con `0.00%` CTR.
